@@ -4,6 +4,7 @@ import { CarouselWithContent } from '@/components/Carousel/CarouselComp'
 import InsuranceSolutions from '@/components/InsuranceSolutions'
 import AboutUs from '@/components/AboutUs/AboutUs'
 import Coverages from '@/components/Coverages/Coverages'
+import Process from '@/components/Process/Process'
 
 export default function Home() {
   return (
@@ -31,6 +32,8 @@ export default function Home() {
       <AboutUs />
 
       <Coverages />
+
+      <Process />
     </>
 
   )
