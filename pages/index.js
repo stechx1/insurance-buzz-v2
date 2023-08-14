@@ -5,6 +5,7 @@ import InsuranceSolutions from '@/components/InsuranceSolutions'
 import AboutUs from '@/components/AboutUs/AboutUs'
 import Coverages from '@/components/Coverages/Coverages'
 import Process from '@/components/Process/Process'
+import GoalsAndMissions from '@/components/Goals/GoalsAndMissions'
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       <Coverages />
 
       <Process />
+
+      <GoalsAndMissions />
     </>
 
   )
