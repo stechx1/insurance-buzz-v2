@@ -6,6 +6,9 @@ import AboutUs from '@/components/AboutUs/AboutUs'
 import Coverages from '@/components/Coverages/Coverages'
 import Process from '@/components/Process/Process'
 import GoalsAndMissions from '@/components/Goals/GoalsAndMissions'
+import WhyChoose from '@/components/WhyChoose/WhyChoose'
+import Slider from '@/components/Slider'
+import Faqs from '@/components/Faqs/Faqs'
 
 export default function Home() {
   return (
@@ -37,6 +40,26 @@ export default function Home() {
       <Process />
 
       <GoalsAndMissions />
+
+      <WhyChoose />
+
+      <div className='flex flex-col bg-[#3A6B351A] p-10 mt-10 gap-4'>
+
+        <span className=' text-center my-4'>Travel Insurance Providers</span>
+        <Slider />
+
+        <span className='mt-5 text-center my-4'>Life Insurance Providers</span>
+        <Slider />
+
+      </div>
+      <div className='p-5 max-w-7xl m-auto mt-10'>
+
+        <span className='text-[32px] font-bold '>Frequently Asked Questions</span>
+      </div>
+      <div className='max-w-7xl mt-5 p-5 m-auto'>
+
+        <Faqs />
+      </div>
     </>
 
   )
