@@ -10,9 +10,9 @@ const TopNav = () => {
 
       <div className='flex gap-5 items-center'>
         <div className='flex gap-3 items-center justify-between'>
-          <i style={{ color: '#2C5F2D', fontSize: "25px" }} class="fa fa-facebook-official" aria-hidden="true"></i>
-          <i style={{ color: '#2C5F2D', fontSize: "25px" }} class="fa fa-twitter-square" aria-hidden="true"></i>
-          <i style={{ color: '#2C5F2D', fontSize: "25px" }} class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <i style={{ color: '#2C5F2D', fontSize: "25px" }} className="fa fa-facebook-official" aria-hidden="true"></i>
+          <i style={{ color: '#2C5F2D', fontSize: "25px" }} className="fa fa-twitter-square" aria-hidden="true"></i>
+          <i style={{ color: '#2C5F2D', fontSize: "25px" }} className="fa fa-linkedin-square" aria-hidden="true"></i>
 
         </div>
 

@@ -37,35 +37,35 @@ const Process = () => {
             <div style={{ width: '35px', height: '35px', borderRadius: '50%', backgroundColor: '#3A6B33', position: "absolute", top: '-25px', left: "-15px", border: "5px solid white" }}>
               <span className='text-center ml-[0.35rem] text-white text-xs'>01</span>
             </div>
-            <span className={` ${isOpen.first ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[60%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.first ? 'text-white' : 'text-black'} mb-2`}>Analyize numerious  insurance documents</span>
+            <span className={` ${isOpen.first ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[70%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.first ? 'text-white' : 'text-black'} mb-2`}>Analyize numerious  insurance documents</span>
           </div>
 
           <div onClick={() => { toogle('second') }} className='relative cursor-pointer'>
             <div style={{ width: '35px', height: '35px', borderRadius: '50%', backgroundColor: '#3A6B33', position: "absolute", top: '-25px', left: "-15px", border: "5px solid white" }}>
               <span className='text-center ml-[0.35rem] text-white text-xs'>02</span>
             </div>
-            <span className={` ${isOpen.second ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[60%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.second ? 'text-white' : 'text-black'} mb-2`}>Fill Your Insurance Forms</span>
+            <span className={` ${isOpen.second ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[70%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.second ? 'text-white' : 'text-black'} mb-2`}>Fill Your Insurance Forms</span>
           </div>
 
           <div onClick={() => { toogle('third') }} className='relative cursor-pointer'>
             <div style={{ width: '35px', height: '35px', borderRadius: '50%', backgroundColor: '#3A6B33', position: "absolute", top: '-25px', left: "-15px", border: "5px solid white" }}>
               <span className='text-center ml-[0.35rem] text-white text-xs'>03</span>
             </div>
-            <span className={` ${isOpen.third ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[60%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.third ? 'text-white' : 'text-black'} mb-2`}>Pinpoint Ideal policy that suits your needs</span>
+            <span className={` ${isOpen.third ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[70%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.third ? 'text-white' : 'text-black'} mb-2`}>Pinpoint Ideal policy that suits your needs</span>
           </div>
 
           <div onClick={() => { toogle('forth') }} className='relative cursor-pointer'>
             <div style={{ width: '35px', height: '35px', borderRadius: '50%', backgroundColor: '#3A6B33', position: "absolute", top: '-25px', left: "-15px", border: "5px solid white" }}>
               <span className='text-center ml-[0.35rem] text-white text-xs'>04</span>
             </div>
-            <span className={` ${isOpen.forth ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[60%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.forth ? 'text-white' : 'text-black'} mb-2`}>Get the most competitive rates</span>
+            <span className={` ${isOpen.forth ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[70%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.forth ? 'text-white' : 'text-black'} mb-2`}>Get the most competitive rates</span>
           </div>
 
           <div onClick={() => { toogle('fifth') }} className='relative cursor-pointer'>
             <div style={{ width: '35px', height: '35px', borderRadius: '50%', backgroundColor: '#3A6B33', position: "absolute", top: '-25px', left: "-15px", border: "5px solid white" }}>
               <span className='text-center ml-[0.35rem] text-white text-xs'>05</span>
             </div>
-            <span className={` ${isOpen.fifth ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[60%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.fifth ? 'text-white' : 'text-black'} mb-2`}>Get Help, Give Feednac</span>
+            <span className={` ${isOpen.fifth ? 'bg-[#3A6B33]' : 'bg-[#CAD28F]'} xl:w-[70%] w-full lg:w-[80%] block px-4 py-2 ${isOpen.fifth ? 'text-white' : 'text-black'} mb-2`}>Get Help, Give Feednac</span>
           </div>
 
 
