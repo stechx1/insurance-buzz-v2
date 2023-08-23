@@ -4,11 +4,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', current: true },
+  { name: 'Products', current: false },
+  { name: 'Quotes', current: false },
+  { name: 'Resources', current: false },
   { name: 'About Us', current: false },
-  { name: 'Product', current: false },
-  { name: 'Suppliers', current: false },
-  { name: 'Life Insurance', current: false },
-  { name: 'Travel Insurance', current: false },
+  { name: 'Contact', current: false },
 
 ]
 
