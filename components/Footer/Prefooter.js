@@ -3,7 +3,7 @@ import { Input, Button } from "@material-tailwind/react";
 
 const Prefooter = () => {
   return (
-    <div className='bg-[#CAD28F]  mt-10 py-16 pb-28 px-5'>
+    <div className='bg-[#CAD28F] py-16 pb-28 px-5'>
 
       <div className='flex lg:flex-row flex-col justify-between gap-5 max-w-7xl  m-auto'>
         <div className='flex flex-col gap-2 flex-1'>

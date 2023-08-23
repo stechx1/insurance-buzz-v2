@@ -56,7 +56,7 @@ export default function Home() {
 
         <span className='text-[32px] font-bold '>Frequently Asked Questions</span>
       </div>
-      <div className='max-w-7xl mt-5 p-5 m-auto'>
+      <div className='max-w-7xl mt-5 mb-20 p-5 m-auto'>
 
         <Faqs />
       </div>
