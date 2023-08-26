@@ -9,15 +9,53 @@ import GoalsAndMissions from '@/components/Goals/GoalsAndMissions'
 import WhyChoose from '@/components/WhyChoose/WhyChoose'
 import Slider from '@/components/Slider'
 import Faqs from '@/components/Faqs/Faqs'
+import Hero from '@/components/Hero'
 
 export default function Home() {
   return (
 
     <>
-      <CarouselWithContent />
-      <div className='px-5 xl:px-0'>
+      <div className='  ' style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center", }}>
+        <Hero />
+      </div>
 
-        <div style={{ boxShadow: "0px 5px 7px 0px rgb(114 114 114 / 25%)", position: "relative", top: '-50px' }} className=' px-5 py-6 pb-16  xl:max-w-7xl max-w-screen-lg rounded-xl bg-white m-auto'>
+
+      {/* <AboutUs /> */}
+
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+        <Coverages />
+      </div>
+
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+
+
+        <Process />
+      </div>
+
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+
+
+        <GoalsAndMissions />
+      </div>
+
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+
+        <WhyChoose />
+      </div>
+
+
+      <div className='flex flex-col bg-[#308B84] p-10 pt-10 gap-4'>
+
+        <span className=' text-center my-4 text-white'>Travel Insurance Providers</span>
+        <Slider />
+
+        <span className='mt-5 text-center my-4 text-white'>Life Insurance Providers</span>
+        <Slider />
+
+      </div>
+      <div className='px-5 xl:px-0 my-16'>
+
+        <div style={{ boxShadow: "0px 5px 7px 0px rgb(114 114 114 / 25%)", }} className=' px-5 py-6 pb-16  xl:max-w-7xl max-w-screen-lg rounded-xl bg-white m-auto'>
           <div className='text-center'>
             <span className='text-black text-center text-base'>Reliable Insurance Solutions</span>
           </div>
@@ -33,33 +71,14 @@ export default function Home() {
         </div>
       </div>
 
-      <AboutUs />
-
-      <Coverages />
-
-      <Process />
-
-      <GoalsAndMissions />
-
-      <WhyChoose />
-
-      <div className='flex flex-col bg-[#3A6B351A] p-10 mt-10 gap-4'>
-
-        <span className=' text-center my-4'>Travel Insurance Providers</span>
-        <Slider />
-
-        <span className='mt-5 text-center my-4'>Life Insurance Providers</span>
-        <Slider />
-
-      </div>
-      <div className='p-5 max-w-7xl m-auto mt-10'>
+      {/* <div className='p-5 max-w-7xl m-auto mt-10'>
 
         <span className='text-[32px] font-bold '>Frequently Asked Questions</span>
       </div>
       <div className='max-w-7xl mt-5 mb-20 p-5 m-auto'>
 
         <Faqs />
-      </div>
+      </div> */}
     </>
 
   )

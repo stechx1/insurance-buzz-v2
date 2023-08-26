@@ -5,5 +5,5 @@ import TopNav from '@/components/Navbar/TopNav'
 import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
-  return <><TopNav /><MainNav /> <Component {...pageProps} /> <Prefooter /> <MainFooter /> </>
+  return <> <div ><TopNav /><MainNav /></div> <Component {...pageProps} /> <Prefooter /> <MainFooter /> </>
 }

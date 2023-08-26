@@ -3,13 +3,13 @@ import GoalsBox from './GoalsBox'
 
 const GoalsAndMissions = () => {
   return (
-    <div className='bg-[#3A6B351A] px-3 py-3'>
+    <div className='bg-[#62B1BCE5] px-3 py-5 pb-10'>
 
       <div className='flex flex-col mt-10  max-w-7xl m-auto'>
-        <span className='bg-[#CAD28F] w-fit p-1 mb-2'>Our Goals and Mission</span>
-        <span className='font-[700] text-[30px] text-black leading-tight sm:w-1/2'>Securing Your Today and Tomorrow Through Expert Insurance Guidance</span>
+        <span className='bg-[#000080] text-white w-fit p-[0.35rem]'>Our Goals and Mission</span>
+        <span className='font-[700] text-[30px]  leading-tight sm:w-1/2 text-white'>Securing Your Today and Tomorrow Through Expert Insurance Guidance</span>
 
-        <div className='flex lg:flex-row flex-col justify-between items-center mt-5 gap-4'>
+        <div className='flex lg:flex-row flex-col justify-between  mt-5 gap-4'>
 
           <div className='flex flex-col mt-10 gap-3 flex-1'>
             <GoalsBox text1={"At our core"} text2={"At our core, we prioritize unwavering integrity and professionalism in our interactions with you, our valued client."} />

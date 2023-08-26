@@ -18,11 +18,11 @@ function classNames(...classes) {
 
 export default function MainNav() {
   return (
-    <Disclosure as="nav" className="bg-[#2C5F2D]">
+    <Disclosure as="nav" className=" bg-[#45A1D3CC]">
       {({ open }) => (
         <>
-          <div className="mx-auto py-1 xl:px-0 px-5 max-w-7xl ">
-            <div className="relative flex h-16 items-center justify-between">
+          <div className="mx-auto pb-1 xl:px-0 px-5 max-w-7xl ">
+            <div className="relative flex h-10 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -54,12 +54,10 @@ export default function MainNav() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex gap-3 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <img src="/images/navbarPhone.png" alt="navbar" />
-                <div className='flex flex-col'>
-                  <span className='text-sm text-white'>Insurance Advisor</span>
-                  <span className='text-sm text-white'>+1 647 469 8766</span>
-                </div>
+              <div className='flex gap-3 items-center justify-between'>
+                <i style={{ color: 'white', fontSize: "25px" }} className="fa fa-facebook-official" aria-hidden="true"></i>
+                <i style={{ color: 'white', fontSize: "25px" }} className="fa fa-twitter-square" aria-hidden="true"></i>
+                <i style={{ color: 'white', fontSize: "25px" }} className="fa fa-linkedin-square" aria-hidden="true"></i>
               </div>
             </div>
           </div>
@@ -80,6 +78,13 @@ export default function MainNav() {
                   {item.name}
                 </Disclosure.Button>
               ))}
+            </div>
+            <div className=" sm:hidden flex gap-3 items-center p-3 pt-0 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <img src="/images/navbarPhone.png" alt="navbar" />
+              <div className='flex flex-col'>
+                <span className='text-sm text-white'>Insurance Advisor</span>
+                <span className='text-sm text-white'>+1 647 469 8766</span>
+              </div>
             </div>
           </Disclosure.Panel>
         </>

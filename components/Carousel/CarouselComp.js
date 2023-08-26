@@ -13,17 +13,17 @@ export function CarouselWithContent() {
         ))}
       </div>
     )} style={{ height: '70vh' }} className="">
-      <div className="relative h-full w-full">
-        <img
+      <div className="relative h-full bg-[#45A1D3CC] w-full">
+        {/* <img
           src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
           alt="image 1"
           className="h-full w-full object-cover"
-        />
+        /> */}
         {/* <video src="/4 second video.mp4" controls className="h-full w-full rounded-lg" autoPlay>
           
           Your browser does not support the video tag.
         </video> */}
-        <div className="absolute p-7 inset-0 grid h-full w-full bg-black/75">
+        <div className="absolute p-10 py-44 pt-52 inset-0 grid h-full w-full bg-black/75">
           <div className="w-4/4 md:w-2/4 flex flex-col gap-2 px-14">
             <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>
 
@@ -38,11 +38,7 @@ export function CarouselWithContent() {
       </div>
 
       <div className="relative h-full w-full">
-        <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-          alt="image 1"
-          className="h-full w-full object-cover"
-        />
+
         <div className="absolute p-7 inset-0 grid h-full w-full bg-black/75">
           <div className="w-3/4 md:w-2/4 flex flex-col gap-2 px-14">
             <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>
@@ -58,11 +54,7 @@ export function CarouselWithContent() {
       </div>
 
       <div className="relative h-full w-full">
-        <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-          alt="image 1"
-          className="h-full w-full object-cover"
-        />
+
         <div className="absolute p-7 inset-0 grid h-full w-full bg-black/75">
           <div className="w-3/4 md:w-2/4 flex flex-col gap-2 px-14">
             <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>

@@ -3,19 +3,19 @@ import React from 'react'
 const ProcessBox = ({ text1, text2, point1, point2 }) => {
   return (
     <div className='flex flex-col gap-5 flex-1'>
-      <span>{text1}</span>
+      <span className='text-white'>{text1}</span>
 
-      <span>{text2}</span>
+      <span className='text-white'>{text2}</span>
 
       <div className='flex gap-1 items-center'>
-        <i style={{ fontSize: "19px", color: '#3A6B33' }} className="fa fa-check-circle" aria-hidden="true"></i>
+        <i style={{ fontSize: "19px", color: 'white' }} className="fa fa-check-circle" aria-hidden="true"></i>
 
-        <span>{point1}</span>
+        <span className='text-white'>{point1}</span>
       </div>
       <div className='flex gap-1 items-center'>
-        <i style={{ fontSize: "19px", color: '#3A6B33' }} className="fa fa-check-circle" aria-hidden="true"></i>
+        <i style={{ fontSize: "19px", color: 'white' }} className="fa fa-check-circle" aria-hidden="true"></i>
 
-        <span>{point2}</span>
+        <span className='text-white'>{point2}</span>
       </div>
     </div>
   )

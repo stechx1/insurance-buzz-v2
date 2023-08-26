@@ -9,8 +9,8 @@ const InsuranceSolutions = ({ image, text1, text2 }) => {
       </div>
 
       <div className='flex flex-col'>
-        <span className='text-[18px] font-semibold'>{text1}</span>
-        <span className='text-base'>{text2}</span>
+        <span className='text-[29px] font-semibold'>{text1}</span>
+        <span className='text-[16px]'>{text2}</span>
       </div>
 
     </div>
