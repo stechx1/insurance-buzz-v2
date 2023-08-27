@@ -1,7 +1,8 @@
-import { Fragment } from 'react'
+import { Fragment, useState, useEffect } from 'react'
+
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import { useRouter } from 'next/router'
 const navigation = [
   { name: 'Home', current: true },
   { name: 'Products', current: false },
@@ -17,11 +18,34 @@ function classNames(...classes) {
 }
 
 export default function MainNav() {
+  const [sticky, setSticky] = useState(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleScroll = () => {
+
+      if (window.scrollY >= 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+
+    };
+
+    // Add the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts or route changes
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [router.asPath]);
   return (
-    <Disclosure as="nav" className=" bg-[#45A1D3CC]">
+    <Disclosure as="nav" >
       {({ open }) => (
         <>
-          <div className="mx-auto pb-1 xl:px-0 px-5 max-w-7xl ">
+          <div className={`mx-auto xl:px-0 ${!sticky && 'border-b border-white'} px-5 max-w-7xl `}>
             <div className="relative flex h-10 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center lg:hidden">
                 {/* Mobile menu button*/}

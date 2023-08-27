@@ -41,9 +41,8 @@ const Hero = () => {
   return (
 
     <>
-      {!sticky && <> <TopNav />
-        <MainNav /></>}
-      <div className='bg-[#45A1D3CC]'>
+
+      <div className='bg-[#45A1D3CC] pt-44'>
 
         <div className=" h-full max-w-7xl m-auto flex flex-col gap-5 py-20 xl:px-0 px-10 pb-44 ">
 

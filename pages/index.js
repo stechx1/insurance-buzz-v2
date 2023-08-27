@@ -15,36 +15,36 @@ export default function Home() {
   return (
 
     <>
-      <div className='  ' style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center", }}>
+      <div className=' relative top-[-165px] z-0 ' style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center", }}>
         <Hero />
       </div>
 
 
       {/* <AboutUs /> */}
 
-      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }} className='relative top-[-165px]'>
         <Coverages />
       </div>
 
-      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }} className='relative top-[-165px]'>
 
 
         <Process />
       </div>
 
-      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }} className='relative top-[-165px]'>
 
 
         <GoalsAndMissions />
       </div>
 
-      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }}>
+      <div style={{ background: `url(${'/images/coverage5.png'})`, backgroundRepeat: "no-repeat", backgroundSize: 'cover', backgroundPosition: "center" }} className='relative top-[-165px]'>
 
         <WhyChoose />
       </div>
 
 
-      <div className='flex flex-col bg-[#308B84] p-10 pt-10 gap-4'>
+      <div className='flex flex-col relative top-[-165px] bg-[#308B84] p-10 pt-10 gap-4'>
 
         <span className=' text-center my-4 text-white'>Travel Insurance Providers</span>
         <Slider />
@@ -53,7 +53,7 @@ export default function Home() {
         <Slider />
 
       </div>
-      <div className='px-5 xl:px-0 my-16'>
+      <div className='px-5 relative top-[-165px] xl:px-0 my-16'>
 
         <div style={{ boxShadow: "0px 5px 7px 0px rgb(114 114 114 / 25%)", }} className=' px-5 py-6 pb-16  xl:max-w-7xl max-w-screen-lg rounded-xl bg-white m-auto'>
           <div className='text-center'>

@@ -30,5 +30,5 @@ export default function App({ Component, pageProps }) {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [router.asPath]);
-  return <> {sticky && <div className={styles.container}><TopNav /><MainNav /></div>}  <Component {...pageProps} /> <Prefooter /> <MainFooter /> </>
+  return <> <div className={`${sticky ? styles.sticky : styles.notSticky} `}><TopNav /><MainNav /></div> <Component {...pageProps} /> <Prefooter /> <MainFooter /> </>
 }

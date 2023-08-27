@@ -1,11 +1,35 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import { useRouter } from 'next/router';
 
 const TopNav = () => {
+  const [sticky, setSticky] = useState(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleScroll = () => {
+
+      if (window.scrollY >= 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+
+    };
+
+    // Add the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts or route changes
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [router.asPath]);
   return (
-    <div className='bg-[#45A1D3CC]'>
+    <div>
 
 
-      <div className='flex sm:flex-row flex-col justify-between items-center max-w-7xl pt-3 xl:px-0 px-5 m-auto '>
+      <div className='flex sm:flex-row flex-col justify-between items-center max-w-7xl xl:px-0 px-5 m-auto '>
         <div className='flex items-center gap-2'>
           <img src="/images/logo.png" alt="logo" />
           <span className='text-white font-bold text-[26px]'>InsuranceBuzz</span>
