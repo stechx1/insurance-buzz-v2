@@ -1,7 +1,33 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
 import Slider from "react-slick";
+import MainNav from './Navbar/MainNav';
+import TopNav from './Navbar/TopNav';
+import { useRouter } from 'next/router';
 
 const Hero = () => {
+  const [sticky, setSticky] = useState(false);
+
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    // Add the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts or route changes
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [router.asPath]);
+
   const settings = {
     dots: false,
     infinite: true,
@@ -14,63 +40,57 @@ const Hero = () => {
   };
   return (
 
-    <div className='bg-[#45A1D3CC]'>
+    <>
+      {!sticky && <> <TopNav />
+        <MainNav /></>}
+      <div className='bg-[#45A1D3CC]'>
 
-      <div className=" h-full max-w-7xl m-auto flex flex-col gap-5 py-20 xl:px-0 px-10 pb-44 ">
-        {/* 
-        <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>
+        <div className=" h-full max-w-7xl m-auto flex flex-col gap-5 py-20 xl:px-0 px-10 pb-44 ">
 
-        <span className="text-[#EDEDED] text-base w-[40%]">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</span>
-        <div className="flex gap-2 mt-6">
-          <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
+          <div>
 
+            <Slider {...settings}>
+              <div className='flex px-[24px] flex-col gap-5'>
+                <h1 className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</h1>
 
-
-        </div> 
-*/}
-        <div>
-
-          <Slider {...settings}>
-            <div className='flex px-[24px] flex-col gap-5'>
-              <h1 className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</h1>
-
-              <h3 className="text-[#EDEDED] text-base lg:w-[40%] w-full">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</h3>
-              <div className="flex gap-2 mt-6">
-                <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
+                <h3 className="text-[#EDEDED] text-base lg:w-[40%] w-full">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</h3>
+                <div className="flex gap-2 mt-6">
+                  <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
 
 
 
+                </div>
               </div>
-            </div>
 
-            <div className='flex px-[24px] flex-col gap-5'>
-              <h1 className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</h1>
+              <div className='flex px-[24px] flex-col gap-5'>
+                <h1 className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</h1>
 
-              <h3 className="text-[#EDEDED] text-base lg:w-[40%] w-full">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</h3>
-              <div className="flex gap-2 mt-6">
-                <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
-
+                <h3 className="text-[#EDEDED] text-base lg:w-[40%] w-full">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</h3>
+                <div className="flex gap-2 mt-6">
+                  <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
 
 
+
+                </div>
               </div>
-            </div>
 
-            <div className='flex px-[24px] flex-col gap-5'>
-              <h1 className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</h1>
+              <div className='flex px-[24px] flex-col gap-5'>
+                <h1 className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</h1>
 
-              <h3 className="text-[#EDEDED] text-base lg:w-[40%] w-full">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</h3>
-              <div className="flex gap-2 mt-6">
-                <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
-
+                <h3 className="text-[#EDEDED] text-base lg:w-[40%] w-full">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</h3>
+                <div className="flex gap-2 mt-6">
+                  <button style={{ fontSize: '15px' }} className='p-3 text-white bg-[#FF9801] rounded'>Request Quote</button>
 
 
+
+                </div>
               </div>
-            </div>
 
-          </Slider>
+            </Slider>
+          </div>
         </div>
       </div>
-    </div>
+    </>
 
   )
 }
