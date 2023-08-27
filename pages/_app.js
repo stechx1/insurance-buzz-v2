@@ -13,13 +13,13 @@ export default function App({ Component, pageProps }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (router.pathname === '/') {
-        if (window.scrollY >= 100) {
-          setSticky(true);
-        } else {
-          setSticky(false);
-        }
+
+      if (window.scrollY >= 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
       }
+
     };
 
     // Add the scroll event listener
@@ -30,5 +30,5 @@ export default function App({ Component, pageProps }) {
       window.removeEventListener('scroll', handleScroll);
     };
   }, [router.asPath]);
-  return <> {sticky && <div className={styles.container}><TopNav /><MainNav /></div>} {router.pathname !== '/' && <><TopNav /><MainNav /></>} <Component {...pageProps} /> <Prefooter /> <MainFooter /> </>
+  return <> {sticky && <div className={styles.container}><TopNav /><MainNav /></div>}  <Component {...pageProps} /> <Prefooter /> <MainFooter /> </>
 }

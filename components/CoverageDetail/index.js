@@ -1,6 +1,6 @@
 export const CoverageDetail = () => {
   return (
-    <div className="flex md:flex-row flex-col gap-3 mt-20 justify-between">
+    <div className="flex md:flex-row flex-col gap-3 justify-between">
 
       <div className="flex flex-1 ">
 
