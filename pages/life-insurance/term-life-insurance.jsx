@@ -7,7 +7,7 @@ const LifeInsurance = () => {
       <div
         className=' relative top-[-165px] '
         style={{
-          background: `url(${'/images/lifeinsurance.png'})`,
+          background: `url(${'/images/image3.png'})`,
           backgroundPosition: 'center',
           backgroundSize: 'cover',
         }}
