@@ -12,7 +12,7 @@ const LifeInsurance = () => {
           backgroundSize: 'cover',
         }}
       >
-        <div className='flex flex-col gap-3 py-52 pb-56 bg-[#45A1D3CC]'>
+        <div className='flex flex-col gap-3 py-52 pb-40 bg-[#45A1D3CC]'>
           <span className='text-[48px] text-white text-center font-bold'>
             Life Insurance
           </span>

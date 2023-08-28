@@ -1,20 +1,33 @@
-import { CoverageDetail } from '@/components/CoverageDetail'
-import React from 'react'
-
-const SuperVisaPage = () => {
+import { CoverageDetail } from '@/components/CoverageDetail';
+const SuperVisa = () => {
   return (
-    <div className='flex flex-col gap-5'>
-
-      <img src="/images/image8.png" alt='lifeinsurance' className='w-full' />
-
-      <div className='flex flex-col gap-3 '>
-        <span className='text-[48px] text-black text-center font-bold'>Super Visa Insurance</span>
-        <span className='lg:w-[50%] sm:w-[70%] w-[100%] text-center m-auto'>Ensure your family's future even when you're not there - life insurance offers the peace of mind that your loved ones will be financially secure. It's a lasting gift that guarantees protection and support, no matter what life brings.</span>
+    <>
+      <div
+        className=' relative top-[-165px] '
+        style={{
+          background: `url(${'/images/image9.png'})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+        }}
+      >
+        <div className='flex flex-col items-center justify-center gap-3 py-52 pb-40 bg-[#9AB88CCC]'>
+          <span className='text-[48px] text-white text-center font-bold drop-shadow-lg'>
+            Super Visa Insurance
+          </span>
+          <span className='lg:w-[50%] sm:w-[70%] text-white w-[100%] text-center m-auto'>
+            Super visa insurance is a unique form of travel insurance
+            exclusively accessible to the parents and grandparents of Canadian
+            citizens or residents, enabling extended stays. This insurance
+            provides coverage for potential medical emergencies that could arise
+            during their visit.
+          </span>
+        </div>
+      </div>
+      <div className='relative top-[-165px]'>
         <CoverageDetail />
       </div>
+    </>
+  );
+};
 
-    </div>
-  )
-}
-
-export default SuperVisaPage
+export default SuperVisa;

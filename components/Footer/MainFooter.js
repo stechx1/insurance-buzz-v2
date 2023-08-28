@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainFooter = () => {
   return (
-    <div className='bg-[#3D4351] py-10 px-5 pb-3'>
+    <div className='bg-[#3D4351] py-10 px-5 pb-3 '>
       <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-32 gap-10  container mx-auto'>
         <div className='flex flex-col gap-4'>
           <div className='flex items-center gap-2'>
