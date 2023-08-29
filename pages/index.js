@@ -17,7 +17,7 @@ export default function Home() {
       <div
         className=' relative top-[-165px] z-0 '
         style={{
-          background: `url(${'/images/coverage5.png'})`,
+          background: `url(${'/images/hero-img.png'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -30,7 +30,7 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/coverage5.png'})`,
+          background: `url(${'/images/image2.png'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -42,7 +42,7 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/coverage5.png'})`,
+          background: `url(${'/images/new/life-insurance.jpeg'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -54,7 +54,7 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/coverage5.png'})`,
+          background: `url(${'/images/new/home-insurance.jpg'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -66,7 +66,7 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/coverage5.png'})`,
+          background: `url(${'/images/new/travel-insurance.jpg'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

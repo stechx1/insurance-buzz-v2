@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 const TopNav = () => {
@@ -8,13 +8,11 @@ const TopNav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-
       if (window.scrollY >= 100) {
         setSticky(true);
       } else {
         setSticky(false);
       }
-
     };
 
     // Add the scroll event listener
@@ -27,16 +25,19 @@ const TopNav = () => {
   }, [router.asPath]);
   return (
     <div>
-
-
       <div className='flex sm:flex-row flex-col justify-between items-center max-w-7xl xl:px-0 px-5 m-auto '>
-        <div className='flex items-center gap-2'>
-          <img src="/images/logo.png" alt="logo" />
-          <span className='text-white font-bold text-[26px]'>InsuranceBuzz</span>
+        <div
+          onClick={() => router.push('/')}
+          className='cursor-pointer flex items-center gap-2'
+        >
+          <img src='/images/logo.png' alt='logo' />
+          <span className='text-white font-bold text-[26px]'>
+            InsuranceBuzz
+          </span>
         </div>
 
-        <div className=" sm:flex hidden gap-3 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-          <img src="/images/navbarPhone.png" alt="navbar" />
+        <div className=' sm:flex hidden gap-3 items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'>
+          <img src='/images/navbarPhone.png' alt='navbar' />
           <div className='flex flex-col'>
             <span className='text-sm text-white'>Insurance Advisor</span>
             <span className='text-sm text-white'>+1 647 469 8766</span>
@@ -57,7 +58,7 @@ const TopNav = () => {
       </div> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TopNav
+export default TopNav;

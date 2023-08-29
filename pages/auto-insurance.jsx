@@ -31,10 +31,10 @@ const AutoInsurance = () => {
   }, [router.asPath]);
   return (
     <>
-      <div className={`${sticky ? styles.sticky : styles.notSticky} `}>
+      {/* <div className={`${sticky ? styles.sticky : styles.notSticky} `}>
         <TopNav />
         <MainNav />
-      </div>{' '}
+      </div>{' '} */}
       <HeroSection
         img='/images/new/auto-insurance.jpg'
         heading={'Auto Insurance'}

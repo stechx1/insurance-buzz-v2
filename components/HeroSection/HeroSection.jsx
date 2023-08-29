@@ -7,7 +7,7 @@ export const HeroSection = ({ img, heading, para, color }) => {
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        objectFit: "cover"
+        objectFit: 'cover',
       }}
     >
       <div
