@@ -6,21 +6,20 @@
   transition: all 0.7s ease-in-out;
 } */
 
-.notSticky{
+.notSticky {
   transition: all 0.3s ease-in-out;
-position: sticky;
-top: 0px;
-padding: 20px;
-z-index: 100;
-
+  position: sticky;
+  top: 0px;
+  padding: 20px;
+  z-index: 100;
 }
 
-.sticky{
+.sticky {
   transition: all 0.3s ease-in-out;
   position: sticky;
   top: 0px;
   /* padding: 6px; */
   padding: 10px;
-z-index: 100;
-background-color: #45a1d3;
+  z-index: 100;
+  background-color: #45a1d3;
 }
