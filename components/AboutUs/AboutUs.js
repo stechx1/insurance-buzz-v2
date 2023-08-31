@@ -3,7 +3,7 @@ import AboutSpecs from './AboutSpecs';
 
 const AboutUs = () => {
   return (
-    <div className='flex lg:flex-row flex-col gap-14 pt-40 container mx-auto'>
+    <div className='flex lg:flex-row flex-col gap-14 pt-48 container mx-auto'>
       
         <img src='/images/new/vidya-pic.png' alt='aboutus' />
 

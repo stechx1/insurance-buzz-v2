@@ -12,7 +12,7 @@ export const HeroSection = ({ img, heading, para, color }) => {
     >
       <div
         style={{ backgroundColor: color }}
-        className={`flex flex-col items-center justify-center gap-3 py-52 pb-40`}
+        className={`flex flex-col items-center justify-center gap-3 py-52 pb-24`}
       >
         <span className='text-[48px] text-white text-center font-bold drop-shadow-lg'>
           {heading}

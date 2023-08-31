@@ -4,6 +4,8 @@ import MainNav from '@/components/Navbar/MainNav';
 import TopNav from '@/components/Navbar/TopNav';
 import styles from '@/styles/navbar.module.css';
 import '@/styles/globals.css';
+import "@/styles/anchor.css";
+
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 export default function App({ Component, pageProps }) {
@@ -11,6 +13,7 @@ export default function App({ Component, pageProps }) {
 
   const router = useRouter();
   const isAboutUsPage = router.pathname === '/about-us';
+        
 
   useEffect(() => {
     const handleScroll = () => {

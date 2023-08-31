@@ -1,0 +1,19 @@
+.ant-anchor-link-title {
+  color: white !important;
+}
+
+.ant-anchor-ink.ant-anchor-ink-visible {
+  background-color: #ff9800 !important;
+}
+
+.ant-anchor-link-title.ant-anchor-link-title-active {
+  color: #ff9800 !important;
+}
+
+.ant-collapse-header {
+  color: white !important;
+}
+
+.ant-collapse-content-box {
+  color: #e0e0e0 !important;
+}

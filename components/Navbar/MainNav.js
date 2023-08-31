@@ -90,7 +90,7 @@ export default function MainNav() {
           ),
         },
         {
-          key: '1-2',
+          key: '1-3',
           label: (
             <a
               rel='noopener noreferrer'
@@ -101,7 +101,7 @@ export default function MainNav() {
           ),
         },
         {
-          key: '1-2',
+          key: '1-4',
           label: (
             <a
               rel='noopener noreferrer'
@@ -208,7 +208,7 @@ export default function MainNav() {
     { name: 'Quotes', current: false, href: '/' },
     { name: 'Resources', current: false, href: '/' },
     { name: 'About Us', current: false, href: '/about-us' },
-    { name: 'Contact', current: false, href: '/' },
+    { name: 'Contact', current: false, href: '/contact' },
   ];
   const [sticky, setSticky] = useState(false);
 
@@ -322,7 +322,7 @@ export default function MainNav() {
                 </div>
               </div>
               
-              
+
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 export const ContactHero = () => {
   return (
     <div
-      className='h-screen pt-20'
+      className='py-40 relative top-[-165px]'
       style={{
         background: 'radial-gradient(ellipse at center,#1D9035 0,#266915 100%)',
       }}
