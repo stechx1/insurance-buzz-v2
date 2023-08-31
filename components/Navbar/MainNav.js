@@ -206,9 +206,9 @@ export default function MainNav() {
     { name: 'Home', current: true, href: '/' },
     { name: 'Products', current: false, href: '/' },
     { name: 'Quotes', current: false, href: '/' },
-    { name: 'Resources', current: false, href: '/resources' },
+    { name: 'Resources', current: false, href: '/' },
     { name: 'About Us', current: false, href: '/about-us' },
-    { name: 'Contact', current: false, href: '/contact' },
+    { name: 'Contact', current: false, href: '/' },
   ];
   const [sticky, setSticky] = useState(false);
 
@@ -321,23 +321,8 @@ export default function MainNav() {
                   </div>
                 </div>
               </div>
-              <div className='flex gap-3 items-center justify-between'>
-                <i
-                  style={{ color: 'white', fontSize: '25px' }}
-                  className='fa fa-facebook-official'
-                  aria-hidden='true'
-                ></i>
-                <i
-                  style={{ color: 'white', fontSize: '25px' }}
-                  className='fa fa-twitter-square'
-                  aria-hidden='true'
-                ></i>
-                <i
-                  style={{ color: 'white', fontSize: '25px' }}
-                  className='fa fa-linkedin-square'
-                  aria-hidden='true'
-                ></i>
-              </div>
+              
+              
             </div>
           </div>
 

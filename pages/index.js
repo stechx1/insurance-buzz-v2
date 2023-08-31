@@ -10,10 +10,14 @@ import WhyChoose from '@/components/WhyChoose/WhyChoose';
 import Slider from '@/components/Slider';
 import Faqs from '@/components/Faqs/Faqs';
 import Hero from '@/components/Hero';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Insurance Buzz</title>
+      </Head>
       <div
         className=' relative top-[-165px] z-0 '
         style={{
@@ -30,10 +34,10 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/image2.png'})`,
-          backgroundRepeat: 'no-repeat',
+          background: `url(${'/images/image4.png'})`,
+          // backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'top',
         }}
         className='relative top-[-165px]'
       >

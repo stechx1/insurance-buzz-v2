@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }) {
   const [sticky, setSticky] = useState(false);
 
   const router = useRouter();
+  const isAboutUsPage = router.pathname === '/about-us';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,11 +31,10 @@ export default function App({ Component, pageProps }) {
   }, [router.asPath]);
   return (
     <>
-      {' '}
-      <div className={`${sticky ? styles.sticky : styles.notSticky} `}>
-        <TopNav />
-        <MainNav />
-      </div>{' '}
+        <div className={`${sticky ? styles.sticky : styles.notSticky} `}>
+          <TopNav />
+          <MainNav />
+        </div>
       <Component {...pageProps} /> <Prefooter /> <MainFooter />{' '}
     </>
   );

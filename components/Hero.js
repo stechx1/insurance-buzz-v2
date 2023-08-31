@@ -30,6 +30,7 @@ const Hero = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    autoplay: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [{ breakpoint: '1343px' }],
