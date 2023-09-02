@@ -7,10 +7,12 @@ import Coverages from '@/components/Coverages/Coverages';
 import Process from '@/components/Process/Process';
 import GoalsAndMissions from '@/components/Goals/GoalsAndMissions';
 import WhyChoose from '@/components/WhyChoose/WhyChoose';
-import Slider from '@/components/Slider';
+import Slider from '@/components/TravelSlider';
 import Faqs from '@/components/Faqs/Faqs';
 import Hero from '@/components/Hero';
 import Head from 'next/head';
+import TravelSlider from '@/components/TravelSlider';
+import LifeSlider from '@/components/LifeSlider';
 
 export default function Home() {
   return (
@@ -70,7 +72,7 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/new/travel-insurance.jpg'})`,
+          background: `url(${'/images/new/team-trust.jpg'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -84,20 +86,20 @@ export default function Home() {
         <span className=' text-center my-4 text-white'>
           Travel Insurance Providers
         </span>
-        <Slider />
+        <TravelSlider />
 
         <span className='mt-5 text-center my-4 text-white'>
           Life Insurance Providers
         </span>
-        <Slider />
+        <LifeSlider />
       </div>
       <div className='px-5 relative top-[-165px] xl:px-0 mt-16'>
         <div
           style={{ boxShadow: '0px 5px 7px 0px rgb(114 114 114 / 25%)' }}
           className=' px-5 py-6  xl:max-w-7xl max-w-screen-lg rounded-xl bg-white m-auto'
         >
-          <div className='text-center'>
-            <span className='text-black text-center text-base'>
+          <div className=''>
+            <span className='text-black text-center text-xl mb-4 font-bold'>
               Reliable Insurance Solutions
             </span>
           </div>

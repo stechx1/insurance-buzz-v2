@@ -1,23 +1,19 @@
 import React, { useRef, useEffect, useState } from 'react';
 import Sliders from 'react-slick';
 
-const Slider = () => {
+const TravelSlider = () => {
   const [swiperSlidesPerView, setSwiperSlidesPerView] = useState('1');
 
   useEffect(() => {
     // Check window width and set the number of slides per view
     const handleResize = () => {
       if (window.innerWidth > 980) {
-        setSwiperSlidesPerView('6');
+        setSwiperSlidesPerView('5');
       } else if (window.innerWidth > 772) {
         setSwiperSlidesPerView('4');
-
-      }
-      else if (window.innerWidth > 500) {
+      } else if (window.innerWidth > 500) {
         setSwiperSlidesPerView('2');
-
-      }
-      else {
+      } else {
         setSwiperSlidesPerView('1');
       }
     };
@@ -45,31 +41,29 @@ const Slider = () => {
     pauseOnHover: false,
   };
 
-
+  // style={{ filter: 'grayscale(1)' }}
   return (
-    <div className="overflow-hidden" style={{ filter: 'grayscale(1)' }}>
-
+    <div className='overflow-hidden'>
       <Sliders {...settings}>
-
         <div>
-          <img src="/images/01.png" alt="logo" />
+          <img width={140} src='/images/new/logos/travel-logo1.jpg' alt='logo' />
         </div>
         <div>
-          <img src="/images/04.png" alt="logo" />
+          <img width={140} src='/images/new/logos/travel-logo2.jpg' alt='logo' />
         </div>
         <div>
-          <img src="/images/02.png" alt="logo" />
+          <img width={140} src='/images/new/logos/travel-logo3.jpg' alt='logo' />
         </div>
         <div>
-          <img src="/images/03.png" alt="logo" />
+          <img width={140} src='/images/new/logos/travel-logo4.png' alt='logo' />
         </div>
         <div>
-          <img src="/images/04.png" alt="logo" />
+          <img width={140} src='/images/new/logos/travel-logo5.jpg' alt='logo' />
         </div>
         <div>
-          <img src="/images/02.png" alt="logo" />
+          <img width={140} src='/images/new/logos/travel-logo6.png' alt='logo' />
         </div>
-        <div>
+        {/* <div>
           <img src="/images/05.png" alt="logo" />
         </div>
         <div>
@@ -77,10 +71,10 @@ const Slider = () => {
         </div>
         <div>
           <img src="/images/02.png" alt="logo" />
-        </div>
+        </div> */}
       </Sliders>
     </div>
-  )
-}
+  );
+};
 
-export default Slider
+export default TravelSlider;

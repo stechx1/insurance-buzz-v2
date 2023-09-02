@@ -37,7 +37,7 @@ const AutoInsurance = () => {
       </div>{' '} */}
       <HeroSection
         img='/images/new/auto-insurance.jpg'
-        heading={'Auto Insurance'}
+        heading={'Auto Insurance (Coming Soon)'}
         para={`Universal life insurance is a variant of permanent life insurance
             that provides policyholders with premium payment flexibility, a cash
             savings element, and a death benefit. Within universal life
