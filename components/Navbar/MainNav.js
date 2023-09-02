@@ -74,7 +74,7 @@ export default function MainNav() {
               rel='noopener noreferrer'
               href='/life-insurance/term-life-insurance'
             >
-              Term Life Insurance
+              Life Insurance
             </a>
           ),
         },

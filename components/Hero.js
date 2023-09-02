@@ -48,7 +48,7 @@ const Hero = () => {
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
                   We have access to majority of the first-rate insurance
-                  companies in Texas to offer you the best coverage at the
+                  companies in Canada to offer you the best coverage at the
                   lowest available price
                 </h3>
                 <div className='flex gap-2 mt-6'>
@@ -68,7 +68,7 @@ const Hero = () => {
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
                   We have access to majority of the first-rate insurance
-                  companies in Texas to offer you the best coverage at the
+                  companies in Canada to offer you the best coverage at the
                   lowest available price
                 </h3>
                 <div className='flex gap-2 mt-6'>
@@ -88,7 +88,7 @@ const Hero = () => {
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
                   We have access to majority of the first-rate insurance
-                  companies in Texas to offer you the best coverage at the
+                  companies in Canada to offer you the best coverage at the
                   lowest available price
                 </h3>
                 <div className='flex gap-2 mt-6'>

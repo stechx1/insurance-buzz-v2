@@ -27,7 +27,7 @@ export function CarouselWithContent() {
           <div className="w-4/4 md:w-2/4 flex flex-col gap-2 px-14">
             <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>
 
-            <span className="text-white opacity-95 text-base">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</span>
+            <span className="text-white opacity-95 text-base">We have access to majority of the first-rate insurance companies in Canada to offer you the best coverage at the lowest available price</span>
             <div className="flex gap-2 mt-6">
               <button style={{ fontSize: '15px' }} className='p-3 font-semibold bg-[#CAD28F] rounded'>Request Quote</button>
 
@@ -43,7 +43,7 @@ export function CarouselWithContent() {
           <div className="w-3/4 md:w-2/4 flex flex-col gap-2 px-14">
             <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>
 
-            <span className="text-white opacity-95 text-base">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</span>
+            <span className="text-white opacity-95 text-base">We have access to majority of the first-rate insurance companies in Canada to offer you the best coverage at the lowest available price</span>
             <div className="flex gap-2 mt-6">
               <button style={{ fontSize: '15px' }} className='p-3 font-semibold bg-[#CAD28F] rounded'>Request Quote</button>
 
@@ -59,7 +59,7 @@ export function CarouselWithContent() {
           <div className="w-3/4 md:w-2/4 flex flex-col gap-2 px-14">
             <span className="sm:text-[50px] text-[40px] font-semibold text-white">Life Insurance</span>
 
-            <span className="text-white opacity-95 text-base">We have access to majority of the first-rate insurance companies in Texas to offer you the best coverage at the lowest available price</span>
+            <span className="text-white opacity-95 text-base">We have access to majority of the first-rate insurance companies in Canada to offer you the best coverage at the lowest available price</span>
             <div className="flex gap-2 mt-6">
               <button style={{ fontSize: '15px' }} className='p-3 font-semibold bg-[#CAD28F] rounded'>Request Quote</button>
 

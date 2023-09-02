@@ -17,3 +17,20 @@
 .ant-collapse-content-box {
   color: #e0e0e0 !important;
 }
+
+.ant-dropdown-menu {
+  background: #ff9800 !important;
+}
+
+.ant-dropdown-menu-item:hover {
+  background: #ffbf4e !important;
+}
+
+.ant-dropdown-menu-submenu-title:hover {
+  background: #ffbf4e !important;
+}
+
+.ant-dropdown-menu-submenu .ant-dropdown-menu-submenu-vertical{
+  background: #ffbf4e !important;
+  display: none;
+}

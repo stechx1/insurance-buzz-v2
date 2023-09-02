@@ -21,7 +21,7 @@ export default function Home() {
       <div
         className=' relative top-[-165px] z-0 '
         style={{
-          background: `url(${'/images/hero-img.png'})`,
+          background: `url(${'/images/home.jpg'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

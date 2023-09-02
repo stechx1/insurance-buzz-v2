@@ -5,7 +5,7 @@ const WhyChoose = () => {
     <div className='bg-[#A94443E5] text-white'>
       <div className='flex flex-col px-5 max-w-7xl py-5 pt-16 m-auto'>
         <span className='bg-[#FFDB58] w-fit text-black p-[0.35rem] mb-2'>
-          Why Choose Us
+          Why InsuranceBuzz
         </span>
         <span className='font-[700] text-[30px]  leading-tight sm:w-1/2'>
           Why you should choose InsuranceBuzz, here are reasons

@@ -1,10 +1,10 @@
 export const ContactHero = () => {
   return (
     <div
-      className='py-40 relative top-[-165px]'
-      style={{
-        background: 'radial-gradient(ellipse at center,#1D9035 0,#266915 100%)',
-      }}
+      className='py-40 relative top-[-165px] bg-[#8a7ec3]'
+      // style={{
+      //   background: 'radial-gradient(ellipse at center,#261e48 0,#261e48 100%)',
+      // }}
     >
       <div className='container mx-auto text-white pt-10'>
         <h1 className='text-4xl'>Contact Us</h1>
