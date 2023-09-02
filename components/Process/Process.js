@@ -134,7 +134,7 @@ const Process = () => {
                   isOpen.second ? 'text-white' : 'text-black'
                 } mb-2`}
               >
-                Pinpoint Ideal policy that suits your needs
+                Identify ideal policy that suits your needs :
               </span>
             </div>
 
@@ -203,92 +203,59 @@ const Process = () => {
                 Fill your insurance forms
               </span>
             </div>
-
-            <div
-              onClick={() => {
-                toogle('fifth');
-              }}
-              className='relative cursor-pointer'
-            >
-              <div
-                style={{
-                  width: '35px',
-                  height: '35px',
-                  borderRadius: '50%',
-                  backgroundColor: '#2196F3',
-                  position: 'absolute',
-                  top: '-25px',
-                  left: '-15px',
-                  border: '5px solid white',
-                }}
-              >
-                <span className='text-center ml-[0.35rem] text-white text-xs'>
-                  05
-                </span>
-              </div>
-              <span
-                className={` ${
-                  isOpen.fifth ? 'bg-[#2196F3]' : 'bg-[#BFD9ED]'
-                } xl:w-[70%] w-full lg:w-[80%] block px-4 py-2 ${
-                  isOpen.fifth ? 'text-white' : 'text-black'
-                } mb-2`}
-              >
-                After Sales services
-              </span>
-            </div>
           </div>
 
           {isOpen.first ? (
             <ProcessBox
               text1={
-                'Our platform utilizes advanced digital tools to quickly assess your insurance needs within minutes.'
+                'It is always recommened to completly review the policy documents before making a purchase. Here at Insurance Buzz we help you with analyzing the documents and understanding of all the coverages and policy wordings'
               }
-              text2={
-                'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              }
-              point1={
-                'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
-              }
-              point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
+              // text2={
+              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
+              // }
+              // point1={
+              //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
+              // }
+              // point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
             />
           ) : isOpen.second ? (
             <ProcessBox
               text1={
-                'Our platform utilizes advanced digital tools to quickly assess your insurance needs within minutes.'
+                'Determine what assets you need to protect, such as your home, vehicle, business, or health. Evaluate the value and importance of each asset in your life and the potential financial impact of their loss or damage.we efficiently analyze numerous intricate insurance documents and find the best suitable policy as per your requirement from the top insurance companies here in Canada.'
               }
-              text2={
-                'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              }
-              point1={
-                'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
-              }
-              point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
+              // text2={
+              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
+              // }
+              // point1={
+              //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
+              // }
+              // point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
             />
           ) : isOpen.third ? (
             <ProcessBox
               text1={
-                'Our platform utilizes advanced digital tools to quickly assess your insurance needs within minutes.'
+                'Our platform is equipped with exclusive digital tools designed to swiftly evaluate your insurance requirements in just a few minutes , by leveraging data from various sources.Especially, with so many Insurance providers in market it gets difficult to make a choice, we provide help to compare the prices and plans to reach your required goal.'
               }
-              text2={
-                'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              }
-              point1={
-                'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
-              }
-              point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
+              // text2={
+              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
+              // }
+              // point1={
+              //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
+              // }
+              // point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
             />
           ) : isOpen.forth ? (
             <ProcessBox
               text1={
-                'Our platform utilizes advanced digital tools to quickly assess your insurance needs within minutes.'
+                'We are happy to assist you get covered for the unexpected. Because Nothing is certain, except Insurance.'
               }
-              text2={
-                'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              }
-              point1={
-                'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
-              }
-              point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
+              // text2={
+              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
+              // }
+              // point1={
+              //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
+              // }
+              // point2={`Your satisfaction and understanding are our main concerns, and we're here to guide you at every stage`}
             />
           ) : (
             <ProcessBox

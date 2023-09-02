@@ -1,10 +1,10 @@
-export const HeroSection = ({ img, heading, para, color }) => {
+export const HeroSection = ({ img, heading, para, color, position = "center" }) => {
   return (
     <div
       className=' relative top-[-165px]'
       style={{
         background: `url(${img})`,
-        backgroundPosition: 'center',
+        backgroundPosition: position,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         objectFit: 'cover',

@@ -12,7 +12,7 @@ const RESP = () => {
             government also provides a specific contribution to these plans for
             children below the age of 18.`}
         img={'/images/new/resp.jpg'}
-        color={'#9AB88CCC'}
+        color={'#9AB88CCC'} position='top'
       />
 
       <div className='relative top-[-165px]'>
