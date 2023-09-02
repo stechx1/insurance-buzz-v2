@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const MainFooter = () => {
@@ -21,18 +22,18 @@ const MainFooter = () => {
         <div className='flex gap-5'>
           <div className='flex flex-col gap-3'>
             <span className='font-bold text-white'>Services</span>
-            <span className=' text-white text-sm'>Life Insurance</span>
-            <span className=' text-white text-sm'>Super Visa Insurance</span>
-            <span className=' text-white text-sm'>Visitor to Canada</span>
-            <span className=' text-white text-sm'>Travel insurance</span>
+            <Link href="/life-insurance/term-life-insurance" className='cursor-pointer text-white text-sm'>Life Insurance</Link>
+            <Link href="/super-visa-insurance" className='cursor-pointer text-white text-sm'>Super Visa Insurance</Link>
+            <Link href="/visitor-canada" className='cursor-pointer text-white text-sm'>Visitor to Canada</Link>
+            <Link href="/travel-insurance" className='cursor-pointer text-white text-sm'>Travel insurance</Link>
           </div>
 
           <div className='flex flex-col gap-3'>
             <span className='font-bold text-[#3D4351]'>Services</span>
-            <span className=' text-white text-sm'>Life Insurance</span>
-            <span className=' text-white text-sm'>Super Visa Insurance</span>
-            <span className=' text-white text-sm'>Visitor to Canada</span>
-            <span className=' text-white text-sm'>Travel insurance</span>
+            <Link href="/international-student-insurance" className='cursor-pointer text-white text-sm'>International Student Insurance</Link>
+            <Link href="/investments/rrsp" className='cursor-pointer text-white text-sm'>RRSP/TFSA</Link>
+            <Link href="/investments/resp" className='cursor-pointer text-white text-sm'>RESP</Link>
+            <Link href="/life-insurance/disability-insurance" className='cursor-pointer text-white text-sm'>Disability Insurance</Link>
           </div>
         </div>
 
