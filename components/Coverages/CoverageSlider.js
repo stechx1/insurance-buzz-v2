@@ -36,27 +36,27 @@ const CoverageSlider = () => {
 
       <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-5 sm:px-20 px-10 py-10'>
         <CoverageBox
-          onClick={() => router.push('/rrsp')}
+          onClick={() => router.push('/investments/rrsp')}
           image={'/images/new/RRSP.jpg'}
           text={'RRSP / TFSA'}
         />
         <CoverageBox
-          onClick={() => router.push('/rrsp')}
+          onClick={() => router.push('/investments/resp')}
           image={'/images/new/resp.jpg'}
           text={'RESP'}
         />
         <CoverageBox
-          onClick={() => router.push('/resp')}
+          onClick={() => router.push('/life-insurance/critical-illness-insurance')}
           image={'/images/new/critical-illness.jpg'}
           text={'Critical Illness Insurance'}
         />
         <CoverageBox
-          onClick={() => router.push('/tfsa')}
+          onClick={() => router.push('/life-insurance/disability-insurance')}
           image={'/images/new/disability-insurance.jpeg'}
           text={'Disability Insurance'}
         />
         <CoverageBox
-          onClick={() => router.push('/tfsa')}
+          onClick={() => router.push('/investments/rrsp')}
           image={'/images/new/business-overhead.jpg'}
           text={'Business Overhead'}
         />
