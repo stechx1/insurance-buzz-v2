@@ -12,7 +12,7 @@ const CriticalillnessPage = () => {
             expenses, these policies provide monetary payouts to assist in
             covering these excess costs when conventional health insurance might
             not be sufficient.`}
-        color={'#FF9801CC'}
+        color={'#FF9801CC'} position='top'
       />
 
       <div className='relative top-[-165px]'>

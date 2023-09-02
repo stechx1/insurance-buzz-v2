@@ -10,7 +10,7 @@ const SuperVisa = () => {
             traveling. Additionally, it provides protection against financial
             losses stemming from trip cancellations or interruptions.`}
         color={'#9AB88CCC'}
-        img={'/images/new/travel-insurance.jpg'}
+        img={'/images/new/travel-insurance.jpg'} 
       />
 
       <div className='relative top-[-165px]'>

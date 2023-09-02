@@ -11,7 +11,7 @@ const DisabilityPage = () => {
             of your lost income and covering medical expenses in the event of an
             accident resulting in disability.`}
         img={'/images/new/disability-insurance.jpeg'}
-        color={'#62B1BCCC'}
+        color={'#62B1BCCC'} position='top'
       />
 
       <div className='relative top-[-165px]'>

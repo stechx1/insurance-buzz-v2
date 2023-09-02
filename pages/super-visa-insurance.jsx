@@ -12,6 +12,7 @@ const SuperVisa = () => {
             during their visit.`}
         img={'/images/new/supervisa-insurance.jpeg'}
         color={'#62B1BCCC'}
+        position='bottom'
       />
 
       <div className='relative top-[-165px]'>

@@ -10,7 +10,7 @@ const StudentInsurance = () => {
             financially secure. It's a lasting gift that guarantees protection
             and support, no matter what life brings.`}
         img={'/images/new/international-student-insurance.jpg'}
-        color={'#A94443CC'}
+        color={'#A94443CC'} position='top'
       />
 
       <div className='relative top-[-165px]'>

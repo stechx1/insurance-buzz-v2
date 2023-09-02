@@ -13,8 +13,9 @@ const UniversalLifeInsurance = () => {
             taxation throughout their lifetime.`}
         img={'/images/new/universal-life-insurance.jpg'}
         color={'#9AB88CCC'}
+        position='top'
       />
-     
+
       <div className='relative top-[-165px]'>
         <CoverageDetail />
       </div>
