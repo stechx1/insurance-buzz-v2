@@ -42,7 +42,7 @@ const CoverageSlider = () => {
         />
         <CoverageBox
           onClick={() => router.push('/investments/resp')}
-          image={'/images/new/resp.jpg'}
+          image={'/images/new/RESP.jpg'}
           text={'RESP'}
         />
         <CoverageBox
