@@ -1,3 +1,4 @@
+import { ContactForm } from '@/components/ContactForm';
 import { CoverageDetail } from '@/components/CoverageDetail';
 import { HeroSection } from '@/components/HeroSection/HeroSection';
 const HomeInsurance = () => {
@@ -13,8 +14,8 @@ const HomeInsurance = () => {
         color='#A94443CC'
       />
 
-      <div className='relative top-[-165px]'>
-        <CoverageDetail />
+      <div className='relative top-[-143px]'>
+        <ContactForm />
       </div>
     </>
   );

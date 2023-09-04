@@ -1,3 +1,4 @@
+import { ContactForm } from '@/components/ContactForm';
 import { CoverageDetail } from '@/components/CoverageDetail';
 import { HeroSection } from '@/components/HeroSection/HeroSection';
 const RESP = () => {
@@ -12,11 +13,12 @@ const RESP = () => {
             government also provides a specific contribution to these plans for
             children below the age of 18.`}
         img={'/images/new/resp.jpg'}
-        color={'#9AB88CCC'} position='top'
+        color={'#9AB88CCC'}
+        position='top'
       />
 
       <div className='relative top-[-165px]'>
-        <CoverageDetail />
+        <ContactForm />
       </div>
     </>
   );

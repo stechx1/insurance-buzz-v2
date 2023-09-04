@@ -1,4 +1,4 @@
-import { CoverageDetail } from '@/components/CoverageDetail';
+import { ContactForm } from '@/components/ContactForm';
 import { HeroSection } from '@/components/HeroSection/HeroSection';
 const TFSA = () => {
   return (
@@ -15,7 +15,7 @@ const TFSA = () => {
       />
 
       <div className='relative top-[-165px]'>
-        <CoverageDetail />
+        <ContactForm />
       </div>
     </>
   );
