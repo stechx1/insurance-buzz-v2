@@ -231,7 +231,11 @@ export default function MainNav() {
   ];
   const navigation = [
     { name: 'Home', current: true, href: '/' },
-    { name: 'Products', current: false, href: '/' },
+    { name: 'Life Insurance', current: false, href: '/' },
+    { name: 'Travel Insurance', current: false, href: '/' },
+    { name: 'Investments', current: false, href: '/' },
+    { name: 'Home Insurance', current: false, href: '/' },
+    { name: 'Auto Insurance', current: false, href: '/' },
     { name: 'Quotes', current: false, href: '/' },
     { name: 'Resources', current: false, href: '/' },
     { name: 'About Us', current: false, href: '/about-us' },
@@ -282,21 +286,21 @@ export default function MainNav() {
               </div>
               <div className='flex flex-1 items-center justify-center sm:items-stretch sm:justify-start'>
                 <div className='hidden lg:block'>
-                  <div className='flex space-x-4'>
+                  <div className='flex space-x-2'>
                     {navigation.map((item) => (
                       <>
                         {item.name === 'Products' && (
                           <>
                             {console.log(item.name, 'Item')}
                             <Dropdown menu={{ items }}>
-                              <div className='flex items-center gap-1  px-3'>
+                              <div className='flex items-center gap-1  px-2'>
                                 <a
                                   key={item.name}
                                   className={classNames(
                                     item.current
                                       ? ' text-white'
                                       : 'text-gray-300  hover:text-white',
-                                    'rounded-md py-2 text-lg font-medium cursor-pointer'
+                                    'rounded-md py-2 text font-medium cursor-pointer'
                                   )}
                                   aria-current={
                                     item.current ? 'page' : undefined
@@ -311,14 +315,14 @@ export default function MainNav() {
                         )}
                         {item.name === 'Quotes' && (
                           <Dropdown menu={{ items: quoteItems }}>
-                            <div className='flex items-center gap-1 px-3'>
+                            <div className='flex items-center gap-1 px-2'>
                               <a
                                 key={item.name}
                                 className={classNames(
                                   item.current
                                     ? ' text-white'
                                     : 'text-gray-300  hover:text-white',
-                                  'rounded-md py-2 text-lg font-medium cursor-pointer'
+                                  'rounded-md py-2 text font-medium cursor-pointer'
                                 )}
                                 aria-current={item.current ? 'page' : undefined}
                               >
@@ -336,7 +340,7 @@ export default function MainNav() {
                               item.current
                                 ? ' text-white'
                                 : 'text-gray-300  hover:text-white',
-                              'rounded-md px-3 py-2 text-lg font-medium cursor-pointer'
+                              'rounded-md px-2 py-2 text font-medium cursor-pointer'
                             )}
                             aria-current={item.current ? 'page' : undefined}
                           >
