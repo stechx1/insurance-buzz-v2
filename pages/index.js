@@ -36,7 +36,8 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/image4.png'})`,
+          background: `url(${'/images/home.jpg'})`,
+          // background: `url(${'/images/image4.png'})`,
           // backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'top',
@@ -82,13 +83,13 @@ export default function Home() {
         <WhyChoose />
       </div>
 
-      <div className='flex flex-col relative top-[-165px] bg-[#308B84] p-10 pt-10 gap-4'>
-        <span className=' text-center my-4 text-white'>
+      <div className='flex flex-col relative top-[-165px] bg-[white] p-10 pt-10 gap-4'>
+        <span className=' text-center my-4 text-2xl text-black font-bold'>
           Travel Insurance Providers
         </span>
         <TravelSlider />
 
-        <span className='mt-5 text-center my-4 text-white'>
+        <span className='mt-5 text-center my-4 text-2xl text-black font-bold'>
           Life Insurance Providers
         </span>
         <LifeSlider />

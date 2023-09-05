@@ -52,22 +52,22 @@ const LifeSlider = () => {
       <Sliders {...settings}>
 
         <div>
-          <img width={140} src="/images/new/logos/life-logo1.jpg" alt="logo" />
+          <img width={160} src="/images/new/logos/life-logo1.jpg" alt="logo" />
         </div>
         <div>
-          <img width={140} src="/images/new/logos/life-logo2.png" alt="logo" />
+          <img width={160} src="/images/new/logos/life-logo2.png" alt="logo" />
         </div>
         <div>
-          <img width={140} src="/images/new/logos/life-logo3.jpg" alt="logo" />
+          <img width={160} src="/images/new/logos/life-logo3.jpg" alt="logo" />
         </div>
         <div>
           <img src="/images/new/logos/life-logo4.jpg" alt="logo" />
         </div>
         <div>
-          <img width={140} src="/images/new/logos/life-logo5.png" alt="logo" />
+          <img width={160} src="/images/new/logos/life-logo5.png" alt="logo" />
         </div> 
         <div>
-          <img width={140} src="/images/new/logos/life-logo6.jpg" alt="logo" />
+          <img width={160} src="/images/new/logos/life-logo6.jpg" alt="logo" />
         </div>
         {/* <div>
           <img src="/images/05.png" alt="logo" />

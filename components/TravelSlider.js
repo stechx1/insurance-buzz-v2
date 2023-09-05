@@ -46,22 +46,22 @@ const TravelSlider = () => {
     <div className='overflow-hidden'>
       <Sliders {...settings}>
         <div>
-          <img width={140} src='/images/new/logos/travel-logo1.jpg' alt='logo' />
+          <img width={160} src='/images/new/logos/travel-logo1.jpg' alt='logo' />
         </div>
         <div>
-          <img width={140} src='/images/new/logos/travel-logo2.jpg' alt='logo' />
+          <img width={160} src='/images/new/logos/travel-logo2.jpg' alt='logo' />
         </div>
         <div>
-          <img width={140} src='/images/new/logos/travel-logo3.jpg' alt='logo' />
+          <img width={160} src='/images/new/logos/travel-logo3.jpg' alt='logo' />
         </div>
         <div>
-          <img width={140} src='/images/new/logos/travel-logo4.png' alt='logo' />
+          <img width={160} src='/images/new/logos/travel-logo4.png' alt='logo' />
         </div>
         <div>
-          <img width={140} src='/images/new/logos/travel-logo5.jpg' alt='logo' />
+          <img width={160} src='/images/new/logos/travel-logo5.jpg' alt='logo' />
         </div>
         <div>
-          <img width={140} src='/images/new/logos/travel-logo6.png' alt='logo' />
+          <img width={160} src='/images/new/logos/travel-logo6.png' alt='logo' />
         </div>
         {/* <div>
           <img src="/images/05.png" alt="logo" />

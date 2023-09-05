@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CoverageBox = ({ image, text, onClick }) => {
+const CoverageBox = ({ image, text, onClick, positionX = "center" }) => {
   return (
     <div
       onClick={onClick}
@@ -10,7 +10,7 @@ const CoverageBox = ({ image, text, onClick }) => {
         src={image}
         alt='coverageimg'
         className='h-[200px] w-[100%]'
-        style={{ objectFit: 'cover' }}
+        style={{ objectFit: 'cover', backgroundPositionX: positionX  }}
       />
       <p className='px-3 py-4'>{text}</p>
     </div>

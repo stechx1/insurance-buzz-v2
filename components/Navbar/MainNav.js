@@ -62,6 +62,33 @@ export default function MainNav() {
     },
   ];
 
+  const lifeInsuranceItems = [
+    {
+      key: '1',
+      label: (
+        <a rel='noopener noreferrer' href='/life-insurance'>
+          Life Insurance
+        </a>
+      ),
+    },
+    {
+      key: '2',
+      label: (
+        <a rel='noopener noreferrer' href='/visitor-canada'>
+          Critical Illness Insurance
+        </a>
+      ),
+    },
+    {
+      key: '3',
+      label: (
+        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+          Disability insurance
+        </a>
+      ),
+    },
+  ];
+
   const items = [
     {
       key: '1',
