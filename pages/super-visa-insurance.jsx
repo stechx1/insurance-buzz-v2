@@ -10,9 +10,9 @@ const SuperVisa = () => {
             citizens or residents, enabling extended stays. This insurance
             provides coverage for potential medical emergencies that could arise
             during their visit.`}
-        img={'/images/new/supervisa-insurance.jpeg'}
-        color={'#62B1BCCC'}
-        position='bottom'
+        img={'/images/sub/supervisa.jpeg'}
+        color={'#989292CC'}
+        position='10% 27%'
       />
 
       <div className='relative top-[-165px]'>

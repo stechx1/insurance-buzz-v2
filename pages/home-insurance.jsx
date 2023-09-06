@@ -11,7 +11,7 @@ const HomeInsurance = () => {
             financially secure. It's a lasting gift that guarantees protection
             and support, no matter what life brings.`}
         img='/images/new/home-insurance.jpg'
-        color='#A94443CC'
+        color='#b00f17cc'
       />
 
       <div className='relative top-[-143px]'>

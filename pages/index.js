@@ -55,7 +55,7 @@ export default function Home() {
 
       <div
         style={{
-          background: `url(${'/images/new/home-insurance.jpg'})`,
+          background: `url(${'/images/sub/mission.jpg'})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',

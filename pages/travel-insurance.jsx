@@ -9,8 +9,8 @@ const SuperVisa = () => {
             covering medical expenses in the event of illness or injury while
             traveling. Additionally, it provides protection against financial
             losses stemming from trip cancellations or interruptions.`}
-        color={'#9AB88CCC'}
-        img={'/images/new/travel-insurance.jpg'}
+        color={'#ED8B09CC'}
+        img={'/images/sub/travel.jpg'}
       />
 
       <div className='relative top-[-165px]'>

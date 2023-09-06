@@ -3,11 +3,10 @@ import { CoverageDetail } from '@/components/CoverageDetail';
 import { HeroSection } from '@/components/HeroSection/HeroSection';
 
 const AutoInsurance = () => {
-
   return (
     <>
       <HeroSection
-        img='/images/new/auto-insurance.jpg'
+        img='/images/sub/auto.jpeg'
         heading={'Auto Insurance (Coming Soon)'}
         para={`Universal life insurance is a variant of permanent life insurance
             that provides policyholders with premium payment flexibility, a cash
@@ -18,7 +17,7 @@ const AutoInsurance = () => {
         color='#FF9801CC'
       />
       <div className='relative top-[-165px]'>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </>
   );

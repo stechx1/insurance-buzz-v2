@@ -11,8 +11,8 @@ const VisitorCanada = () => {
             insurance aids in covering expenses such as medical care or hospital
             stays if they fall ill, as well as covering additional hotel stays
             in case their return flight is canceled.`}
-        img={'/images/image2.png'}
-        color={'#62B1BCCC'}
+        img={'/images/sub/visitor.jpeg'}
+        color={'#04345CCC'} position='10% 20%'
       />
       
       <div className='relative top-[-165px]'>

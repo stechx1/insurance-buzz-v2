@@ -23,7 +23,10 @@ export default function MainNav() {
     {
       key: '2',
       label: (
-        <a rel='noopener noreferrer' href='/visitor-canada'>
+        <a
+          rel='noopener noreferrer'
+          href='/life-insurance/critical-illness-insurance'
+        >
           Critical Illness Insurance
         </a>
       ),
@@ -31,7 +34,10 @@ export default function MainNav() {
     {
       key: '3',
       label: (
-        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+        <a
+          rel='noopener noreferrer'
+          href='/life-insurance/disability-insurance'
+        >
           Disability insurance
         </a>
       ),
@@ -39,7 +45,7 @@ export default function MainNav() {
     {
       key: '4',
       label: (
-        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+        <a rel='noopener noreferrer' href='/life-insurance/health-insurance'>
           Health Insurance - Drug and Dental plans
         </a>
       ),
@@ -74,7 +80,7 @@ export default function MainNav() {
     {
       key: '4',
       label: (
-        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+        <a rel='noopener noreferrer' href='/international-student-insurance'>
           International Student Insurance
         </a>
       ),

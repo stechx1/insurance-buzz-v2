@@ -4,7 +4,7 @@ const CriticalillnessPage = () => {
   return (
     <>
       <HeroSection
-        img='/images/new/critical-illness.jpg'
+        img='/images/sub/critical.jpeg'
         heading={'Critical Illness Insurance'}
         para={` Critical illness insurance offers extra protection for unforeseen
             medical crises such as heart attacks, strokes, or cancer. Given that
@@ -12,7 +12,7 @@ const CriticalillnessPage = () => {
             expenses, these policies provide monetary payouts to assist in
             covering these excess costs when conventional health insurance might
             not be sufficient.`}
-        color={'#FF9801CC'}
+        color={'#308b84cc'}
         position='top'
       />
 

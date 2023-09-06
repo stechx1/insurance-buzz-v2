@@ -12,8 +12,8 @@ const RRSP = () => {
             deducted from your pre-tax income and the funds grow tax-free until
             withdrawal. Upon withdrawal, the amount is subject to taxation at
             the applicable marginal rate.`}
-        img={'/images/new/rrsp.jpg'}
-        color={'#A94443CC'}
+        img={'/images/sub/RRSP.jpeg'}
+        color={'#256c18CC'}
       />
 
       <div className='relative top-[-165px]'>

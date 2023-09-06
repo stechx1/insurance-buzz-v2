@@ -9,7 +9,8 @@ const CoverageSlider = () => {
       <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-5 sm:px-20 px-10 py-10'>
         <CoverageBox
           onClick={() => router.push('/life-insurance/term-life-insurance')}
-          image={'/images/new/life-new.jpeg'} positionX="left"
+          image={'/images/new/life-new.jpeg'}
+          positionX='left'
           // image={'/images/new/term-life-insurance.jpeg'}
           text={'Life Insurance'}
         />
@@ -39,16 +40,18 @@ const CoverageSlider = () => {
       <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-5 sm:px-20 px-10 py-10'>
         <CoverageBox
           onClick={() => router.push('/investments/rrsp')}
-          image={'/images/new/RRSP.jpg'}
+          image={'/images/new/rrsp.jpeg'}
           text={'RRSP / TFSA'}
         />
         <CoverageBox
           onClick={() => router.push('/investments/resp')}
-          image={'/images/new/RESP.jpg'}
+          image={'/images/new/resp-new.jpeg'}
           text={'RESP'}
         />
         <CoverageBox
-          onClick={() => router.push('/life-insurance/critical-illness-insurance')}
+          onClick={() =>
+            router.push('/life-insurance/critical-illness-insurance')
+          }
           image={'/images/new/critical-illness.jpg'}
           text={'Critical Illness Insurance'}
         />

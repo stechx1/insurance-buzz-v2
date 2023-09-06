@@ -10,9 +10,9 @@ const DisabilityPage = () => {
             disabilities. This type of insurance assists by replacing a portion
             of your lost income and covering medical expenses in the event of an
             accident resulting in disability.`}
-        img={'/images/new/disability-insurance.jpeg'}
-        color={'#62B1BCCC'}
-        position='top'
+        img={'/images/sub/disability.jpeg'}
+        color={'#308b84CC'}
+        position='10% 30%'
       />
 
       <div className='relative top-[-165px]'>
