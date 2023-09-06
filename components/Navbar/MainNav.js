@@ -11,57 +11,6 @@ function classNames(...classes) {
 }
 
 export default function MainNav() {
-  const quoteItems = [
-    {
-      key: '1',
-      label: (
-        <a rel='noopener noreferrer' href='/life-insurance'>
-          Life Insurance
-        </a>
-      ),
-    },
-    {
-      key: '2',
-      label: (
-        <a rel='noopener noreferrer' href='/visitor-canada'>
-          Visitor to Canada
-        </a>
-      ),
-    },
-    {
-      key: '3',
-      label: (
-        <a rel='noopener noreferrer' href='/super-visa-insurance'>
-          Super visa insurance
-        </a>
-      ),
-    },
-    {
-      key: '4',
-      label: (
-        <a rel='noopener noreferrer' href='/travel-insurance'>
-          Travel Insurance
-        </a>
-      ),
-    },
-    {
-      key: '5',
-      label: (
-        <a rel='noopener noreferrer' href='/international-student-insurance'>
-          International student insurance
-        </a>
-      ),
-    },
-    {
-      key: '6',
-      label: (
-        <a rel='noopener noreferrer' href='/need-analysis-calculator'>
-          Need Analysis Calculator
-        </a>
-      ),
-    },
-  ];
-
   const lifeInsuranceItems = [
     {
       key: '1',
@@ -87,120 +36,59 @@ export default function MainNav() {
         </a>
       ),
     },
+    {
+      key: '4',
+      label: (
+        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+          Health Insurance - Drug and Dental plans
+        </a>
+      ),
+    },
   ];
 
-  const items = [
+  const travelInsuranceItems = [
     {
       key: '1',
-      label: 'Life Insurance',
-      children: [
-        {
-          key: '1-1',
-          label: (
-            <a
-              rel='noopener noreferrer'
-              href='/life-insurance/term-life-insurance'
-            >
-              Life Insurance
-            </a>
-          ),
-        },
-        {
-          key: '1-2',
-          label: (
-            <a
-              rel='noopener noreferrer'
-              href='/life-insurance/universal-life-insurance'
-            >
-              Universal Life Insurance
-            </a>
-          ),
-        },
-        {
-          key: '1-3',
-          label: (
-            <a
-              rel='noopener noreferrer'
-              href='/life-insurance/critical-illness-insurance'
-            >
-              Critical illness insurance
-            </a>
-          ),
-        },
-        {
-          key: '1-4',
-          label: (
-            <a
-              rel='noopener noreferrer'
-              href='/life-insurance/disability-insurance'
-            >
-              Disability Insurance
-            </a>
-          ),
-        },
-      ],
-    },
-    {
-      key: '2',
       label: (
         <a rel='noopener noreferrer' href='/travel-insurance'>
           Travel Insurance
         </a>
       ),
-      children: [
-        {
-          key: '2-1',
-          label: (
-            <a rel='noopener noreferrer' href='/visitor-canada'>
-              Visitor to Canada
-            </a>
-          ),
-        },
-        {
-          key: '2-2',
-          label: (
-            <a rel='noopener noreferrer' href='/super-visa-insurance'>
-              Super visa insurance
-            </a>
-          ),
-        },
-        {
-          key: '2-3',
-          label: (
-            <a rel='noopener noreferrer' href='/travel-insurance'>
-              Travel insurance
-            </a>
-          ),
-        },
-        {
-          key: '2-4',
-          label: (
-            <a rel='noopener noreferrer' href='international-student-insurance'>
-              International students insurance
-            </a>
-          ),
-        },
-      ],
+    },
+    {
+      key: '2',
+      label: (
+        <a rel='noopener noreferrer' href='/visitor-canada'>
+          Visitor to Canada Insurance
+        </a>
+      ),
     },
     {
       key: '3',
       label: (
-        <a rel='noopener noreferrer' href='/auto-insurance'>
-          Auto Insurance
+        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+          Super Visa Insurance
         </a>
       ),
     },
     {
       key: '4',
       label: (
-        <a rel='noopener noreferrer' href='/home-insurance'>
-          Home Insurance
+        <a rel='noopener noreferrer' href='/super-visa-insurance'>
+          International Student Insurance
         </a>
       ),
     },
+  ];
+
+  const otherItems = [
     {
-      key: '5',
-      label: ' Investments',
+      key: '1',
+      label: (
+        <a rel='noopener noreferrer' href='/life-insurance'>
+          Investments
+        </a>
+      ),
       children: [
         {
           key: '5-1',
@@ -228,16 +116,84 @@ export default function MainNav() {
         },
       ],
     },
+    {
+      key: '2',
+      label: (
+        <a rel='noopener noreferrer' href='/'>
+          Quotes
+        </a>
+      ),
+      children: [
+        {
+          key: '1',
+          label: (
+            <a rel='noopener noreferrer' href='/life-insurance'>
+              Life Insurance
+            </a>
+          ),
+        },
+        {
+          key: '2',
+          label: (
+            <a rel='noopener noreferrer' href='/visitor-canada'>
+              Visitor to Canada
+            </a>
+          ),
+        },
+        {
+          key: '3',
+          label: (
+            <a rel='noopener noreferrer' href='/super-visa-insurance'>
+              Super visa insurance
+            </a>
+          ),
+        },
+        {
+          key: '4',
+          label: (
+            <a rel='noopener noreferrer' href='/travel-insurance'>
+              Travel Insurance
+            </a>
+          ),
+        },
+        {
+          key: '5',
+          label: (
+            <a
+              rel='noopener noreferrer'
+              href='/international-student-insurance'
+            >
+              International student insurance
+            </a>
+          ),
+        },
+        {
+          key: '6',
+          label: (
+            <a rel='noopener noreferrer' href='/need-analysis-calculator'>
+              Need Analysis Calculator
+            </a>
+          ),
+        },
+      ],
+    },
+    {
+      key: '3',
+      label: (
+        <a rel='noopener noreferrer' href='/resources'>
+          Resources
+        </a>
+      ),
+    },
   ];
+
   const navigation = [
     { name: 'Home', current: true, href: '/' },
-    { name: 'Life Insurance', current: false, href: '/' },
-    { name: 'Travel Insurance', current: false, href: '/' },
-    { name: 'Investments', current: false, href: '/' },
-    { name: 'Home Insurance', current: false, href: '/' },
-    { name: 'Auto Insurance', current: false, href: '/' },
-    { name: 'Quotes', current: false, href: '/' },
-    { name: 'Resources', current: false, href: '/' },
+    { name: 'Life Insurance', current: false, href: '/life-insurance' },
+    { name: 'Travel Insurance', current: false, href: '/travel-insurance' },
+    { name: 'Home Insurance', current: false, href: '/home-insurance' },
+    { name: 'Auto Insurance', current: false, href: '/auto-insurance' },
+    { name: 'Others', current: false, href: '/' },
     { name: 'About Us', current: false, href: '/about-us' },
     { name: 'Contact', current: false, href: '/contact' },
   ];
@@ -289,10 +245,10 @@ export default function MainNav() {
                   <div className='flex space-x-2'>
                     {navigation.map((item) => (
                       <>
-                        {item.name === 'Products' && (
+                        {item.name === 'Life Insurance' && (
                           <>
                             {console.log(item.name, 'Item')}
-                            <Dropdown menu={{ items }}>
+                            <Dropdown menu={{ items: lifeInsuranceItems }}>
                               <div className='flex items-center gap-1  px-2'>
                                 <a
                                   key={item.name}
@@ -300,7 +256,7 @@ export default function MainNav() {
                                     item.current
                                       ? ' text-white'
                                       : 'text-gray-300  hover:text-white',
-                                    'rounded-md py-2 text font-medium cursor-pointer'
+                                    'rounded-md py-2 text-lg font-medium cursor-pointer'
                                   )}
                                   aria-current={
                                     item.current ? 'page' : undefined
@@ -313,8 +269,32 @@ export default function MainNav() {
                             </Dropdown>
                           </>
                         )}
-                        {item.name === 'Quotes' && (
-                          <Dropdown menu={{ items: quoteItems }}>
+                        {item.name === 'Travel Insurance' && (
+                          <>
+                            {console.log(item.name, 'Item')}
+                            <Dropdown menu={{ items: travelInsuranceItems }}>
+                              <div className='flex items-center gap-1  px-2'>
+                                <a
+                                  key={item.name}
+                                  className={classNames(
+                                    item.current
+                                      ? ' text-white'
+                                      : 'text-gray-300  hover:text-white',
+                                    'rounded-md py-2 text-lg font-medium cursor-pointer'
+                                  )}
+                                  aria-current={
+                                    item.current ? 'page' : undefined
+                                  }
+                                >
+                                  {item.name}
+                                </a>
+                                <CaretDownFilled style={{ color: 'white' }} />
+                              </div>
+                            </Dropdown>
+                          </>
+                        )}
+                        {item.name === 'Others' && (
+                          <Dropdown menu={{ items: otherItems }}>
                             <div className='flex items-center gap-1 px-2'>
                               <a
                                 key={item.name}
@@ -322,7 +302,7 @@ export default function MainNav() {
                                   item.current
                                     ? ' text-white'
                                     : 'text-gray-300  hover:text-white',
-                                  'rounded-md py-2 text font-medium cursor-pointer'
+                                  'rounded-md py-2 text-lg font-medium cursor-pointer'
                                 )}
                                 aria-current={item.current ? 'page' : undefined}
                               >
@@ -332,28 +312,28 @@ export default function MainNav() {
                             </div>
                           </Dropdown>
                         )}
-                        {item.name !== 'Products' && item.name !== 'Quotes' && (
-                          <a
-                            href={item.href}
-                            key={item.name}
-                            className={classNames(
-                              item.current
-                                ? ' text-white'
-                                : 'text-gray-300  hover:text-white',
-                              'rounded-md px-2 py-2 text font-medium cursor-pointer'
-                            )}
-                            aria-current={item.current ? 'page' : undefined}
-                          >
-                            {item.name}
-                          </a>
-                        )}
+                        {item.name !== 'Life Insurance' &&
+                          item.name !== 'Travel Insurance' &&
+                          item.name !== 'Others' && (
+                            <a
+                              href={item.href}
+                              key={item.name}
+                              className={classNames(
+                                item.current
+                                  ? ' text-white'
+                                  : 'text-gray-300  hover:text-white',
+                                'rounded-md px-2 py-2 text-lg font-medium cursor-pointer'
+                              )}
+                              aria-current={item.current ? 'page' : undefined}
+                            >
+                              {item.name}
+                            </a>
+                          )}
                       </>
                     ))}
                   </div>
                 </div>
               </div>
-              
-
             </div>
           </div>
 

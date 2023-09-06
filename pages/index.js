@@ -1,14 +1,8 @@
-import Image from 'next/image';
-import { Inter } from 'next/font/google';
-import { CarouselWithContent } from '@/components/Carousel/CarouselComp';
 import InsuranceSolutions from '@/components/InsuranceSolutions';
-import AboutUs from '@/components/AboutUs/AboutUs';
 import Coverages from '@/components/Coverages/Coverages';
 import Process from '@/components/Process/Process';
 import GoalsAndMissions from '@/components/Goals/GoalsAndMissions';
 import WhyChoose from '@/components/WhyChoose/WhyChoose';
-import Slider from '@/components/TravelSlider';
-import Faqs from '@/components/Faqs/Faqs';
 import Hero from '@/components/Hero';
 import Head from 'next/head';
 import TravelSlider from '@/components/TravelSlider';
