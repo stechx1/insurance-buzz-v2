@@ -1,8 +1,8 @@
 import { Anchor, Collapse } from 'antd';
 import { lifeInsuranceItems } from '@/data/faqs/life-insurance';
+import { travelInsuranceItems } from '@/data/faqs/travel-insurance';
 
 const ResourcesPage = () => {
-  
   return (
     <div className='bg-[#305fa9] relative top-[-165px]'>
       <div className='grid grid-cols-6'>
@@ -51,7 +51,7 @@ const ResourcesPage = () => {
           <div
             className='p-4'
             id='life-insurance'
-            style={{ height: '100vh', background: '#305fa9' }}
+            style={{ minHeight: '100vh', background: '#305fa9' }}
           >
             <h1 className='text-white font-bold text-3xl'>
               Life Insurance FAQs
@@ -65,21 +65,21 @@ const ResourcesPage = () => {
           <div
             className='p-4'
             id='travel-insurance'
-            style={{ height: '100vh', background: '#9ab88c' }}
+            style={{ minHeight: '100vh', background: '#9ab88c' }}
           >
             <h1 className='text-white font-bold text-3xl'>
               Travel Insurance FAQs
             </h1>
             <Collapse
               ghost
-              items={lifeInsuranceItems}
+              items={travelInsuranceItems}
               defaultActiveKey={['1']}
             />
           </div>
           <div
             id='term-insurance'
             className='p-4'
-            style={{ height: '100vh', background: '#ed8b08' }}
+            style={{ minHeight: '100vh', background: '#ed8b08' }}
           >
             <h1 className='text-white font-bold text-3xl'>
               Term Insurance FAQs
@@ -93,7 +93,7 @@ const ResourcesPage = () => {
           <div
             id='disability-insurance'
             className='p-4'
-            style={{ height: '100vh', background: '#6f909e' }}
+            style={{ minHeight: '100vh', background: '#6f909e' }}
           >
             <h1 className='text-white font-bold text-3xl'>
               Disability Insurance FAQs
@@ -107,7 +107,7 @@ const ResourcesPage = () => {
           <div
             id='claim-insurance'
             className='p-4'
-            style={{ height: '100vh', background: '#a94342' }}
+            style={{ minHeight: '100vh', background: '#a94342' }}
           >
             <h1 className='text-white font-bold text-3xl'>
               Claim Insurance FAQs
