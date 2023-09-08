@@ -149,19 +149,76 @@ export const travelInsuranceItems = [
     children: (
       <div className='space-y-2'>
         <p>
-          The most effective approach to gauging your required insurance amount
-          is by utilizing a life insurance calculator. These tools swiftly
-          evaluate your individual and financial circumstances, considering your
-          assets and liabilities. Subsequently, they provide insight into the
-          necessary insurance coverage to address those financial obligations.
+          A super visa functions as a unique type of visa, designed to enable
+          the parents and grandparents of either Canadian citizens or permanent
+          residents to visit them. In contrast to the usual visitor's visa,
+          which permits a stay of up to 6 months in Canada, a super visa
+          operates differently. This visa is categorized as a multi-entry
+          permit, affording visitors the opportunity to remain for a maximum of
+          5 years and granting them the flexibility to make multiple entries
+          during this period. Moreover, those holding a super visa have the
+          option to request a 2-year extension. Upon being granted a super visa,
+          its validity extends for a span of 10 years.
         </p>
-
+      </div>
+    ),
+  },
+  {
+    key: '6',
+    label: '6. What are the criteria for qualifying for a super visa?',
+    children: (
+      <div className='space-y-2'>
         <p>
-          However, before you rush to search for a calculator, here's some good
-          news: we offer one right here! Our life insurance needs calculator
-          streamlines the process and determines your coverage needs within
-          minutes. We concentrate on essential aspects of your financial
-          situation to ensure simplicity and accuracy.
+          To meet the eligibility standards for a super visa, the individual
+          seeking the visa must:
+        </p>
+        <ul className='list-disc'>
+          <li>
+            Be the parent or grandparent of either a Canadian citizen or a
+            permanent resident of Canada.
+          </li>
+          <li>
+            Present a letter composed by their child or grandchild confirming
+            their commitment to financially support the visa applicant during
+            their stay.
+          </li>
+          <li>
+            Demonstrate evidence that their child or grandchild meets the
+            stipulated minimum income requirement.
+          </li>
+          <li>
+            Furnish a copy of their child or grandchild's Canadian passport or
+            Permanent Resident Card (PR Card).
+          </li>
+          <li>
+            Undergo a medical examination to establish their physical fitness
+            for entry into the country.
+          </li>
+          <li>
+            Undergo a medical examination to establish their physical fitness
+            Provide confirmation of possessing sufficient insurance coverage
+            from a Canadian insurance company, specifically super visa
+            insurance.
+          </li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    key: '7',
+    label:
+      '7. Is it necessary to obtain travel insurance for my journey from India to Canada?',
+    children: (
+      <div className='space-y-2'>
+        <p>
+          Absolutely, it's strongly advised to secure travel insurance when
+          embarking on a trip from India to Canada. Acquiring travel insurance
+          can serve as a safeguard against potentially exorbitant expenses in
+          the event of unforeseen circumstances. Irrespective of the purpose of
+          your visit to Canada, having this coverage can ensure a smooth and
+          worry-free experience throughout your entire trip. Canadian travel
+          insurance providers can offer you the most suitable choices tailored
+          to your needs.
         </p>
       </div>
     ),

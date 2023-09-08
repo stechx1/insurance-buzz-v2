@@ -10,8 +10,7 @@ const CoverageSlider = () => {
         <CoverageBox
           onClick={() => router.push('/life-insurance/term-life-insurance')}
           image={'/images/new/life-new.jpeg'}
-          positionX='left'
-          // image={'/images/new/term-life-insurance.jpeg'}
+          position='80% 10%'
           text={'Life Insurance'}
         />
         <CoverageBox
@@ -26,8 +25,8 @@ const CoverageSlider = () => {
         />
         <CoverageBox
           onClick={() => router.push('/travel-insurance')}
-          image={'/images/new/travel-insurance.jpg'}
-          text={'Travel Insurance'}
+          image={'/images/sub/travel-new.png'}
+          text={'Travel Insurance'} position='10% 4%'
         />
         <CoverageBox
           onClick={() => router.push('/international-student-insurance')}
@@ -47,6 +46,7 @@ const CoverageSlider = () => {
           onClick={() => router.push('/investments/resp')}
           image={'/images/new/resp-new.jpeg'}
           text={'RESP'}
+          position='10% 20%'
         />
         <CoverageBox
           onClick={() =>
@@ -54,16 +54,18 @@ const CoverageSlider = () => {
           }
           image={'/images/new/critical-illness.jpg'}
           text={'Critical Illness Insurance'}
+          position='25% 10%'
         />
         <CoverageBox
           onClick={() => router.push('/life-insurance/disability-insurance')}
           image={'/images/new/disability-insurance.jpeg'}
           text={'Disability Insurance'}
+          position='10% 10%'
         />
         <CoverageBox
-          onClick={() => router.push('/investments/rrsp')}
-          image={'/images/new/business-overhead.jpg'}
-          text={'Business Overhead'}
+          onClick={() => router.push('/life-insurance/health-insurance')}
+          image={'/images/sub/health-new.jpeg'}
+          text={'Health Insurance'} position='10% 20%'
         />
       </div>
     </>

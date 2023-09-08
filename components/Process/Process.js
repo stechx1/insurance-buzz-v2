@@ -200,7 +200,7 @@ const Process = () => {
                   isOpen.forth ? 'text-white' : 'text-black'
                 } mb-2`}
               >
-                Fill your insurance forms
+                Get Covered
               </span>
             </div>
           </div>

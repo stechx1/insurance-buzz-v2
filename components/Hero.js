@@ -53,6 +53,7 @@ const Hero = () => {
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
+                    onClick={() => router.push('/life-insurance')}
                     style={{ fontSize: '15px' }}
                     className='p-3 text-white bg-[#FF9801] rounded'
                   >
@@ -73,6 +74,7 @@ const Hero = () => {
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
+                    onClick={() => router.push('/travel-insurance')}
                     style={{ fontSize: '15px' }}
                     className='p-3 text-white bg-[#FF9801] rounded'
                   >
@@ -93,6 +95,70 @@ const Hero = () => {
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
+                    onClick={() => router.push('/super-visa-insurance')}
+                    style={{ fontSize: '15px' }}
+                    className='p-3 text-white bg-[#FF9801] rounded'
+                  >
+                    Request Quote
+                  </button>
+                </div>
+              </div>
+
+              <div className='flex px-[24px] flex-col gap-5'>
+                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                  Home Insurance
+                </h1>
+
+                <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
+                  We have access to majority of the first-rate insurance
+                  companies in Canada to offer you the best coverage at the
+                  lowest available price
+                </h3>
+                <div className='flex gap-2 mt-6'>
+                  <button
+                    onClick={() => router.push('/home-insurance')}
+                    style={{ fontSize: '15px' }}
+                    className='p-3 text-white bg-[#FF9801] rounded'
+                  >
+                    Request Quote
+                  </button>
+                </div>
+              </div>
+
+              <div className='flex px-[24px] flex-col gap-5'>
+                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                  Auto Insurance
+                </h1>
+
+                <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
+                  We have access to majority of the first-rate insurance
+                  companies in Canada to offer you the best coverage at the
+                  lowest available price
+                </h3>
+                <div className='flex gap-2 mt-6'>
+                  <button
+                    onClick={() => router.push('/auto-insurance')}
+                    style={{ fontSize: '15px' }}
+                    className='p-3 text-white bg-[#FF9801] rounded'
+                  >
+                    Request Quote
+                  </button>
+                </div>
+              </div>
+
+              <div className='flex px-[24px] flex-col gap-5'>
+                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                  RFSA and RRSP Insurance
+                </h1>
+
+                <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
+                  We have access to majority of the first-rate insurance
+                  companies in Canada to offer you the best coverage at the
+                  lowest available price
+                </h3>
+                <div className='flex gap-2 mt-6'>
+                  <button
+                    onClick={() => router.push('/investments/rrsp')}
                     style={{ fontSize: '15px' }}
                     className='p-3 text-white bg-[#FF9801] rounded'
                   >
