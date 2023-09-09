@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
   const [sticky, setSticky] = useState(false);
 
   const router = useRouter();
-  const isAboutUsPage = router.pathname === '/about-us';
+  const isResourcesPage = router.pathname === '/resources';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -46,7 +46,13 @@ export default function App({ Component, pageProps }) {
         <MainNav />
       </div>
       <CrispWithNoSSR />
-      <Component {...pageProps} /> <Prefooter /> <MainFooter />{' '}
+      <Component {...pageProps} />
+      {!isResourcesPage && (
+        <div>
+          <Prefooter />
+          <MainFooter />
+        </div>
+      )}
     </>
   );
 }

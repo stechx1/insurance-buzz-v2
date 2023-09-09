@@ -1,75 +1,112 @@
-export const lifeInsuranceItems = [
+export const termLifeInsuranceItems = [
   {
     key: '1',
-    label: 'Types of life insurance',
+    label: '1. Is term life insurance necessary for me?',
     children: (
-      <p>
-        a. Term Insurance - b. Permanent life insurance - also referred to as
-        whole life insurance, provides coverage for the entirety of your life
-        span. This type of insurance policy often includes an investment or
-        cash value feature, resulting in a lump sum payment that is exempt
-        from taxation. As its name implies, permanent life insurance is most
-        suitable for safeguarding enduring or lifelong necessities. These may
-        encompass obligations like estate taxes, the care of a disabled family
-        member, ensuring liquidity for closely-held enterprises, and even
-        covering funeral costs. Through gradual payments into your permanent
-        policy, its investment value can grow over time. You have the option
-        to withdraw the cash value of your permanent insurance policy to
-        supplement your retirement earnings or defray various expenses.
-        Alternatively
-      </p>
+      <div className='space-y-2'>
+        <p>
+          The primary objective of term life insurance is to offer financial
+          security to your family and dependents. It proves most advantageous
+          for individuals seeking cost-effective life insurance over a specific
+          span, where the value might not be matched by other insurance options.
+          This type of insurance is particularly advantageous for those
+          experiencing significant life milestones during their peak earning
+          years, including marriage, parenthood, and home purchase.
+        </p>
+
+        <p>
+          Furthermore, it proves valuable for individuals with temporary
+          requirements such as providing for beneficiaries, funding their
+          children's education, and settling debts. Additionally, term insurance
+          can serve as a replacement for mortgage insurance.
+        </p>
+      </div>
     ),
   },
   {
     key: '2',
-    label: 'Term versus whole life insurance',
+    label:
+      '2. Is it possible to terminate my term life insurance policy at any point?',
     children: (
-      <p>
-        Term Life Insurance Typically, term life insurance emerges as a more
-        budget-friendly option during youth when your requirements are
-        substantial yet primarily temporary, such as raising children or
-        covering mortgage obligations. . Provides interim coverage over a
-        predetermined timeframe . Most appropriate for provisional necessities
-        (like mortgages, children’s education, safeguarding lifestyle) .
-        Yields a death benefit without any accumulation of cash value . Death
-        benefit remains fixed from policy inception and remains unchanged .
-        Inadmissible to procure loans or withdrawals against the policy .
-        Benefits are exclusively received upon the policyholder’s demise Whole
-        Life Insurance Conversely, whole life insurance policies deliver
-        enduring coverage, contingent upon consistent premium payments, and
-        prove advantageous for estate planning and addressing final expenses.
-        . Offers lifelong coverage assurance . Most suitable for perpetual
-        necessities (comprising estate planning, retirement income, and final
-        costs) . Generates a death benefit along with the potential to access
-        a burgeoning cash value . Death benefit could amplify through
-        dividends . Policy loans are attainable, and dividends might be
-        withdrawn . Benefits can potentially be received during the
-        policyholder's lifetime through dividends or loans.
-      </p>
+      <div className='space-y-2'>
+        <p>
+          Furthermore, you have the option to cancel the policy prior to its
+          designated term conclusion by discontinuing payments, and this action
+          won't entail any extra charges. Term life insurance offers a high
+          level of adaptability, making it advisable to purchase a coverage
+          amount that aligns with your financial capacity, thereby minimizing
+          the likelihood of needing to cancel the policy.
+        </p>
+      </div>
     ),
   },
   {
     key: '3',
-    label: 'What is the cost of life insurance in Canada?',
+    label:
+      '3. Will you receive a refund upon canceling your term life insurance policy?',
     children: (
-      <p>
-        To start, let's address the concept of life insurance within this
-        context. The most straightforward form of coverage is term life
-        insurance. This variety of life insurance policy offers protection for
-        a predetermined duration or term, and the length of this term
-        significantly influences the cost of basic life insurance. The life
-        insurance death benefit has the capacity to encompass a majority of
-        your temporary life insurance necessities. This encompasses financial
-        scenarios like your mortgage, any outstanding debts, funding your
-        children's education, or sustaining the living expenses of your loved
-        ones to maintain their current quality of life – even in the event of
-        your demise. Due to the relatively shorter term associated with term
-        life insurance, insurance companies typically present more affordable
-        premiums for this type of coverage. Numerous other factors contribute
-        to the average cost of your life insurance premium, and we'll delve
-        into these details shortly. Nevertheless, the image below offers a
-        general estimate of the average life insurance cost.
-      </p>
+      <div className='space-y-2'>
+        <p>
+          No, term life insurance policies do not accumulate any cash surrender
+          value, resulting in the absence of premium refunds if the policy is
+          terminated. In contrast to permanent or whole life insurance, the
+          premiums for term insurance solely cover the actual cost of life
+          insurance coverage provided by the insurance company. Consequently,
+          when you opt to cancel your term insurance, there is no reimbursement
+          of the premiums paid.
+        </p>
+      </div>
+    ),
+  },
+  {
+    key: '4',
+    label: '4. How long should you hold a term life insurance policy?',
+    children: (
+      <div className='space-y-2'>
+        <p>
+          You have the flexibility to select the term duration for your term
+          life policy based on your preferences, although durations of 10 to 30
+          years are most common. Alternatively, you can opt for a policy that
+          remains in effect until you reach a specific age, such as 65 years.
+          This type of insurance is primarily designed to address temporary
+          requirements, such as the predetermined period of a mortgage or the
+          duration required to cover your children's education. Hence, the key
+          consideration is ensuring that the policy term aligns with these
+          temporary needs.
+        </p>
+      </div>
+    ),
+  },
+  {
+    key: '5',
+    label: '5. What occurs if I surpass the duration of my insurance coverage?',
+    children: (
+      <div className='space-y-2'>
+        <p>
+          Upon the conclusion of your term life insurance without any claims
+          filed, you have several choices:
+        </p>
+        <ul className='list-disc'>
+          <li>
+            Allow your term policy to lapse naturally, cease premium payments,
+            and thereby terminate your life insurance coverage upon the
+            expiration of the original term.
+          </li>
+          <li>
+            If the need for term coverage persists beyond the initial policy
+            term, alternative options are available. You might have the option
+            to renew your term life policy for a subsequent term, or
+            alternatively, convert your policy to permanent life insurance
+            coverage without necessitating a fresh medical evaluation.
+          </li>
+          <li>
+            In the event of good health, if you seek honest counsel from your
+            insurance broker, they are likely to recommend applying for a new
+            term insurance policy with more affordable premiums rather than
+            opting for a renewal of your current policy.
+          </li>
+        </ul>
+      </div>
     ),
   },
 ];
