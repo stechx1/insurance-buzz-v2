@@ -1,5 +1,8 @@
 import { CoverageDetail } from '@/components/CoverageDetail';
+import {  Collapse } from 'antd';
+
 import { HeroSection } from '@/components/HeroSection/HeroSection';
+import { criticalIllnessItems } from '@/data/faqs/critical-illness-insurance';
 const CriticalillnessPage = () => {
   return (
     <>
@@ -102,6 +105,21 @@ const CriticalillnessPage = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <div
+        className='p-5 relative top-[-50px]'
+        id='life-insurance'
+        style={{ background: '#308b84' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Critical Illness Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={criticalIllnessItems}
+          // defaultActiveKey={['1']}
+        />
       </div>
     </>
   );

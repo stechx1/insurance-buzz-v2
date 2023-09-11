@@ -45,7 +45,7 @@ const ResourcesPage = () => {
               {
                 key: 'claim-insurance',
                 href: '#claim-insurance',
-                title: 'Claim Insurance',
+                title: 'Claim Process',
               },
               {
                 key: 'important-links',
@@ -132,7 +132,7 @@ const ResourcesPage = () => {
               style={{ minHeight: '100vh', background: '#a94342' }}
             >
               <h1 className='text-white font-bold text-3xl'>
-                Claim Insurance FAQs
+                Claim Process FAQs
               </h1>
               <Collapse
                 ghost

@@ -1,5 +1,8 @@
 import { CoverageDetail } from '@/components/CoverageDetail';
+import { Collapse } from 'antd';
+
 import { HeroSection } from '@/components/HeroSection/HeroSection';
+import { disabilityInsuranceItems } from '@/data/faqs/disability-insurance';
 const DisabilityPage = () => {
   return (
     <>
@@ -55,6 +58,21 @@ const DisabilityPage = () => {
             replacement stream during the recovery period.
           </p>
         </div>
+      </div>
+
+      <div
+        className='p-5 relative top-[-50px]'
+        id='life-insurance'
+        style={{ background: '#308b84' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Disability Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={disabilityInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
       </div>
     </>
   );

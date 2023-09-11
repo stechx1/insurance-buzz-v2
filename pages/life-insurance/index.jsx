@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import { CoverageDetail } from '@/components/CoverageDetail';
 import { useRouter } from 'next/router';
+import { Collapse } from 'antd';
+import { lifeInsuranceItems } from '@/data/faqs/life-insurance';
+import { termLifeInsuranceItems } from '@/data/faqs/term-life-insurance';
 const LifeInsurance = () => {
   const [sticky, setSticky] = useState(false);
 
@@ -100,8 +103,37 @@ const LifeInsurance = () => {
           </div>
         </div>
       </div>
-      <div className='relative top-[-165px]'>
+      <div className='relative top-[-145px]'>
         <CoverageDetail />
+      </div>
+
+      <div
+        className='p-5 relative top-[-90px]'
+        id='life-insurance'
+        style={{ background: '#45A1D3' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Life Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={lifeInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
+      </div>
+      <div
+        className='p-5 relative top-[-90px]'
+        id='life-insurance'
+        style={{ background: '#45A1D3' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Term Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={termLifeInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
       </div>
     </>
   );

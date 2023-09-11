@@ -1,6 +1,9 @@
 import { CoverageDetail } from '@/components/CoverageDetail';
 import { HeroSection } from '@/components/HeroSection/HeroSection';
-const SuperVisa = () => {
+import { Collapse } from 'antd';
+
+import { travelInsuranceItems } from '@/data/faqs/travel-insurance';
+const TravelInsurancePage = () => {
   return (
     <>
       <HeroSection
@@ -82,8 +85,23 @@ const SuperVisa = () => {
           </ul>
         </div>
       </div>
+
+      <div
+        className='p-5 relative top-[-60px]'
+        id='life-insurance'
+        style={{ background: '#ED8B09' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Travel Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={travelInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
+      </div>
     </>
   );
 };
 
-export default SuperVisa;
+export default TravelInsurancePage;
