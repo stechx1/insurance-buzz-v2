@@ -44,7 +44,7 @@ const Hero = () => {
           <div>
             <Slider {...settings}>
               <div className='flex px-[24px] flex-col gap-5'>
-                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                <h1 className='sm:text-[40px] text-[20px] font-bold text-white'>
                   Life Insurance
                 </h1>
 
@@ -65,7 +65,7 @@ const Hero = () => {
               </div>
 
               <div className='flex px-[24px] flex-col gap-5'>
-                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                <h1 className='sm:text-[40px] text-[40px] font-bold text-white'>
                   Travel Insurance
                 </h1>
 
@@ -86,7 +86,7 @@ const Hero = () => {
               </div>
 
               <div className='flex px-[24px] flex-col gap-5'>
-                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                <h1 className='sm:text-[40px] text-[40px] font-bold text-white'>
                   Super Visa Insurance
                 </h1>
 
@@ -107,7 +107,7 @@ const Hero = () => {
               </div>
 
               <div className='flex px-[24px] flex-col gap-5'>
-                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                <h1 className='sm:text-[40px] text-[40px] font-bold text-white'>
                   Home Insurance
                 </h1>
 
@@ -128,7 +128,7 @@ const Hero = () => {
               </div>
 
               <div className='flex px-[24px] flex-col gap-5'>
-                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                <h1 className='sm:text-[40px] text-[40px] font-bold text-white'>
                   Auto Insurance
                 </h1>
 
@@ -149,7 +149,7 @@ const Hero = () => {
               </div>
 
               <div className='flex px-[24px] flex-col gap-5'>
-                <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
+                <h1 className='sm:text-[40px] text-[40px] font-bold text-white'>
                   TFSA and RRSP Insurance
                 </h1>
 
