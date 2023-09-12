@@ -28,7 +28,7 @@ export default function Home() {
 
       {/* <AboutUs /> */}
 
-      <div
+      {/* <div
         style={{
           background: `url(${'/images/home.jpg'})`,
           // background: `url(${'/images/image4.png'})`,
@@ -39,7 +39,7 @@ export default function Home() {
         className='relative top-[-165px]'
       >
         <Coverages />
-      </div>
+      </div> */}
 
       <div
         style={{
