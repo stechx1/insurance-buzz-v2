@@ -64,14 +64,8 @@ const MainFooter = () => {
       <div className='mt-14 text-sm text-white flex md:flex-row flex-col gap-5 justify-between'>
         <span>2023 © InsuranceBuzz - All right reserved</span>
         <div className='grid md:grid-cols-4 grid-cols-2 gap-4'>
-          <span className=' hover:underline cursor-pointer'>
+          <span className='hover:underline cursor-pointer'>
             Term of Service
-          </span>
-          <span className=' hover:underline cursor-pointer'>
-            Privacy Policy
-          </span>
-          <span className=' hover:underline cursor-pointer'>
-            Partners & Affiliates
           </span>
           <span className=' hover:underline cursor-pointer'>
             Privacy Policy

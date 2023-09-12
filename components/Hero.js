@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import { useRouter } from 'next/router';
+import CoverageBox from '../components/Coverages/CoverageBox';
+
 
 const Hero = () => {
   const [sticky, setSticky] = useState(false);
@@ -38,7 +40,7 @@ const Hero = () => {
   return (
     <>
       <div className='bg-[#45A1D3CC] pt-44'>
-        <div className=' h-full max-w-7xl m-auto flex flex-col gap-5 py-20 xl:px-0 px-10 pb-44 '>
+        <div className=' h-full max-w-7xl m-auto flex flex-col gap-5 py-4 xl:px-0 px-10 pb-22 '>
           <div>
             <Slider {...settings}>
               <div className='flex px-[24px] flex-col gap-5'>
@@ -148,7 +150,7 @@ const Hero = () => {
 
               <div className='flex px-[24px] flex-col gap-5'>
                 <h1 className='sm:text-[70px] text-[40px] font-bold text-white'>
-                  RFSA and RRSP Insurance
+                  TFSA and RRSP Insurance
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
@@ -167,7 +169,40 @@ const Hero = () => {
                 </div>
               </div>
             </Slider>
+
+            </div>
           </div>
+            <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-5 sm:px-20 px-10 py-10'>
+              <CoverageBox
+                onClick={() =>
+                  router.push('/life-insurance/term-life-insurance')
+                }
+                image={'/images/new/life-new.jpeg'}
+                position='80% 10%'
+                text={'Life Insurance'}
+              />
+              <CoverageBox
+                onClick={() => router.push('/super-visa-insurance')}
+                image={'/images/new/super-visa.jpeg'}
+                text={'Super Visa Insurance'}
+              />
+              <CoverageBox
+                onClick={() => router.push('/visitor-canada')}
+                image={'/images/new/visitor.png'}
+                text={'Visitor to Canada'}
+              />
+              <CoverageBox
+                onClick={() => router.push('/travel-insurance')}
+                image={'/images/sub/travel-new.png'}
+                text={'Travel Insurance'}
+                position='10% 4%'
+              />
+              <CoverageBox
+                onClick={() => router.push('/international-student-insurance')}
+                image={'/images/new/intl-new.jpg'}
+                // image={'/images/new/international-students.jpg'}
+                text={'Intl student insurance'}
+              />
         </div>
       </div>
     </>
