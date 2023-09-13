@@ -50,8 +50,7 @@ export const ContactPageForm = () => {
           <i class='fa fa-home' aria-hidden='true'></i>
           <p className="text-gray-800 text-sm">
             {' '}
-            Websolutions.ca Inc. 467 Main St. Suite #1 Bathurst NB E2A 1B1
-            Canada
+            Insurancebuzz.ca 925 Lawson Road #40, London, ON N6G 4X3
           </p>
         </div>
         <div className='flex gap-4'>
@@ -67,7 +66,7 @@ export const ContactPageForm = () => {
         <div className='flex gap-4'>
           <i class='fa fa-globe' aria-hidden='true'></i>
 
-          <p className="text-gray-800 text-sm"> websolutions.ca</p>
+          <p className="text-gray-800 text-sm"> insurancebuzz.ca</p>
         </div>
       </div>
     </div>

@@ -69,7 +69,7 @@ const TopNav = () => {
             <img src='/images/navbarPhone.png' alt='navbar' />
             <div className='flex flex-col'>
               <span className='text-sm text-white'>Insurance Advisor</span>
-              <span className='text-sm text-white'>+1 647 469 8766</span>
+              <span className='text-sm text-white'>+1 (647) 469-8766</span>
             </div>
           </div>
         </div>
