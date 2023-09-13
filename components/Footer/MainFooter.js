@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 const MainFooter = () => {
+  const router = useRouter();
   return (
     <div className='bg-[#3D4351] py-10 px-5 pb-3 '>
-      <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-32 gap-10  container mx-auto'>
+      <div className='grid lg:grid-cols-5 sm:grid-cols-2 grid-cols-1 lg:gap-4 gap-10  container mx-auto'>
         <div className='flex flex-col gap-4'>
           <div className='flex items-center gap-2'>
             <img src='/images/logowhite.png' alt='logo' />
@@ -13,49 +15,125 @@ const MainFooter = () => {
             </span>
           </div>
           <span className='text-white text-sm'>
-            We're committed to safeguarding your present and future. Our
-            comprehensive coverage and passionate professionals prioritize your
-            protection.
+            Insurance Simplified, Buzz Amplified
           </span>
         </div>
 
-        <div className='flex gap-5'>
+        <div className='flex gap-16 col-span-3 justify-center'>
           <div className='flex flex-col gap-3'>
             <span className='font-bold text-white'>Services</span>
-            <Link href="/life-insurance/term-life-insurance" className='cursor-pointer text-white text-sm'>Life Insurance</Link>
-            <Link href="/super-visa-insurance" className='cursor-pointer text-white text-sm'>Super Visa Insurance</Link>
-            <Link href="/visitor-canada" className='cursor-pointer text-white text-sm'>Visitor to Canada</Link>
-            <Link href="/travel-insurance" className='cursor-pointer text-white text-sm'>Travel insurance</Link>
+            <Link
+              href='/life-insurance/term-life-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Life Insurance
+            </Link>
+            <Link
+              href='/super-visa-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Super Visa Insurance
+            </Link>
+            <Link
+              href='/visitor-canada'
+              className='cursor-pointer text-white text-sm'
+            >
+              Visitor to Canada
+            </Link>
+            <Link
+              href='/travel-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Travel insurance
+            </Link>
           </div>
 
           <div className='flex flex-col gap-3'>
             <span className='font-bold text-[#3D4351]'>Services</span>
-            <Link href="/international-student-insurance" className='cursor-pointer text-white text-sm'>International Student Insurance</Link>
-            <Link href="/investments/rrsp" className='cursor-pointer text-white text-sm'>RRSP/TFSA</Link>
-            <Link href="/investments/resp" className='cursor-pointer text-white text-sm'>RESP</Link>
-            <Link href="/life-insurance/disability-insurance" className='cursor-pointer text-white text-sm'>Disability Insurance</Link>
+            <Link
+              href='/investments/rrsp'
+              className='cursor-pointer text-white text-sm'
+            >
+              RRSP/TFSA
+            </Link>
+            <Link
+              href='/investments/resp'
+              className='cursor-pointer text-white text-sm'
+            >
+              RESP
+            </Link>
+            <Link
+              href='/life-insurance/disability-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Disability Insurance
+            </Link>
+            <Link
+              href='/international-student-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Intl Student Insurance
+            </Link>
+          </div>
+
+          <div className='flex flex-col gap-3'>
+            <span className='font-bold text-[#3D4351]'>Services</span>
+            <Link
+              href='/life-insurance/critical-illness-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Critical Illness Insurance
+            </Link>
+            <Link
+              href='/home-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Home Insurance
+            </Link>
+            <Link
+              href='/auto-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Auto Insurance
+            </Link>
+            <Link
+              href='/life-insurance/health-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Health Insurance
+            </Link>
           </div>
         </div>
 
         <div className='flex flex-col gap-2'>
           <span className='font-bold text-white'>Contact Us</span>
           <span className=' text-white'>vidya@insurancebuzz.ca</span>
-          <span className=' text-white'>+1 647 469 8766</span>
+          <span className=' text-white'>+1(647)469-8766</span>
 
           <div className='flex gap-3 mt-5 items-center'>
             <i
-              style={{ fontSize: '24px', cursor: 'pointer' }}
-              className='fa text-white fa-facebook-official'
+              style={{ color: 'white', fontSize: '25px' }}
+              className='fa fa-facebook-official cursor-pointer'
+              aria-hidden='true'
+            ></i>
+            {/* <i
+              style={{ color: 'white', fontSize: '25px' }}
+              className='fa fa-twitter-square cursor-pointer'
+              aria-hidden='true'
+            ></i> */}
+            <i
+              style={{ color: 'white', fontSize: '25px' }}
+              className='fa fa-linkedin-square cursor-pointer'
               aria-hidden='true'
             ></i>
             <i
-              style={{ fontSize: '24px', cursor: 'pointer' }}
-              className='fa text-white fa-twitter-square'
+              style={{ color: 'white', fontSize: '25px' }}
+              className='fa fa-whatsapp cursor-pointer'
               aria-hidden='true'
             ></i>
             <i
-              style={{ fontSize: '24px', cursor: 'pointer' }}
-              className='fa text-white fa-linkedin-square'
+              style={{ color: 'white', fontSize: '25px' }}
+              className='fa fa-instagram cursor-pointer'
               aria-hidden='true'
             ></i>
           </div>
@@ -64,10 +142,16 @@ const MainFooter = () => {
       <div className='mt-14 text-sm text-white flex md:flex-row flex-col gap-5 justify-between'>
         <span>2023 © InsuranceBuzz - All right reserved</span>
         <div className='grid md:grid-cols-4 grid-cols-2 gap-4'>
-          <span className='hover:underline cursor-pointer'>
+          <span
+            onClick={() => router.push('/privacy-policy')}
+            className='hover:underline cursor-pointer'
+          >
             Term of Service
           </span>
-          <span className=' hover:underline cursor-pointer'>
+          <span
+            onClick={() => router.push('/privacy-policy')}
+            className=' hover:underline cursor-pointer'
+          >
             Privacy Policy
           </span>
         </div>

@@ -200,7 +200,7 @@ export default function MainNav() {
     { name: 'Home Insurance', current: false, href: '/home-insurance' },
     { name: 'Auto Insurance', current: false, href: '/auto-insurance' },
     { name: 'Others', current: false, href: '/' },
-    { name: 'About Us', current: false, href: '/about-us' },
+    // { name: 'About Us', current: false, href: '/about-us' },
     { name: 'Contact', current: false, href: '/contact' },
   ];
   const [sticky, setSticky] = useState(false);

@@ -43,11 +43,11 @@ const TopNav = () => {
               className='fa fa-facebook-official cursor-pointer'
               aria-hidden='true'
             ></i>
-            <i
+            {/* <i
               style={{ color: 'white', fontSize: '25px' }}
               className='fa fa-twitter-square cursor-pointer'
               aria-hidden='true'
-            ></i>
+            ></i> */}
             <i
               style={{ color: 'white', fontSize: '25px' }}
               className='fa fa-linkedin-square cursor-pointer'
