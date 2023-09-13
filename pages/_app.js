@@ -9,6 +9,7 @@ import '@/styles/anchor.css';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import dynamic from 'next/dynamic';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
 
 const CrispWithNoSSR = dynamic(
   () => import('../components/CrispChat/CrispChat'),
@@ -45,7 +46,8 @@ export default function App({ Component, pageProps }) {
         <TopNav />
         <MainNav />
       </div>
-      <CrispWithNoSSR />
+      <FloatingWhatsApp phoneNumber='+16474698766' accountName=' Vidya Kittur' avatar='/images/new/vidya-pic.png'/>
+      {/* <CrispWithNoSSR /> */}
       <Component {...pageProps} />
       {!isResourcesPage && (
         <div>
