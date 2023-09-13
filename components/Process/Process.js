@@ -207,12 +207,8 @@ const Process = () => {
 
           {isOpen.first ? (
             <ProcessBox
-              text1={
-                'It is always recommened to completly review the policy documents before making a purchase. Here at Insurance Buzz we help you with analyzing the documents and understanding of all the coverages and policy wordings'
-              }
-              // text2={
-              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              // }
+              text1={`At InsuranceBuzz, our process begins with a meticulous analysis of the numerous insurance documents in the market. We understand that the insurance landscape can be overwhelming, filled with complex policies and intricate details. That's why our team of dedicated experts is here to decipher the fine print for you. We dive deep into the world of insurance documents, breaking down the jargon and sifting through the details, ensuring that you have a clear understanding of your options.`}
+              text2={`Our commitment to you is to simplify the process. We believe that knowledge is power, and by carefully examining these documents, we empower you to make informed decisions about your insurance needs. Whether you&#39;re a business owner, a homeowner, or an individual seeking coverage, InsuranceBuzz has got you covered. Our thorough analysis ensures that no stone is left unturned, helping you navigate the insurance landscape with confidence.`}
               // point1={
               //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
               // }
@@ -220,12 +216,10 @@ const Process = () => {
             />
           ) : isOpen.second ? (
             <ProcessBox
-              text1={
-                'Determine what assets you need to protect, such as your home, vehicle, business, or health. Evaluate the value and importance of each asset in your life and the potential financial impact of their loss or damage.we efficiently analyze numerous intricate insurance documents and find the best suitable policy as per your requirement from the top insurance companies here in Canada.'
-              }
-              // text2={
-              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              // }
+              text1={`Insurance is not a one-size-fits-all solution. That&#39;s why the next step in the InsuranceBuzz process is to dentify the ideal policy tailored to your unique needs. We understand that your life, your assets, and your goals are distinct from anyone else&#39;s. That&#39;s why our team takes the time to get to know you personally. We consider your lifestyle, your family, your business, and your dreams to create a customized insurance plan that provides precisely the coverage you need.`}
+              text2={`Our goal is to be your insurance partner, guiding you through the process of finding the right policy.
+                We&#39;ll assess your risk profile, your budget, and your future plans to recommend insurance solutions that align perfectly with your life. Whether you&#39;re seeking protection for your family&#39;s future, your business assets, or any other aspect of your life, InsuranceBuzz is here to ensure that you have a policy that suits you like a glove. With us, it&#39;s not just about insurance; it&#39;s about tailored protection that gives you peace
+                of mind.`}
               // point1={
               //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
               // }
@@ -233,12 +227,11 @@ const Process = () => {
             />
           ) : isOpen.third ? (
             <ProcessBox
-              text1={
-                'Our platform is equipped with exclusive digital tools designed to swiftly evaluate your insurance requirements in just a few minutes , by leveraging data from various sources.Especially, with so many Insurance providers in market it gets difficult to make a choice, we provide help to compare the prices and plans to reach your required goal.'
-              }
-              // text2={
-              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              // }
+              text1={`At InsuranceBuzz, we know that getting the most competitive insurance rates is crucial. Your financial
+              security matters, and we&#39;re committed to helping you maximize your budget. Our process includes
+              shopping the market for you, leveraging our industry expertise and strong relationships with reputable
+              insurance providers to secure the best rates available.`}
+              text2={`We understand that affordability is essential, but we never compromise on the quality of coverage. Our goal is to find a cost-effective solution that meets your needs without cutting corners. We&#39;ll work closely with you to assess your unique circumstances and budget, ensuring that you receive not just coverage but the best value for your investment. With our dedication to securing competitive rates, you can have confidence that your insurance plan from InsuranceBuzz aligns with your financial goals.`}
               // point1={
               //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
               // }
@@ -246,12 +239,8 @@ const Process = () => {
             />
           ) : isOpen.forth ? (
             <ProcessBox
-              text1={
-                'We are happy to assist you get covered for the unexpected. Because Nothing is certain, except Insurance.'
-              }
-              // text2={
-              //   'We analyze complex insurance documents using data from various sources to find the perfect policy for you. We also provide competitive rates by accessing a vast database of reputable insurance companies'
-              // }
+              text1={`The final step in the InsuranceBuzz process is to simplify the paperwork for you. We know that dealing with insurance forms can be a time-consuming and daunting task. That&#39;s why we&#39;re here to streamline the process. Our team will assist you in filling out all the necessary insurance forms, ensuring that every detail is accurate and complete.`}
+              text2={`We take the hassle out of paperwork, so you can focus on what truly matters. Whether you&#39;re applying for a new policy or updating an existing one, our experts will guide you through the process, making it as smooth and straightforward as possible. We&#39;re here to save you time and effort, ensuring that your insurance journey with InsuranceBuzz is hassle-free from start to finish. Your peace of mind is our priority, and that includes simplifying the administrative aspects of insurance for you.`}
               // point1={
               //   'If you face any challenges, we assist with forms, application updates, and inquiries via phone, email, or live chat'
               // }

@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 import { useRouter } from 'next/router';
 import CoverageBox from '../components/Coverages/CoverageBox';
 
-
 const Hero = () => {
   const [sticky, setSticky] = useState(false);
 
@@ -49,9 +48,8 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  We have access to majority of the first-rate insurance
-                  companies in Canada to offer you the best coverage at the
-                  lowest available price
+                  “Life Insurance: Where Your Legacy Begins, Safeguarding
+                  Generations Ahead.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -70,9 +68,8 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  We have access to majority of the first-rate insurance
-                  companies in Canada to offer you the best coverage at the
-                  lowest available price
+                  Remember to include your travel insurance in your packing. You
+                  can get your price estimates online right away.
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -80,7 +77,7 @@ const Hero = () => {
                     style={{ fontSize: '15px' }}
                     className='p-3 text-white bg-[#FF9801] rounded'
                   >
-                    Request Quote
+                    Start Your Trip
                   </button>
                 </div>
               </div>
@@ -91,9 +88,8 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  We have access to majority of the first-rate insurance
-                  companies in Canada to offer you the best coverage at the
-                  lowest available price
+                  “Super Visa Insurance: Your Passport to Peace of Mind and
+                  Family Reunions.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -112,9 +108,8 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  We have access to majority of the first-rate insurance
-                  companies in Canada to offer you the best coverage at the
-                  lowest available price
+                  “Safeguarding What Matters Most - Your Home, Your Peace of
+                  Mind.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -133,9 +128,8 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  We have access to majority of the first-rate insurance
-                  companies in Canada to offer you the best coverage at the
-                  lowest available price
+                  “Auto Insurance That Travels the Extra Mile for You.” “Ride
+                  with Confidence, Backed by Our Auto Insurance.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -154,9 +148,8 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  We have access to majority of the first-rate insurance
-                  companies in Canada to offer you the best coverage at the
-                  lowest available price
+                  “Secure Your Tomorrow with RRSP &amp; TFSA – Where Smart
+                  Investing Meets Tax Benefits.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -169,74 +162,72 @@ const Hero = () => {
                 </div>
               </div>
             </Slider>
-
-            </div>
           </div>
-            <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-5 sm:px-20 px-10 py-10'>
-              <CoverageBox
-                onClick={() =>
-                  router.push('/life-insurance/term-life-insurance')
-                }
-                image={'/images/new/life-new.jpeg'}
-                position='80% 10%'
-                text={'Life Insurance'}
-              />
-              <CoverageBox
-                onClick={() => router.push('/super-visa-insurance')}
-                image={'/images/new/super-visa.jpeg'}
-                text={'Super Visa Insurance'}
-              />
-              <CoverageBox
-                onClick={() => router.push('/visitor-canada')}
-                image={'/images/new/visitor.png'}
-                text={'Visitor to Canada'}
-              />
-              <CoverageBox
-                onClick={() => router.push('/travel-insurance')}
-                image={'/images/sub/travel-new.png'}
-                text={'Travel Insurance'}
-                position='10% 4%'
-              />
-              <CoverageBox
-                onClick={() => router.push('/international-student-insurance')}
-                image={'/images/new/intl-new.jpg'}
-                // image={'/images/new/international-students.jpg'}
-                text={'Intl student insurance'}
-              />
+        </div>
+        <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-5 sm:px-20 px-10 py-10'>
+          <CoverageBox
+            onClick={() => router.push('/life-insurance/term-life-insurance')}
+            image={'/images/new/life-new.jpeg'}
+            position='80% 10%'
+            text={'Life Insurance'}
+          />
+          <CoverageBox
+            onClick={() => router.push('/super-visa-insurance')}
+            image={'/images/new/super-visa.jpeg'}
+            text={'Super Visa Insurance'}
+          />
+          <CoverageBox
+            onClick={() => router.push('/visitor-canada')}
+            image={'/images/new/visitor.png'}
+            text={'Visitor to Canada'}
+          />
+          <CoverageBox
+            onClick={() => router.push('/travel-insurance')}
+            image={'/images/sub/travel-new.png'}
+            text={'Travel Insurance'}
+            position='10% 4%'
+          />
+          <CoverageBox
+            onClick={() => router.push('/international-student-insurance')}
+            image={'/images/new/intl-new.jpg'}
+            // image={'/images/new/international-students.jpg'}
+            text={'Intl student insurance'}
+          />
         </div>
 
         <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-5 sm:px-20 px-10 py-10'>
-        <CoverageBox
-          onClick={() => router.push('/investments/rrsp')}
-          image={'/images/new/rrsp.jpeg'}
-          text={'RRSP / TFSA'}
-        />
-        <CoverageBox
-          onClick={() => router.push('/investments/resp')}
-          image={'/images/new/resp-new.jpeg'}
-          text={'RESP'}
-          position='10% 20%'
-        />
-        <CoverageBox
-          onClick={() =>
-            router.push('/life-insurance/critical-illness-insurance')
-          }
-          image={'/images/new/critical-illness.jpg'}
-          text={'Critical Illness Insurance'}
-          position='25% 10%'
-        />
-        <CoverageBox
-          onClick={() => router.push('/life-insurance/disability-insurance')}
-          image={'/images/new/disability-insurance.jpeg'}
-          text={'Disability Insurance'}
-          position='10% 10%'
-        />
-        <CoverageBox
-          onClick={() => router.push('/life-insurance/health-insurance')}
-          image={'/images/sub/health-new.jpeg'}
-          text={'Health Insurance'} position='10% 20%'
-        />
-      </div>
+          <CoverageBox
+            onClick={() => router.push('/investments/rrsp')}
+            image={'/images/new/rrsp.jpeg'}
+            text={'RRSP / TFSA'}
+          />
+          <CoverageBox
+            onClick={() => router.push('/investments/resp')}
+            image={'/images/new/resp-new.jpeg'}
+            text={'RESP'}
+            position='10% 20%'
+          />
+          <CoverageBox
+            onClick={() =>
+              router.push('/life-insurance/critical-illness-insurance')
+            }
+            image={'/images/new/critical-illness.jpg'}
+            text={'Critical Illness Insurance'}
+            position='25% 10%'
+          />
+          <CoverageBox
+            onClick={() => router.push('/life-insurance/disability-insurance')}
+            image={'/images/new/disability-insurance.jpeg'}
+            text={'Disability Insurance'}
+            position='10% 10%'
+          />
+          <CoverageBox
+            onClick={() => router.push('/life-insurance/health-insurance')}
+            image={'/images/sub/health-new.jpeg'}
+            text={'Health Insurance'}
+            position='10% 20%'
+          />
+        </div>
       </div>
     </>
   );
