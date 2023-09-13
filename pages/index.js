@@ -7,6 +7,7 @@ import Hero from '@/components/Hero';
 import Head from 'next/head';
 import TravelSlider from '@/components/TravelSlider';
 import LifeSlider from '@/components/LifeSlider';
+import { Testimonials } from '@/components/Testimonials/Testimonials';
 
 export default function Home() {
   return (
@@ -25,21 +26,6 @@ export default function Home() {
       >
         <Hero />
       </div>
-
-      {/* <AboutUs /> */}
-
-      {/* <div
-        style={{
-          background: `url(${'/images/home.jpg'})`,
-          // background: `url(${'/images/image4.png'})`,
-          // backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: 'top',
-        }}
-        className='relative top-[-165px]'
-      >
-        <Coverages />
-      </div> */}
 
       <div
         style={{
@@ -77,7 +63,7 @@ export default function Home() {
         <WhyChoose />
       </div>
 
-      <div className='flex flex-col relative top-[-165px] bg-[white] p-10 pt-10 gap-4'>
+      <div className='flex flex-col relative top-[-125px] bg-[white] p-10 pt-10 gap-4'>
         <span className=' text-center my-4 text-2xl text-black font-bold'>
           Travel Insurance Providers
         </span>
@@ -88,7 +74,7 @@ export default function Home() {
         </span>
         <LifeSlider />
       </div>
-      <div className='px-5 relative top-[-165px] xl:px-0 mt-16'>
+      <div className='px-5 relative top-[-135px] xl:px-0 mt-16'>
         <div
           style={{ boxShadow: '0px 5px 7px 0px rgb(114 114 114 / 25%)' }}
           className=' px-5 py-6  xl:max-w-7xl max-w-screen-lg rounded-xl bg-white m-auto'
@@ -102,7 +88,7 @@ export default function Home() {
             <InsuranceSolutions
               image={'/images/insurancesol1.png'}
               text1={'30+'}
-              text2={'Satisfied Clients'}
+              text2={'Insurance Companies'}
             />
             <InsuranceSolutions
               image={'/images/insurancesol2.png'}
@@ -115,6 +101,14 @@ export default function Home() {
               text2={'Insurance Types'}
             />
           </div>
+        </div>
+      </div>
+      <div className=''>
+        <div className='bg-[#61b1bc] py-12'>
+          <p className='bg-[#FFDB58] w-fit text-black p-[0.35rem] container mx-auto'>
+            Testimonials
+          </p>
+          <Testimonials />
         </div>
       </div>
     </>
