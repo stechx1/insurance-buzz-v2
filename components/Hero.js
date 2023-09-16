@@ -48,7 +48,7 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  “Life Insurance: Where Your Legacy Begins, Safeguarding
+                  “Where Your Legacy Begins, Safeguarding
                   Generations Ahead.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
@@ -88,7 +88,7 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  “Super Visa Insurance: Your Passport to Peace of Mind and
+                  “Your Passport to Peace of Mind and
                   Family Reunions.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
