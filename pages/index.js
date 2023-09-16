@@ -104,7 +104,7 @@ export default function Home() {
         </div>
       </div>
       <div className=''>
-        <div className='bg-[#61b1bc] py-12'>
+        <div className='py-12'>
           <p className='bg-[#FFDB58] w-fit text-black p-[0.35rem] container mx-auto'>
             Testimonials
           </p>

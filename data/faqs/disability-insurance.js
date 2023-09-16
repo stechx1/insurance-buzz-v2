@@ -1,7 +1,7 @@
 export const disabilityInsuranceItems = [
   {
     key: '1',
-    label: '1. What are the various forms of disability insurance?',
+    label: 'What are the various forms of disability insurance?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -45,7 +45,7 @@ export const disabilityInsuranceItems = [
   {
     key: '2',
     label:
-      '2. What is the concept of disability insurance and what does it encompass?',
+      'What is the concept of disability insurance and what does it encompass?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -77,7 +77,7 @@ export const disabilityInsuranceItems = [
   {
     key: '3',
     label:
-      '3. Is disability insurance necessary if I already have critical illness insurance?',
+      'Is disability insurance necessary if I already have critical illness insurance?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -94,7 +94,7 @@ export const disabilityInsuranceItems = [
   },
   {
     key: '4',
-    label: '4. How does an Attending Physician Statement function?',
+    label: 'How does an Attending Physician Statement function?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -124,7 +124,7 @@ export const disabilityInsuranceItems = [
   {
     key: '5',
     label:
-      "5. What's the purpose of insurers requiring an Attending Physician Statement pertaining to my medical history?",
+      "What's the purpose of insurers requiring an Attending Physician Statement pertaining to my medical history?",
     children: (
       <div className='space-y-2'>
         <p>
@@ -157,7 +157,7 @@ export const disabilityInsuranceItems = [
   },
   {
     key: '6',
-    label: '6. The Advantages and Drawbacks of Disability Insurance',
+    label: 'The Advantages and Drawbacks of Disability Insurance',
     children: (
       <div className='space-y-2'>
         <p className='font-bold'>Advantages</p>
@@ -199,7 +199,7 @@ export const disabilityInsuranceItems = [
   },
   {
     key: '7',
-    label: '7. What is the concept of short-term disability insurance?',
+    label: 'What is the concept of short-term disability insurance?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -237,7 +237,7 @@ export const disabilityInsuranceItems = [
   },
   {
     key: '8',
-    label: '8. How does short-term disability insurance operate?',
+    label: 'How does short-term disability insurance operate?',
     children: (
       <div className='space-y-2'>
         <p>

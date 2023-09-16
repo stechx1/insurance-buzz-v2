@@ -1,5 +1,8 @@
 import { CoverageDetail } from '@/components/CoverageDetail';
 import { HeroSection } from '@/components/HeroSection/HeroSection';
+import { healthInsuranceItems } from '@/data/faqs/health-insurance';
+import { Collapse } from 'antd';
+
 const HealthPage = () => {
   return (
     <>
@@ -17,6 +20,21 @@ const HealthPage = () => {
 
       <div className='relative top-[-165px]'>
         <CoverageDetail />
+      </div>
+
+      <div
+        className='p-5 relative top-[-90px]'
+        id='life-insurance'
+        style={{ background: '#45A1D3' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Health Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={healthInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
       </div>
     </>
   );

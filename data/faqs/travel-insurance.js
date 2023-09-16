@@ -1,7 +1,7 @@
 export const travelInsuranceItems = [
   {
     key: '1',
-    label: '1. What does visitors insurance entail?',
+    label: 'What does visitors insurance entail?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -55,7 +55,7 @@ export const travelInsuranceItems = [
   },
   {
     key: '2',
-    label: '2. What categories of travel insurance are available?',
+    label: 'What categories of travel insurance are available?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -98,7 +98,7 @@ export const travelInsuranceItems = [
   {
     key: '3',
     label:
-      '3. Is coverage provided by travel insurance for pre-existing conditions?',
+      'Is coverage provided by travel insurance for pre-existing conditions?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -113,7 +113,7 @@ export const travelInsuranceItems = [
   },
   {
     key: '4',
-    label: '4. What does visitor insurance encompass? ',
+    label: 'What does visitor insurance encompass? ',
     children: (
       <div className='space-y-2'>
         <p>
@@ -145,7 +145,7 @@ export const travelInsuranceItems = [
   },
   {
     key: '5',
-    label: '5. What is Super Visa?',
+    label: 'What is Super Visa?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -165,7 +165,7 @@ export const travelInsuranceItems = [
   },
   {
     key: '6',
-    label: '6. What are the criteria for qualifying for a super visa?',
+    label: 'What are the criteria for qualifying for a super visa?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -207,7 +207,7 @@ export const travelInsuranceItems = [
   {
     key: '7',
     label:
-      '7. Is it necessary to obtain travel insurance for my journey from India to Canada?',
+      'Is it necessary to obtain travel insurance for my journey from India to Canada?',
     children: (
       <div className='space-y-2'>
         <p>

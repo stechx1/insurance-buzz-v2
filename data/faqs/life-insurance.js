@@ -1,7 +1,7 @@
 export const lifeInsuranceItems = [
   {
     key: '1',
-    label: '1. Types of life insurance',
+    label: 'Types of life insurance',
     children: (
       <div className='space-y-2'>
         <p>a. Term Insurance - </p>
@@ -137,7 +137,7 @@ export const lifeInsuranceItems = [
   },
   {
     key: '2',
-    label: '2. Term versus whole life insurance',
+    label: 'Term versus whole life insurance',
     children: (
       <div>
         <div className='flex flex-col gap-2'>
@@ -202,7 +202,7 @@ export const lifeInsuranceItems = [
   },
   {
     key: '3',
-    label: '3. What is the cost of life insurance in Canada?',
+    label: 'What is the cost of life insurance in Canada?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -240,7 +240,7 @@ export const lifeInsuranceItems = [
   {
     key: '4',
     label:
-      '4. How can I establish the appropriate amount of life insurance coverage required?',
+      'How can I establish the appropriate amount of life insurance coverage required?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -264,7 +264,7 @@ export const lifeInsuranceItems = [
   {
     key: '5',
     label:
-      '5. What amount of life insurance is necessary to settle your debts?',
+      'What amount of life insurance is necessary to settle your debts?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -294,7 +294,7 @@ export const lifeInsuranceItems = [
   {
     key: '6',
     label:
-      "6. What is the necessary life insurance coverage to support my family's living expenses?",
+      "What is the necessary life insurance coverage to support my family's living expenses?",
     children: (
       <div className='space-y-2'>
         <p>
@@ -332,7 +332,7 @@ export const lifeInsuranceItems = [
   },
   {
     key: '7',
-    label: '7. Do I need life insurance if I have it through work?',
+    label: 'Do I need life insurance if I have it through work?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -351,7 +351,7 @@ export const lifeInsuranceItems = [
   },
   {
     key: '8',
-    label: '8. What advantages does group life insurance offer?',
+    label: 'What advantages does group life insurance offer?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -415,7 +415,7 @@ export const lifeInsuranceItems = [
   },
   {
     key: '9',
-    label: '9. What is Single Life Insurance?',
+    label: 'What is Single Life Insurance?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -445,7 +445,7 @@ export const lifeInsuranceItems = [
   },
   {
     key: '10',
-    label: '10. What does "Joint Life Insurance" mean?    ',
+    label: 'What does "Joint Life Insurance" mean?    ',
     children: (
       <div className='space-y-2'>
         <p>

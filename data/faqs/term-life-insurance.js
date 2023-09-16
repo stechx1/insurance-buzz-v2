@@ -1,7 +1,7 @@
 export const termLifeInsuranceItems = [
   {
     key: '1',
-    label: '1. Is term life insurance necessary for me?',
+    label: 'Is term life insurance necessary for me?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -26,7 +26,7 @@ export const termLifeInsuranceItems = [
   {
     key: '2',
     label:
-      '2. Is it possible to terminate my term life insurance policy at any point?',
+      'Is it possible to terminate my term life insurance policy at any point?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -43,7 +43,7 @@ export const termLifeInsuranceItems = [
   {
     key: '3',
     label:
-      '3. Will you receive a refund upon canceling your term life insurance policy?',
+      'Will you receive a refund upon canceling your term life insurance policy?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -60,7 +60,7 @@ export const termLifeInsuranceItems = [
   },
   {
     key: '4',
-    label: '4. How long should you hold a term life insurance policy?',
+    label: 'How long should you hold a term life insurance policy?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -79,7 +79,7 @@ export const termLifeInsuranceItems = [
   },
   {
     key: '5',
-    label: '5. What occurs if I surpass the duration of my insurance coverage?',
+    label: 'What occurs if I surpass the duration of my insurance coverage?',
     children: (
       <div className='space-y-2'>
         <p>

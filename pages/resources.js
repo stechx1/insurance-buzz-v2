@@ -6,6 +6,7 @@ import { disabilityInsuranceItems } from '@/data/faqs/disability-insurance';
 import { claimInsuranceItems } from '@/data/faqs/claim-insurance';
 import { criticalIllnessItems } from '@/data/faqs/critical-illness-insurance';
 import Link from 'next/link';
+import { healthInsuranceItems } from '@/data/faqs/health-insurance';
 
 const ResourcesPage = () => {
   return (
@@ -67,6 +68,20 @@ const ResourcesPage = () => {
               <Collapse
                 ghost
                 items={lifeInsuranceItems}
+                // defaultActiveKey={['1']}
+              />
+            </div>
+            <div
+              className='p-4 '
+              id='life-insurance'
+              style={{ minHeight: '100vh', background: '#61b1bc' }}
+            >
+              <h1 className='text-white font-bold text-3xl'>
+                Health Insurance FAQs
+              </h1>
+              <Collapse
+                ghost
+                items={healthInsuranceItems}
                 // defaultActiveKey={['1']}
               />
             </div>

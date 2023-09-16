@@ -141,7 +141,7 @@ export const claimInsuranceItems = [
   },
   {
     key: '2',
-    label: '2. Is it possible for a life insurance claim to be declined?',
+    label: 'Is it possible for a life insurance claim to be declined?',
     children: (
       <div className='space-y-2'>
         <p>
@@ -206,7 +206,7 @@ export const claimInsuranceItems = [
   },
   {
     key: '3',
-    label: '3. Is it possible for a life insurance claim to experience delays?',
+    label: 'Is it possible for a life insurance claim to experience delays?',
     children: (
       <div className='space-y-2'>
         <p>
