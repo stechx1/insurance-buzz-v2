@@ -104,12 +104,7 @@ export default function Home() {
         </div>
       </div>
       <div className=''>
-        <div className='py-12'>
-          <p className='bg-[#FFDB58] w-fit text-black p-[0.35rem] container mx-auto'>
-            Testimonials
-          </p>
           <Testimonials />
-        </div>
       </div>
     </>
   );

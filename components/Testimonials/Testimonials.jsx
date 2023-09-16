@@ -14,7 +14,7 @@ export const Testimonials = () => {
     <div className=''>
       <div className='w-1/2 text-center container mx-auto'>
         <Slider {...settings}>
-          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center py-20'>
+          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center pb-20'>
             <p>
               InsuranceBuzz is more, than an advisor. They are a partner, in my
               financial planning. Their knowledge and guidance have proven
@@ -24,7 +24,7 @@ export const Testimonials = () => {
             <h1 className='font-bold text-lg'>Pratik Chougule</h1>
           </div>
 
-          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center py-20'>
+          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center pb-20'>
             <p>
               My insurance advisor was extremely knowledgeable and patient. They
               took the time to explain all the options to me and helped me find
@@ -33,7 +33,7 @@ export const Testimonials = () => {
             <h1 className='font-bold text-lg'>Rahul Kolte</h1>
           </div>
 
-          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center py-20'>
+          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center pb-20'>
             <p>
               I had the pleasure of working with an insurance advisor who truly
               displayed a level of professionalism. They effortlessly explained
@@ -44,7 +44,7 @@ export const Testimonials = () => {
             <h1 className='font-bold text-lg'>Shweta Ankadavar</h1>
           </div>
 
-          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center py-20'>
+          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center pb-20'>
             <p>
               &quot;I was really impressed, by the application process, great
               prices and outstanding customer service provided by Insurance
@@ -55,7 +55,7 @@ export const Testimonials = () => {
             <h1 className='font-bold text-lg'>Shradhha Shah</h1>
           </div>
 
-          <div className='w-1/2 !flex flex-col justify-center gap-4 items-center py-20'>
+          <div className='w-1/2 !flex flex-col justify-center gap-4 items-center pb-20'>
             <p>
               &quot;The life insurance policy provided me with a sense of
               security and financial protection, in case of any events. I was
@@ -65,7 +65,7 @@ export const Testimonials = () => {
             <h1 className='font-bold text-lg'>Kiranveer</h1>
           </div>
 
-          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center py-20'>
+          <div className='w-1/2 !flex flex-col justify-center gap-8 items-center pb-20'>
             <p>
               I chose Vidya from InsuranceBuzz as my advisor because their
               process is hassle free and they understood my needs. Their
