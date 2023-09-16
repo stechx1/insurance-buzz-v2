@@ -25,7 +25,7 @@ const HealthPage = () => {
       <div
         className='p-5 relative top-[-90px]'
         id='life-insurance'
-        style={{ background: '#45A1D3' }}
+        style={{ background: '#eabd03' }}
       >
         <h1 className='text-white font-bold text-3xl container mx-auto'>
           Health Insurance FAQs
