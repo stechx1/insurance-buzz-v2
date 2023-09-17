@@ -29,38 +29,10 @@ const MainFooter = () => {
               Life Insurance
             </Link>
             <Link
-              href='/super-visa-insurance'
+              href='/life-insurance/critical-illness-insurance'
               className='cursor-pointer text-white text-sm'
             >
-              Super Visa Insurance
-            </Link>
-            <Link
-              href='/visitor-canada'
-              className='cursor-pointer text-white text-sm'
-            >
-              Visitor to Canada
-            </Link>
-            <Link
-              href='/travel-insurance'
-              className='cursor-pointer text-white text-sm'
-            >
-              Travel insurance
-            </Link>
-          </div>
-
-          <div className='flex flex-col gap-3'>
-            <span className='font-bold text-[#3D4351]'>Services</span>
-            <Link
-              href='/investments/rrsp'
-              className='cursor-pointer text-white text-sm'
-            >
-              RRSP/TFSA
-            </Link>
-            <Link
-              href='/investments/resp'
-              className='cursor-pointer text-white text-sm'
-            >
-              RESP
+              Critical Illness Insurance
             </Link>
             <Link
               href='/life-insurance/disability-insurance'
@@ -69,21 +41,56 @@ const MainFooter = () => {
               Disability Insurance
             </Link>
             <Link
-              href='/international-student-insurance'
+              href='/life-insurance/health-insurance'
               className='cursor-pointer text-white text-sm'
             >
-              Intl Student Insurance
+              Health Insurance
+            </Link>
+            <Link
+              href='/investments/rrsp'
+              className='cursor-pointer text-white text-sm'
+            >
+              RRSP/TFSA
             </Link>
           </div>
 
           <div className='flex flex-col gap-3'>
             <span className='font-bold text-[#3D4351]'>Services</span>
             <Link
-              href='/life-insurance/critical-illness-insurance'
+              href='/visitor-canada'
               className='cursor-pointer text-white text-sm'
             >
-              Critical Illness Insurance
+              Visitor to Canada
             </Link>
+            <Link
+              href='/super-visa-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Super Visa Insurance
+            </Link>
+            <Link
+              href='/travel-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Travel insurance
+            </Link>
+            <Link
+              href='/international-student-insurance'
+              className='cursor-pointer text-white text-sm'
+            >
+              Intl Student Insurance
+            </Link>
+            <Link
+              href='/investments/resp'
+              className='cursor-pointer text-white text-sm'
+            >
+              RESP
+            </Link>
+          </div>
+
+          <div className='flex flex-col gap-3'>
+            <span className='font-bold text-[#3D4351]'>Services</span>
+
             <Link
               href='/home-insurance'
               className='cursor-pointer text-white text-sm'
@@ -97,10 +104,16 @@ const MainFooter = () => {
               Auto Insurance
             </Link>
             <Link
-              href='/life-insurance/health-insurance'
+              href='/about-us'
               className='cursor-pointer text-white text-sm'
             >
-              Health Insurance
+              About Us
+            </Link>
+            <Link
+              href='/resources'
+              className='cursor-pointer text-white text-sm'
+            >
+              Resources
             </Link>
           </div>
         </div>

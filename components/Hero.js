@@ -48,8 +48,7 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  “Where Your Legacy Begins, Safeguarding
-                  Generations Ahead.”
+                  “Where Your Legacy Begins, Safeguarding Generations Ahead.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -88,8 +87,7 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  “Your Passport to Peace of Mind and
-                  Family Reunions.”
+                  “Your Passport to Peace of Mind and Family Reunions.”
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button
@@ -128,8 +126,9 @@ const Hero = () => {
                 </h1>
 
                 <h3 className='text-[#EDEDED] text-base lg:w-[40%] w-full'>
-                  “Auto Insurance That Travels the Extra Mile for You.” “Ride
-                  with Confidence, Backed by Our Auto Insurance.”
+                  Auto Insurance That Travels the Extra Mile for You.
+                  <br />
+                  Ride with Confidence, Backed by Our Auto Insurance.
                 </h3>
                 <div className='flex gap-2 mt-6'>
                   <button

@@ -12,12 +12,27 @@ const VisitorCanada = () => {
             stays if they fall ill, as well as covering additional hotel stays
             in case their return flight is canceled.`}
         img={'/images/sub/visitor.jpeg'}
-        color={'#04345CCC'} position='10% 20%'
+        color={'#04345CCC'} position='10% 45%'
       />
       
       <div className='relative top-[-165px]'>
         <CoverageDetail />
       </div>
+
+      {/* <div
+        className='p-5 relative top-[-60px]'
+        id='life-insurance'
+        style={{ background: '#ED8B09' }}
+      >
+        <h1 className='text-white font-bold text-3xl container mx-auto'>
+          Travel Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={travelInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
+      </div> */}
     </>
   );
 };
