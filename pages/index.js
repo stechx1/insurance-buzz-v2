@@ -74,7 +74,7 @@ export default function Home() {
         </span>
         <LifeSlider />
       </div>
-      <div className='px-5 relative top-[-135px] xl:px-0 mt-16'>
+      <div className='px-5 relative top-[-135px] xl:px-0 mt-16 bg-[#FFDB58] py-20'>
         <div
           style={{ boxShadow: '0px 5px 7px 0px rgb(114 114 114 / 25%)' }}
           className=' px-5 py-6  xl:max-w-7xl max-w-screen-lg rounded-xl bg-white m-auto'
