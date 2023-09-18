@@ -9,7 +9,7 @@ export const lifeInsuranceItems = [
         <ul className="list-disc ml-6 space-y-2">
           <li>
             <span className="text-md font-bold underline">
-              Term Insurance -
+              Term Insurance:
             </span>{" "}
             This type of insurance provides coverage for a specific term or
             duration.
