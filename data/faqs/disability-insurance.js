@@ -1,53 +1,67 @@
 export const disabilityInsuranceItems = [
   {
-    key: '1',
-    label: 'What are the various forms of disability insurance?',
+    key: "1",
+    label: (
+      <span className="text-md font-bold">
+        What are the various forms of disability insurance?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           In broad terms, disability insurance is categorized into two types,
           each aptly reflecting its function – a straightforward categorization
           that requires no intricate mnemonics.
         </p>
 
-        <p>
-          Short-Term Disability Insurance: This category typically addresses
-          income loss due to temporary health challenges caused by minor
-          illnesses or accidents. Benefit payments can initiate once you've
-          exhausted your sick leave, often within 1 to 14 days of submitting a
-          claim. Coverage duration spans around 6 to 26 weeks, though it can
-          extend up to 52 weeks. This coverage is frequently employed for brief
-          health setbacks like minor accidents, sports injuries, or temporary
-          back problems that might hinder your work for several weeks or months.
-          Short-term disability insurance often takes precedence, often covering
-          the period before long-term disability coverage payments commence
-          (refer to the "elimination period" below). Employers usually offer
-          short-term plans as a means to attract and retain talent, typically
-          covering around 50 to 70 percent of your income. In cases where
-          employers don't provide this coverage, eligible employees may rely on
-          federal Employment Insurance (EI) disability benefits.
-        </p>
+        <ul className="list-disc">
+          <li>
+            <span className="text-md font-bold underline">
+              Short-Term Disability Insurance:
+            </span>
+            This category typically addresses income loss due to temporary
+            health challenges caused by minor illnesses or accidents. Benefit
+            payments can initiate once you've exhausted your sick leave, often
+            within 1 to 14 days of submitting a claim. Coverage duration spans
+            around 6 to 26 weeks, though it can extend up to 52 weeks. This
+            coverage is frequently employed for brief health setbacks like minor
+            accidents, sports injuries, or temporary back problems that might
+            hinder your work for several weeks or months. Short-term disability
+            insurance often takes precedence, often covering the period before
+            long-term disability coverage payments commence (refer to the
+            "elimination period" below). Employers usually offer short-term
+            plans as a means to attract and retain talent, typically covering
+            around 50 to 70 percent of your income. In cases where employers
+            don't provide this coverage, eligible employees may rely on federal
+            Employment Insurance (EI) disability benefits.
+          </li>
 
-        <p>
-          Long-Term Disability Insurance: This insurance safeguards against
-          income loss arising from persistent, enduring health issues. Its
-          coverage typically commences after the short-term disability period
-          and can span 2 to 5 years or, more commonly, extend until the age of
-          65 (standard retirement age). Long-term disability insurance is often
-          purchased by individuals to supplement employer-provided disability
-          coverage. It's frequently used to address enduring health concerns
-          such as mental health issues, musculoskeletal problems, accidents, and
-          more.
-        </p>
+          <li>
+            <span className="text-md font-bold underline">
+              Long-Term Disability Insurance:
+            </span>
+            This insurance safeguards against income loss arising from
+            persistent, enduring health issues. Its coverage typically commences
+            after the short-term disability period and can span 2 to 5 years or,
+            more commonly, extend until the age of 65 (standard retirement age).
+            Long-term disability insurance is often purchased by individuals to
+            supplement employer-provided disability coverage. It's frequently
+            used to address enduring health concerns such as mental health
+            issues, musculoskeletal problems, accidents, and more.
+          </li>
+        </ul>
       </div>
     ),
   },
   {
-    key: '2',
-    label:
-      'What is the concept of disability insurance and what does it encompass?',
+    key: "2",
+    label: (
+      <span className="text-md font-bold">
+        What is the concept of disability insurance and what does it encompass?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Disability insurance is designed to replace a significant portion of
           your earnings in the event that an injury or illness hampers your
@@ -75,11 +89,15 @@ export const disabilityInsuranceItems = [
     ),
   },
   {
-    key: '3',
-    label:
-      'Is disability insurance necessary if I already have critical illness insurance?',
+    key: "3",
+    label: (
+      <span className="text-md font-bold">
+        Is disability insurance necessary if I already have critical illness
+        insurance?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           The response to this query (and conversely) isn't straightforward and
           relies on factors like your age and specific needs. These two
@@ -93,10 +111,14 @@ export const disabilityInsuranceItems = [
     ),
   },
   {
-    key: '4',
-    label: 'How does an Attending Physician Statement function?',
+    key: "4",
+    label: (
+      <span className="text-md font-bold">
+        How does an Attending Physician Statement function?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           An Attending Physician Statement serves as a report authored by your
           medical doctor, offering a comprehensive overview of your health
@@ -122,11 +144,15 @@ export const disabilityInsuranceItems = [
     ),
   },
   {
-    key: '5',
-    label:
-      "What's the purpose of insurers requiring an Attending Physician Statement pertaining to my medical history?",
+    key: "5",
+    label: (
+      <span className="text-md font-bold">
+        What's the purpose of insurers requiring an Attending Physician
+        Statement pertaining to my medical history?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           The Attending Physician Statement (APS) serves as a means for insurers
           to gain a comprehensive grasp of your medical background and your
@@ -156,52 +182,64 @@ export const disabilityInsuranceItems = [
     ),
   },
   {
-    key: '6',
-    label: 'The Advantages and Drawbacks of Disability Insurance',
+    key: "6",
+    label: (
+      <span className="text-md font-bold">
+        The Advantages and Drawbacks of Disability Insurance
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
-        <p className='font-bold'>Advantages</p>
-        <p>
-          <span className='font-bold'>Independent Coverage: </span>Disability
-          insurance operates as an autonomous policy, standing separate from
-          your workplace benefits or life insurance. This grants you increased
-          flexibility to personalize coverage and benefit terms. Moreover, you
-          can have the assurance that your coverage remains intact, whether you
-          alter employers or modify your life insurance policy.
-        </p>
-        <p>
-          <span className='font-bold'>Income Safeguard:</span> Disability
-          insurance serves as an effective means of replacing a significant
-          portion of your income in the event of work incapacity. This factor is
-          pivotal in upholding a consistent standard of living should you face a
-          disabling illness or accident.
-        </p>
+      <div className="space-y-2">
+        <p className="font-bold">Advantages</p>
+        <ul className="list-disc">
+          <li>
+            <span className="font-bold text-md underline">Independent Coverage: </span>Disability
+            insurance operates as an autonomous policy, standing separate from
+            your workplace benefits or life insurance. This grants you increased
+            flexibility to personalize coverage and benefit terms. Moreover, you
+            can have the assurance that your coverage remains intact, whether
+            you alter employers or modify your life insurance policy.
+          </li>
+          <li>
+            <span className="font-bold text-md underline">Income Safeguard:</span> Disability
+            insurance serves as an effective means of replacing a significant
+            portion of your income in the event of work incapacity. This factor
+            is pivotal in upholding a consistent standard of living should you
+            face a disabling illness or accident.
+          </li>
+        </ul>
 
-        <p className='font-bold'>Drawbacks: </p>
-        <p>
-          <span className='font-bold'>Rigorous Underwriting: </span>Comparable
-          to life insurance, disability insurance necessitates a comprehensive
-          underwriting process to ascertain your eligibility for coverage. This
-          involves medical assessments to identify any pre-existing conditions
-          that might lead to a disability claim, along with an evaluation of
-          your income for coverage purposes.
-        </p>
-        <p>
-          <span className='font-bold'>Elevated Premiums: </span>
-          While premium rates do fluctuate based on the policyholder and their
-          chosen coverage, disability insurance generally commands higher
-          monthly premiums in comparison to disability riders. Factors
-          influencing premium rates encompass age, health, occupation, coverage
-          amount, and term limitations.
-        </p>
+        <p className="font-bold">Drawbacks: </p>
+        <ul className="list-disc">
+          <li>
+            <span className="font-bold text-md underline">Rigorous Underwriting: </span>Comparable
+            to life insurance, disability insurance necessitates a comprehensive
+            underwriting process to ascertain your eligibility for coverage.
+            This involves medical assessments to identify any pre-existing
+            conditions that might lead to a disability claim, along with an
+            evaluation of your income for coverage purposes.
+          </li>
+          <li>
+            <span className="font-bold text-md underline">Elevated Premiums: </span>
+            While premium rates do fluctuate based on the policyholder and their
+            chosen coverage, disability insurance generally commands higher
+            monthly premiums in comparison to disability riders. Factors
+            influencing premium rates encompass age, health, occupation,
+            coverage amount, and term limitations.
+          </li>
+        </ul>
       </div>
     ),
   },
   {
-    key: '7',
-    label: 'What is the concept of short-term disability insurance?',
+    key: "7",
+    label: (
+      <span className="text-md font-bold">
+        What is the concept of short-term disability insurance?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Short-term disability insurance offers a solution for income
           replacement when you encounter a brief period of inability to work.
@@ -236,10 +274,14 @@ export const disabilityInsuranceItems = [
     ),
   },
   {
-    key: '8',
-    label: 'How does short-term disability insurance operate?',
+    key: "8",
+    label: (
+      <span className="text-md font-bold">
+        How does short-term disability insurance operate?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Short-term disability insurance functions as a means of substituting
           your income during the interim between exhausting your sick leave and
