@@ -145,18 +145,70 @@ export const travelInsuranceItems = [
         <p className="text-md">
           The scope of coverage provided by Canadian visitor insurance can vary
           based on the type of plan you select. Potential coverage includes:
-          Unanticipated medical expenses: This covers emergency hospitalization,
-          prescribed medications, emergency dental treatment, and costs related
-          to medical equipment such as crutches, wheelchairs, or braces.
-          Ambulance transportation: Expenses linked to ambulance transportation
-          during emergencies. Emergency air transportation back home: This facet
-          addresses the cost of emergency air transportation to return to your
-          home country. Pre-existing conditions (in certain cases): Coverage for
-          pre-existing medical conditions might be included in some plans.
-          Non-refundable costs: Reimbursement for expenses that are
-          non-refundable due to trip cancellations. Multiple trips: Some plans
-          might encompass coverage for multiple trips. Lost or stolen luggage:
-          Compensation for lost or stolen luggage. Roadside assistance services:
+          <ul className="list-disc">
+            <li>
+              <span className="text-md font-bold underline">
+                Unanticipated medical expenses:
+              </span>
+              This covers emergency hospitalization, prescribed medications,
+              emergency dental treatment, and costs related to medical equipment
+              such as crutches, wheelchairs, or braces.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Ambulance transportation:{" "}
+              </span>
+              Expenses linked to ambulance transportation during emergencies.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Emergency air transportation back home:
+              </span>
+              This facet addresses the cost of emergency air transportation to
+              return to your home country.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Pre-existing conditions (in certain cases):
+              </span>
+              Coverage for pre-existing medical conditions might be included in
+              some plans.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Non-refundable costs:
+              </span>
+              Reimbursement for expenses that are non-refundable due to trip
+              cancellations.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Multiple trips:
+              </span>
+              Some plans might encompass coverage for multiple trips.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Lost or stolen luggage:
+              </span>
+              Compensation for lost or stolen luggage.
+            </li>
+
+            <li>
+              <span className="text-md font-bold underline">
+                Roadside assistance services:
+              </span>
+              Some plans might encompass coverage for multiple trips.
+            </li>
+          </ul>
+        </p>
+        <p>
           Assistance services for roadside emergencies. Additionally, coverage
           might extend to aspects like repatriation of remains, air accidents,
           trip cancellations, costs of accommodations due to flight

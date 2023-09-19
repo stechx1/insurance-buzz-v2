@@ -81,52 +81,32 @@ export const criticalIllnessItems = [
     key: "2",
     label: (
       <span className="font-semibold text-lg">
-        What categories of travel insurance are available?
+        Is Critical illness insurance a costly investment?
       </span>
     ),
     children: (
       <div className="space-y-2">
         <p>
-          Canadians embarking on journeys beyond their country or home province
-          can select from two primary varieties of travel insurance: travel
-          medical insurance and trip cancellation/interruption insurance.
+          On average, it carries a higher price tag compared to term life
+          insurance, yet it remains within affordable bounds. Much like life
+          insurance, the cost of your critical illness insurance premium is
+          influenced by your age and overall health – the younger and healthier
+          you are, the more economical your premium tends to be.
+        </p>
+        <p>
+          Given that the coverage amounts are generally lower than those
+          associated with life insurance death benefits, this also contributes
+          to maintaining reasonable premiums. On average, Canadians usually
+          choose a critical illness coverage amount of around $77,000, as
+          reported by the Canadian Society of Actuaries. Additionally, there are
+          various factors that can impact the premium cost, including:
         </p>
 
         <ul className="list-disc">
-          <li>
-            <span className="text-md font-bold underline">
-              Travel medical insurance:
-            </span>
-            <p>
-              Travel medical insurance provides assistance in covering medical
-              expenses should you fall ill or sustain injuries during your
-              travels. It also aids in defraying the costs associated with
-              transportation to a foreign hospital if necessary. This emergency
-              medical coverage stands as the most prevalent form of travel
-              insurance and might also be termed travel accident insurance or
-              travel health insurance.
-            </p>
-          </li>
-
-          <li>
-            <span className="text-md font-bold underline">
-              Trip interruption insurance (also known as trip cancellation
-              insurance):
-            </span>
-            <p>
-              Trip cancellation and trip interruption insurance offer
-              compensation for trip expenses in the event that you must cancel
-              due to unforeseen circumstances. Such circumstances encompass
-              ailments, adverse weather conditions, or other incidents that
-              might lead to postponement or cancellation of your trip (examples
-              include lost luggage and transportation delays).
-            </p>
-
-            <p>
-              Certain insurance providers even offer comprehensive travel
-              insurance policies that encompass both these types of coverage.
-            </p>
-          </li>
+          <li>The duration of your coverage term</li>
+          <li>The scope of conditions encompassed by your policy</li>
+          <li>Any optional riders or provisions you select</li>
+          <li>Your smoking status</li>
         </ul>
       </div>
     ),
@@ -135,18 +115,25 @@ export const criticalIllnessItems = [
     key: "3",
     label: (
       <span className="font-semibold text-lg">
-        Is coverage provided by travel insurance for pre-existing conditions?
+        Is it possible to receive multiple payouts from Critical Illness
+        insurance if I am diagnosed with several conditions?
       </span>
     ),
     children: (
       <div className="space-y-2">
         <p>
-          Most standard travel medical insurance policies do not inherently
-          include coverage for pre-existing medical conditions. It is advisable
-          to carefully review the terms and language of your policy to determine
-          whether a pre-existing medical condition falls within the coverage
-          during trips outside of Canada.
+          It depends on policy to policy hence, yes and no. The coverage
+          provides a singular payout in its entirety. This payout can occur
+          either:
         </p>
+        <ul className="list-disc">
+          <li>
+            Via a single condition for which you submit a claim and receive
+            approval, resulting in a payout.
+          </li>
+          OR
+          <li>Through partial coverage for multiple conditions.</li>
+        </ul>
       </div>
     ),
   },
@@ -154,54 +141,50 @@ export const criticalIllnessItems = [
     key: "4",
     label: (
       <span className="font-semibold text-lg">
-        What does visitor insurance encompass?
+        If I don't make a claim on my Critical Illness policy, will I receive a
+        refund?
       </span>
     ),
     children: (
       <div className="space-y-2">
         <p>
-          The scope of coverage provided by Canadian visitor insurance can vary
-          based on the type of plan you select. Potential coverage includes:
-          Unanticipated medical expenses: This covers emergency hospitalization,
-          prescribed medications, emergency dental treatment, and costs related
-          to medical equipment such as crutches, wheelchairs, or braces.
-          Ambulance transportation: Expenses linked to ambulance transportation
-          during emergencies. Emergency air transportation back home: This facet
-          addresses the cost of emergency air transportation to return to your
-          home country. Pre-existing conditions (in certain cases): Coverage for
-          pre-existing medical conditions might be included in some plans.
-          Non-refundable costs: Reimbursement for expenses that are
-          non-refundable due to trip cancellations. Multiple trips: Some plans
-          might encompass coverage for multiple trips. Lost or stolen luggage:
-          Compensation for lost or stolen luggage. Roadside assistance services:
-          Assistance services for roadside emergencies. Additionally, coverage
-          might extend to aspects like repatriation of remains, air accidents,
-          trip cancellations, costs of accommodations due to flight
-          cancellations or delays, expenses for meals caused by flight delays,
-          and more. To gain precise knowledge about the coverage provided by
-          your travel insurance policy, it's recommended to carefully review
-          your policy details. Alternatively, you can arrange a call with us to
-          ensure that you have the coverage you require.
+          Indeed, certain critical illness policies offer the possibility of a
+          premium refund. Certain insurers will reimburse all the premiums
+          you've contributed in case you haven't filed a successful claim by the
+          conclusion of your policy term, reach specific age milestones, or if
+          you decide to surrender your policy. This provision is an optional
+          feature that will lead to an increase in the premium costs. Another
+          valid point to consider is the "return of premium on death”. In this
+          scenario, if you unexpectedly pass away without receiving a full
+          benefit payment from your critical illness policy, your chosen
+          beneficiary will be reimbursed with the premiums you've paid over
+          time.
         </p>
       </div>
     ),
   },
   {
     key: "5",
-    label: <span className="font-semibold text-lg">What is Super Visa?</span>,
+    label: (
+      <span className="font-semibold text-lg">
+        What is the appropriate amount of Critical Illness insurance coverage to
+        consider?
+      </span>
+    ),
     children: (
       <div className="space-y-2">
         <p>
-          A super visa functions as a unique type of visa, designed to enable
-          the parents and grandparents of either Canadian citizens or permanent
-          residents to visit them. In contrast to the usual visitor's visa,
-          which permits a stay of up to 6 months in Canada, a super visa
-          operates differently. This visa is categorized as a multi-entry
-          permit, affording visitors the opportunity to remain for a maximum of
-          5 years and granting them the flexibility to make multiple entries
-          during this period. Moreover, those holding a super visa have the
-          option to request a 2-year extension. Upon being granted a super visa,
-          its validity extends for a span of 10 years.
+          Given that this coverage provides a benefit during your lifetime, its
+          purpose is to address a more limited timeframe—specifically, the
+          duration of your treatment and recovery from an illness. Ideally, your
+          recuperation would be prompt, and you wouldn't need to depend on the
+          policy payout for the entirety of your life.
+        </p>
+        <p>
+          If you're uncertain about the suitable coverage amount, an insurance
+          calculator can propose an appropriate sum based on your estimated
+          requirements. Moreover, it can offer an approximation of the monthly
+          costs linked to the policy.
         </p>
       </div>
     ),
@@ -210,44 +193,40 @@ export const criticalIllnessItems = [
     key: "6",
     label: (
       <span className="font-semibold text-lg">
-        What are the criteria for qualifying for a super visa?
+        Is Critical Illness insurance a worthwhile investment?
       </span>
     ),
     children: (
       <div className="space-y-2">
         <p>
-          To meet the eligibility standards for a super visa, the individual
-          seeking the visa must:
+          The decision to opt for critical illness insurance is even more
+          personalized compared to life insurance, primarily due to the fact
+          that critical illness coverage provides benefits while you're alive.
+          Life insurance largely revolves around the needs of your family,
+          whereas critical illness insurance pertains to your financial
+          requirements during the recovery phase.
         </p>
-        <ul className="list-disc">
-          <li>
-            Be the parent or grandparent of either a Canadian citizen or a
-            permanent resident of Canada.
-          </li>
-          <li>
-            Present a letter composed by their child or grandchild confirming
-            their commitment to financially support the visa applicant during
-            their stay.
-          </li>
-          <li>
-            Demonstrate evidence that their child or grandchild meets the
-            stipulated minimum income requirement.
-          </li>
-          <li>
-            Furnish a copy of their child or grandchild's Canadian passport or
-            Permanent Resident Card (PR Card).
-          </li>
-          <li>
-            Undergo a medical examination to establish their physical fitness
-            for entry into the country.
-          </li>
-          <li>
-            Undergo a medical examination to establish their physical fitness
-            Provide confirmation of possessing sufficient insurance coverage
-            from a Canadian insurance company, specifically super visa
-            insurance.
-          </li>
-        </ul>
+        <p>
+          Consider these statistics: The average monthly out-of-pocket expenses
+          for cancer treatment in Canada hover around $400. This amount doesn't
+          account for treatments covered by public or private healthcare and can
+          be even higher depending on the cancer type.
+        </p>
+        <p>
+          A cancer diagnosis often necessitates taking time off work to focus on
+          recuperation.
+        </p>
+        <p>
+          Given these factors, can you manage taking time off work, covering
+          your regular bills, and additionally managing at least $400 per month
+          for treatment and recovery expenses? If this seems unfeasible, then
+          critical illness insurance holds value.
+        </p>
+        <p>
+          Purchasing this type of insurance offers the reassurance that in the
+          event of a critical diagnosis, you can direct your full attention
+          toward recovery, without being burdened by financial concerns.
+        </p>
       </div>
     ),
   },
@@ -255,22 +234,116 @@ export const criticalIllnessItems = [
     key: "7",
     label: (
       <span className="font-semibold text-lg">
-        Is it necessary to obtain travel insurance for my journey from India to
-        Canada?
+        Who should consider Critical Illness insurance?
       </span>
     ),
     children: (
       <div className="space-y-2">
         <p>
-          Absolutely, it's strongly advised to secure travel insurance when
-          embarking on a trip from India to Canada. Acquiring travel insurance
-          can serve as a safeguard against potentially exorbitant expenses in
-          the event of unforeseen circumstances. Irrespective of the purpose of
-          your visit to Canada, having this coverage can ensure a smooth and
-          worry-free experience throughout your entire trip. Canadian travel
-          insurance providers can offer you the most suitable choices tailored
-          to your needs.
+          To begin, let's establish the concept of critical illness insurance.
+          It's an arrangement forged between an insurance company and an insured
+          individual, wherein the insurer commits to providing a tax-free lump
+          sum if the insured person develops a life-threatening ailment covered
+          by the policy during the specified coverage period. (This
+          differentiates it from disability insurance, which usually offers a
+          modest monthly benefit until recovery allows you to resume work).
         </p>
+        <p>
+          The duration of coverage is jointly agreed upon at the time of policy
+          purchase. An essential feature of critical illness insurance is that
+          the payout is not contingent upon the death of the insured person.
+          Once the policyholder provides credible evidence of their qualifying
+          illness to the insurer, the sum is disbursed.
+        </p>
+        <p>
+          For instance, assume you hold a critical illness insurance policy with
+          a coverage value of $250,000. Upon being diagnosed with a
+          life-threatening condition that aligns with the conditions stated in
+          your policy, you become eligible to receive this amount.
+        </p>
+        <p>
+          Upon submitting a claim for the payout, there's a predetermined
+          survival period to endure. The typical survival period for such
+          policies spans around 30 days. After successfully navigating this
+          survival period, the entire coverage sum is released. While 30 days
+          serves as the standard survival period for numerous companies, some
+          offer an instantaneous payout, eliminating the need for a survival
+          period.
+        </p>
+      </div>
+    ),
+  },
+  {
+    key: "8",
+    label: (
+      <span className="font-semibold text-lg">
+        What to Consider When Selecting a Critical Illness Insurance Policy
+      </span>
+    ),
+    children: (
+      <div className="space-y-2">
+        <p>
+          When evaluating a critical illness insurance policy, here are the key
+          factors to keep in mind:
+        </p>
+        <ul className="list-disc ml-6 space-y-2">
+          <li>
+            <span className="text-md font-bold underline">
+              Simplified Issue Options:
+            </span>{" "}
+            Confirm whether the policy provides simplified issue options. Many
+            insurers now offer online avenues for purchasing policies with quick
+            and immediate approvals.
+          </li>
+          <li>
+            <span className="text-md font-bold underline">
+              Premium Flexibility:
+            </span>{" "}
+            Look for flexibility in premium payment. Options like limited pay
+            and return of premium can alter how you pay for premiums or mitigate
+            their financial impact.
+          </li>
+          <li>
+            <span className="text-md font-bold underline">
+              Covered Illnesses:
+            </span>{" "}
+            Examine the illnesses covered by the policy. In Canada, numerous
+            providers offer comprehensive coverage for over 25 illnesses.
+            However, some companies offer basic coverage only, ranging from 16
+            to even just 4 illnesses. There are even policies exclusively
+            covering a single type of illness, like heart-related events or
+            cancer.
+          </li>
+          <li>
+            <span className="text-md font-bold underline">
+              Coverage Amounts:
+            </span>{" "}
+            Canadian insurance companies present critical illness insurance
+            coverage ranging from $10,000 to multimillion-dollar sums. However,
+            each provider has distinct minimum and maximum coverage thresholds.
+          </li>
+          <li>
+            <span className="text-md font-bold underline">
+              Survival Period:
+            </span>{" "}
+            Consider the survival period, commonly set at 30 days (also known as
+            the waiting period), imposed by Canadian insurance providers.
+          </li>
+          <li>
+            <span className="text-md font-bold underline">
+              Children's Coverage:
+            </span>{" "}
+            Assess whether the policy offers optional riders for covering
+            children.
+          </li>
+          <li>
+            <span className="text-md font-bold underline">
+              Partial Payouts:
+            </span>{" "}
+            Investigate whether the policy includes provisions for partial
+            conditions, resulting in partial benefit payouts.
+          </li>
+        </ul>
       </div>
     ),
   },

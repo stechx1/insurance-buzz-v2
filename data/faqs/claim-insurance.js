@@ -254,21 +254,34 @@ export const claimInsuranceItems = [
           claim delays. Additionally, several other reasons could contribute to
           the postponement of claims:
         </p>
-        <p>
-          Minor Beneficiary without Designated Trustee: If a minor is listed as
-          the beneficiary without a designated trustee, there might be delays in
-          the disbursement of insurance policy proceeds.
-        </p>
-        <p>
-          No Designated Beneficiary: In cases where the policyholder has not
-          specified a beneficiary, the claim is directed to the deceased's
-          estate through the probate process.
-        </p>
-        <p>
-          Ex-Spouse as Beneficiary: If the policyholder named an ex-spouse as
-          the beneficiary in the policy and failed to update it following
-          changes in their circumstances, claim processing might be delayed.
-        </p>
+        <ul className="list-disc">
+          <li>
+            <span className="font-bold text-md underline">
+              Minor Beneficiary without Designated Trustee:
+            </span>&nbsp;
+            If a minor is listed as the beneficiary without a designated
+            trustee, there might be delays in the disbursement of insurance
+            policy proceeds.
+          </li>
+
+          <li>
+            <span className="font-bold text-md underline">
+              No Designated Beneficiary:
+            </span>&nbsp;
+            In cases where the policyholder has not specified a beneficiary, the
+            claim is directed to the deceased's estate through the probate
+            process.
+          </li>
+
+          <li>
+            <span className="font-bold text-md underline">
+              Ex-Spouse as Beneficiary:
+            </span>&nbsp;
+            If the policyholder named an ex-spouse as the beneficiary in the
+            policy and failed to update it following changes in their
+            circumstances, claim processing might be delayed.
+          </li>
+        </ul>
       </div>
     ),
   },
