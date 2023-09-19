@@ -62,7 +62,7 @@ const ResourcesPage = () => {
               id='life-insurance'
               style={{ minHeight: '100vh', background: '#305fa9' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Life Insurance FAQs
               </h1>
               <Collapse
@@ -76,7 +76,7 @@ const ResourcesPage = () => {
               id='life-insurance'
               style={{ minHeight: '100vh', background: '#61b1bc' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Health Insurance FAQs
               </h1>
               <Collapse
@@ -90,7 +90,7 @@ const ResourcesPage = () => {
               id='travel-insurance'
               style={{ minHeight: '100vh', background: '#9ab88c' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Travel Insurance FAQs
               </h1>
               <Collapse
@@ -104,7 +104,7 @@ const ResourcesPage = () => {
               className='p-4'
               style={{ minHeight: '100vh', background: '#ed8b08' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Term Insurance FAQs
               </h1>
               <Collapse
@@ -118,7 +118,7 @@ const ResourcesPage = () => {
               className='p-4'
               style={{ minHeight: '100vh', background: '#6f909e' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Disability Insurance FAQs
               </h1>
               <Collapse
@@ -132,7 +132,7 @@ const ResourcesPage = () => {
               className='p-4'
               style={{ minHeight: '100vh', background: '#308b84' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Critical Illness Insurance FAQs
               </h1>
               <Collapse
@@ -146,7 +146,7 @@ const ResourcesPage = () => {
               className='p-4'
               style={{ minHeight: '100vh', background: '#a94342' }}
             >
-              <h1 className='text-white font-bold text-3xl'>
+              <h1 className='text-white font-bold text-2xl'>
                 Claim Process FAQs
               </h1>
               <Collapse

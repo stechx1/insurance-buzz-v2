@@ -1,9 +1,13 @@
 export const travelInsuranceItems = [
   {
-    key: '1',
-    label: 'What does visitors insurance entail?',
+    key: "1",
+    label: (
+      <span className="font-semibold text-lg">
+        What does visitors insurance entail?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Visitors insurance encompasses various categories of travel insurance
           coverage designed to offer protection during a visit to Canada. This
@@ -15,93 +19,111 @@ export const travelInsuranceItems = [
           Depending on the specific plan you opt for, visitors insurance can
           address expenses linked to:
         </p>
-        <p className='font-bold'>Incidents related to the trip</p>
+        <ul className="list-disc">
+          <li>
+            <span className="font-bold underline">
+              Incidents related to the trip
+            </span>
+            <p>
+              This facet covers supplementary expenses in cases of flight
+              delays, cancellations, the need to curtail your trip prematurely
+              or extend it unexpectedly, instances of airline misplacing
+              baggage, and more.
+            </p>
 
-        <p>
-          This facet covers supplementary expenses in cases of flight delays,
-          cancellations, the need to curtail your trip prematurely or extend it
-          unexpectedly, instances of airline misplacing baggage, and more.
-        </p>
+            <p>
+              Permanent life insurance plans typically necessitate higher
+              premiums due to the fact that they provide coverage throughout
+              your entire lifetime.
+            </p>
+          </li>
 
-        <p>
-          Permanent life insurance plans typically necessitate higher premiums
-          due to the fact that they provide coverage throughout your entire
-          lifetime.
-        </p>
+          <li>
+            <span className="font-bold underline">Medical requirements</span>
+            <p>
+              This facet addresses aspects like medical emergencies, healthcare
+              expenditures in the event of hospital visits or ER admissions,
+              costs of prescription medications, and similar needs.
+            </p>
+          </li>
 
-        <p className='font-bold'>Medical requirements</p>
-        <p>
-          This facet addresses aspects like medical emergencies, healthcare
-          expenditures in the event of hospital visits or ER admissions, costs
-          of prescription medications, and similar needs.
-        </p>
+          <li>
+            <span className="font-bold underline">Canadian super visa</span>
+            <p>
+              For individuals holding a Canadian super visa, this aspect of
+              visitors insurance extends coverage. The Canadian super visa
+              program facilitates prolonged stays of parents and grandparents of
+              Canadian citizens and residents.
+            </p>
 
-        <p className='font-bold'>Canadian super visa</p>
-
-        <p>
-          For individuals holding a Canadian super visa, this aspect of visitors
-          insurance extends coverage. The Canadian super visa program
-          facilitates prolonged stays of parents and grandparents of Canadian
-          citizens and residents.
-        </p>
-
-        <p>
-          In essence, visitors insurance functions as a protective measure
-          against the unforeseen incidents and expenses that can arise while
-          visiting Canada.
-        </p>
+            <p>
+              In essence, visitors insurance functions as a protective measure
+              against the unforeseen incidents and expenses that can arise while
+              visiting Canada.
+            </p>
+          </li>
+        </ul>
       </div>
     ),
   },
   {
-    key: '2',
-    label: 'What categories of travel insurance are available?',
+    key: "2",
+    label: (
+      <span className="font-semibold text-lg">
+        What categories of travel insurance are available?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Canadians embarking on journeys beyond their country or home province
           can select from two primary varieties of travel insurance: travel
           medical insurance and trip cancellation/interruption insurance.
         </p>
+        <ul className="list-disc">
+          <li>
+            <span className="font-bold underline">
+              Travel medical insurance
+            </span>
+            <p>
+              Travel medical insurance provides assistance in covering medical
+              expenses should you fall ill or sustain injuries during your
+              travels. It also aids in defraying the costs associated with
+              transportation to a foreign hospital if necessary. This emergency
+              medical coverage stands as the most prevalent form of travel
+              insurance and might also be termed travel accident insurance or
+              travel health insurance.
+            </p>
+          </li>
 
-        <p className='font-bold'>Travel medical insurance</p>
-
-        <p>
-          Travel medical insurance provides assistance in covering medical
-          expenses should you fall ill or sustain injuries during your travels.
-          It also aids in defraying the costs associated with transportation to
-          a foreign hospital if necessary. This emergency medical coverage
-          stands as the most prevalent form of travel insurance and might also
-          be termed travel accident insurance or travel health insurance.
-        </p>
-
-        <p className='font-bold'>
-          Trip interruption insurance (also known as trip cancellation
-          insurance)
-        </p>
-        <p>
-          Trip cancellation and trip interruption insurance offer compensation
-          for trip expenses in the event that you must cancel due to unforeseen
-          circumstances. Such circumstances encompass ailments, adverse weather
-          conditions, or other incidents that might lead to postponement or
-          cancellation of your trip (examples include lost luggage and
-          transportation delays).
-        </p>
-
-        <p>
-          Certain insurance providers even offer comprehensive travel insurance
-          policies that encompass both these types of coverage.
-        </p>
+          <li>
+            <span className="font-bold underline">
+              Trip interruption insurance (also known as trip cancellation
+              insurance)
+            </span>
+            <p>
+              Trip cancellation and trip interruption insurance offer
+              compensation for trip expenses in the event that you must cancel
+              due to unforeseen circumstances. Such circumstances encompass
+              ailments, adverse weather conditions, or other incidents that
+              might lead to postponement or cancellation of your trip (examples
+              include lost luggage and transportation delays).
+            </p>
+          </li>
+        </ul>
       </div>
     ),
   },
   {
-    key: '3',
-    label:
-      'Is coverage provided by travel insurance for pre-existing conditions?',
+    key: "3",
+    label: (
+      <span className="font-semibold text-lg">
+        Is coverage provided by travel insurance for pre-existing conditions?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
-        <p>
+      <div className="space-y-2">
+        <p className="text-md">
           Most standard travel medical insurance policies do not inherently
           include coverage for pre-existing medical conditions. It is advisable
           to carefully review the terms and language of your policy to determine
@@ -112,11 +134,15 @@ export const travelInsuranceItems = [
     ),
   },
   {
-    key: '4',
-    label: 'What does visitor insurance encompass? ',
+    key: "4",
+    label: (
+      <span className="font-semibold text-lg">
+        What does visitor insurance encompass?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
-        <p>
+      <div className="space-y-2">
+        <p className="text-md">
           The scope of coverage provided by Canadian visitor insurance can vary
           based on the type of plan you select. Potential coverage includes:
           Unanticipated medical expenses: This covers emergency hospitalization,
@@ -144,11 +170,11 @@ export const travelInsuranceItems = [
     ),
   },
   {
-    key: '5',
-    label: 'What is Super Visa?',
+    key: "5",
+    label: <span className="font-semibold text-lg">What is Super Visa?</span>,
     children: (
-      <div className='space-y-2'>
-        <p>
+      <div className="space-y-2">
+        <p className="text-md">
           A super visa functions as a unique type of visa, designed to enable
           the parents and grandparents of either Canadian citizens or permanent
           residents to visit them. In contrast to the usual visitor's visa,
@@ -164,15 +190,19 @@ export const travelInsuranceItems = [
     ),
   },
   {
-    key: '6',
-    label: 'What are the criteria for qualifying for a super visa?',
+    key: "6",
+    label: (
+      <span className="font-semibold text-lg">
+        What are the criteria for qualifying for a super visa?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
-        <p>
+      <div className="space-y-2">
+        <p className="text-md">
           To meet the eligibility standards for a super visa, the individual
           seeking the visa must:
         </p>
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>
             Be the parent or grandparent of either a Canadian citizen or a
             permanent resident of Canada.
@@ -205,12 +235,16 @@ export const travelInsuranceItems = [
     ),
   },
   {
-    key: '7',
-    label:
-      'Is it necessary to obtain travel insurance for my journey from India to Canada?',
+    key: "7",
+    label: (
+      <span className="font-semibold text-lg">
+        Is it necessary to obtain travel insurance for my journey from India to
+        Canada?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
-        <p>
+      <div className="space-y-2">
+        <p className="text-md">
           Absolutely, it's strongly advised to secure travel insurance when
           embarking on a trip from India to Canada. Acquiring travel insurance
           can serve as a safeguard against potentially exorbitant expenses in

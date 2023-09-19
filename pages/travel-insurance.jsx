@@ -91,7 +91,7 @@ const TravelInsurancePage = () => {
         id='life-insurance'
         style={{ background: '#ED8B09' }}
       >
-        <h1 className='text-white font-bold text-3xl container mx-auto'>
+        <h1 className='text-white font-bold text-2xl container mx-auto'>
           Travel Insurance FAQs
         </h1>
         <Collapse

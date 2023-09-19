@@ -1,9 +1,9 @@
 export const termLifeInsuranceItems = [
   {
-    key: '1',
-    label: 'Is term life insurance necessary for me?',
+    key: "1",
+    label: <span className="font-semibold text-lg">Is term life insurance necessary for me?</span>,
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           The primary objective of term life insurance is to offer financial
           security to your family and dependents. It proves most advantageous
@@ -24,11 +24,14 @@ export const termLifeInsuranceItems = [
     ),
   },
   {
-    key: '2',
-    label:
-      'Is it possible to terminate my term life insurance policy at any point?',
+    key: "2",
+    label: (
+      <span className="font-semibold text-lg">
+        Is it possible to terminate my term life insurance policy at any point?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Furthermore, you have the option to cancel the policy prior to its
           designated term conclusion by discontinuing payments, and this action
@@ -41,11 +44,15 @@ export const termLifeInsuranceItems = [
     ),
   },
   {
-    key: '3',
-    label:
-      'Will you receive a refund upon canceling your term life insurance policy?',
+    key: "3",
+    label: (
+      <span className="font-semibold text-lg">
+        Will you receive a refund upon canceling your term life insurance
+        policy?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           No, term life insurance policies do not accumulate any cash surrender
           value, resulting in the absence of premium refunds if the policy is
@@ -59,10 +66,14 @@ export const termLifeInsuranceItems = [
     ),
   },
   {
-    key: '4',
-    label: 'How long should you hold a term life insurance policy?',
+    key: "4",
+    label: (
+      <span className="font-semibold text-lg">
+        How long should you hold a term life insurance policy?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           You have the flexibility to select the term duration for your term
           life policy based on your preferences, although durations of 10 to 30
@@ -78,15 +89,19 @@ export const termLifeInsuranceItems = [
     ),
   },
   {
-    key: '5',
-    label: 'What occurs if I surpass the duration of my insurance coverage?',
+    key: "5",
+    label: (
+      <span className="font-semibold text-lg">
+        What occurs if I surpass the duration of my insurance coverage?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Upon the conclusion of your term life insurance without any claims
           filed, you have several choices:
         </p>
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>
             Allow your term policy to lapse naturally, cease premium payments,
             and thereby terminate your life insurance coverage upon the

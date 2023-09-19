@@ -112,7 +112,7 @@ const LifeInsurance = () => {
         id='life-insurance'
         style={{ background: '#45A1D3' }}
       >
-        <h1 className='text-white font-bold text-3xl container mx-auto'>
+        <h1 className='text-white font-bold text-2xl container mx-auto'>
           Life Insurance FAQs
         </h1>
         <Collapse
@@ -126,7 +126,7 @@ const LifeInsurance = () => {
         id='life-insurance'
         style={{ background: '#45A1D3' }}
       >
-        <h1 className='text-white font-bold text-3xl container mx-auto'>
+        <h1 className='text-white font-bold text-2xl container mx-auto'>
           Term Insurance FAQs
         </h1>
         <Collapse
