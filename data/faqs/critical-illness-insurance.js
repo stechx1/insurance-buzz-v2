@@ -1,24 +1,28 @@
 export const criticalIllnessItems = [
   {
-    key: '1',
-    label: 'Which illnesses does critical illness insurance encompass?',
+    key: "1",
+    label: (
+      <span className="font-semibold text-lg">
+        Which illnesses does critical illness insurance encompass?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Insurance providers generally present either a fundamental package
           (covering 3-4 specific conditions) or an expanded coverage option
           (including over 25 conditions).
         </p>
 
-        <p className='font-bold'>Coverage for Cancers and Tumours:</p>
+        <p className="font-bold underline">Coverage for Cancers and Tumours:</p>
 
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>Non-Malignant Brain Tumour</li>
           <li>Life-Threatening Cancer*</li>
         </ul>
 
-        <p className='font-bold'>Cardiovascular Conditions:</p>
-        <ul className='list-disc'>
+        <p className="font-bold underline">Cardiovascular Conditions:</p>
+        <ul className="list-disc">
           <li>Surgical Treatment for Aorta</li>
           <li>Surgery for Coronary Arteries</li>
           <li>Heart Attack*</li>
@@ -26,9 +30,9 @@ export const criticalIllnessItems = [
           <li>Cerebrovascular Accident (Stroke)*</li>
         </ul>
 
-        <p className='font-bold'>Neurological Ailments:</p>
+        <p className="font-bold underline">Neurological Ailments:</p>
 
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>Bacterial Inflammation of the Meninges (Bacterial Meningitis)</li>
           <li>Cognitive Impairment, Including Alzheimer's Disease</li>
           <li>Degenerative Nervous System Disorder (Motor Neuron Disease)</li>
@@ -38,17 +42,19 @@ export const criticalIllnessItems = [
           </li>
         </ul>
 
-        <p className='font-bold'>Critical Organ Conditions:</p>
+        <p className="font-bold underline">Critical Organ Conditions:</p>
 
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>Renal Failure</li>
           <li>Major Organ Failure While Awaiting Transplant</li>
           <li>Major Organ Transplantation</li>
         </ul>
 
-        <p className='font-bold'>Accidental Injury and Loss of Function:</p>
+        <p className="font-bold underline">
+          Accidental Injury and Loss of Function:
+        </p>
 
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>Traumatic Brain Injury</li>
           <li>Complete Loss of Vision</li>
           <li>Coma</li>
@@ -60,9 +66,9 @@ export const criticalIllnessItems = [
           <li>Severe Burns</li>
         </ul>
 
-        <p className='font-bold'>Other Conditions:</p>
+        <p className="font-bold underline">Other Conditions:</p>
 
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>Aplastic Anemia</li>
           <li>Contracting HIV in an Occupational Setting</li>
         </ul>
@@ -72,53 +78,68 @@ export const criticalIllnessItems = [
     ),
   },
   {
-    key: '2',
-    label: 'What categories of travel insurance are available?',
+    key: "2",
+    label: (
+      <span className="font-semibold text-lg">
+        What categories of travel insurance are available?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Canadians embarking on journeys beyond their country or home province
           can select from two primary varieties of travel insurance: travel
           medical insurance and trip cancellation/interruption insurance.
         </p>
 
-        <p className='font-bold'>Travel medical insurance</p>
+        <ul className="list-disc">
+          <li>
+            <span className="text-md font-bold underline">
+              Travel medical insurance:
+            </span>
+            <p>
+              Travel medical insurance provides assistance in covering medical
+              expenses should you fall ill or sustain injuries during your
+              travels. It also aids in defraying the costs associated with
+              transportation to a foreign hospital if necessary. This emergency
+              medical coverage stands as the most prevalent form of travel
+              insurance and might also be termed travel accident insurance or
+              travel health insurance.
+            </p>
+          </li>
 
-        <p>
-          Travel medical insurance provides assistance in covering medical
-          expenses should you fall ill or sustain injuries during your travels.
-          It also aids in defraying the costs associated with transportation to
-          a foreign hospital if necessary. This emergency medical coverage
-          stands as the most prevalent form of travel insurance and might also
-          be termed travel accident insurance or travel health insurance.
-        </p>
+          <li>
+            <span className="text-md font-bold underline">
+              Trip interruption insurance (also known as trip cancellation
+              insurance):
+            </span>
+            <p>
+              Trip cancellation and trip interruption insurance offer
+              compensation for trip expenses in the event that you must cancel
+              due to unforeseen circumstances. Such circumstances encompass
+              ailments, adverse weather conditions, or other incidents that
+              might lead to postponement or cancellation of your trip (examples
+              include lost luggage and transportation delays).
+            </p>
 
-        <p className='font-bold'>
-          Trip interruption insurance (also known as trip cancellation
-          insurance)
-        </p>
-        <p>
-          Trip cancellation and trip interruption insurance offer compensation
-          for trip expenses in the event that you must cancel due to unforeseen
-          circumstances. Such circumstances encompass ailments, adverse weather
-          conditions, or other incidents that might lead to postponement or
-          cancellation of your trip (examples include lost luggage and
-          transportation delays).
-        </p>
-
-        <p>
-          Certain insurance providers even offer comprehensive travel insurance
-          policies that encompass both these types of coverage.
-        </p>
+            <p>
+              Certain insurance providers even offer comprehensive travel
+              insurance policies that encompass both these types of coverage.
+            </p>
+          </li>
+        </ul>
       </div>
     ),
   },
   {
-    key: '3',
-    label:
-      'Is coverage provided by travel insurance for pre-existing conditions?',
+    key: "3",
+    label: (
+      <span className="font-semibold text-lg">
+        Is coverage provided by travel insurance for pre-existing conditions?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Most standard travel medical insurance policies do not inherently
           include coverage for pre-existing medical conditions. It is advisable
@@ -130,10 +151,14 @@ export const criticalIllnessItems = [
     ),
   },
   {
-    key: '4',
-    label: 'What does visitor insurance encompass? ',
+    key: "4",
+    label: (
+      <span className="font-semibold text-lg">
+        What does visitor insurance encompass?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           The scope of coverage provided by Canadian visitor insurance can vary
           based on the type of plan you select. Potential coverage includes:
@@ -162,10 +187,10 @@ export const criticalIllnessItems = [
     ),
   },
   {
-    key: '5',
-    label: 'What is Super Visa?',
+    key: "5",
+    label: <span className="font-semibold text-lg">What is Super Visa?</span>,
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           A super visa functions as a unique type of visa, designed to enable
           the parents and grandparents of either Canadian citizens or permanent
@@ -182,15 +207,19 @@ export const criticalIllnessItems = [
     ),
   },
   {
-    key: '6',
-    label: 'What are the criteria for qualifying for a super visa?',
+    key: "6",
+    label: (
+      <span className="font-semibold text-lg">
+        What are the criteria for qualifying for a super visa?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           To meet the eligibility standards for a super visa, the individual
           seeking the visa must:
         </p>
-        <ul className='list-disc'>
+        <ul className="list-disc">
           <li>
             Be the parent or grandparent of either a Canadian citizen or a
             permanent resident of Canada.
@@ -223,11 +252,15 @@ export const criticalIllnessItems = [
     ),
   },
   {
-    key: '7',
-    label:
-      'Is it necessary to obtain travel insurance for my journey from India to Canada?',
+    key: "7",
+    label: (
+      <span className="font-semibold text-lg">
+        Is it necessary to obtain travel insurance for my journey from India to
+        Canada?
+      </span>
+    ),
     children: (
-      <div className='space-y-2'>
+      <div className="space-y-2">
         <p>
           Absolutely, it's strongly advised to secure travel insurance when
           embarking on a trip from India to Canada. Acquiring travel insurance

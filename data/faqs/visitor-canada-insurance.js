@@ -2,7 +2,7 @@ export const visitorCanadaInsuranceItems = [
   {
     key: "1",
     label: (
-      <span className="font-semibold text-xl">
+      <span className="font-semibold text-lg">
         What does visitors insurance entail?
       </span>
     ),
@@ -59,7 +59,7 @@ export const visitorCanadaInsuranceItems = [
   {
     key: "2",
     label: (
-      <span className="font-semibold text-xl">
+      <span className="font-semibold text-lg">
         Is coverage provided by travel insurance for pre-existing conditions?
       </span>
     ),
@@ -78,7 +78,7 @@ export const visitorCanadaInsuranceItems = [
   {
     key: "3",
     label: (
-      <span className="font-semibold text-xl">
+      <span className="font-semibold text-lg">
         What does visitor insurance encompass?
       </span>
     ),
@@ -156,7 +156,7 @@ export const visitorCanadaInsuranceItems = [
   {
     key: "4",
     label: (
-      <span className="font-semibold text-xl">
+      <span className="font-semibold text-lg">
         Is it necessary to obtain travel insurance for my journey from India to
         Canada?
       </span>
@@ -179,7 +179,7 @@ export const visitorCanadaInsuranceItems = [
   {
     key: "5",
     label: (
-      <span className="font-semibold text-xl">
+      <span className="font-semibold text-lg">
         How are Canadian visitor insurance rates determined by insurance
         companies?
       </span>

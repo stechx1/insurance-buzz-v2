@@ -2,7 +2,7 @@ export const disabilityInsuranceItems = [
   {
     key: "1",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         What are the various forms of disability insurance?
       </span>
     ),
@@ -56,7 +56,7 @@ export const disabilityInsuranceItems = [
   {
     key: "2",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         What is the concept of disability insurance and what does it encompass?
       </span>
     ),
@@ -91,7 +91,7 @@ export const disabilityInsuranceItems = [
   {
     key: "3",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         Is disability insurance necessary if I already have critical illness
         insurance?
       </span>
@@ -113,7 +113,7 @@ export const disabilityInsuranceItems = [
   {
     key: "4",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         How does an Attending Physician Statement function?
       </span>
     ),
@@ -146,7 +146,7 @@ export const disabilityInsuranceItems = [
   {
     key: "5",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         What's the purpose of insurers requiring an Attending Physician
         Statement pertaining to my medical history?
       </span>
@@ -184,7 +184,7 @@ export const disabilityInsuranceItems = [
   {
     key: "6",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         The Advantages and Drawbacks of Disability Insurance
       </span>
     ),
@@ -234,7 +234,7 @@ export const disabilityInsuranceItems = [
   {
     key: "7",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         What is the concept of short-term disability insurance?
       </span>
     ),
@@ -276,7 +276,7 @@ export const disabilityInsuranceItems = [
   {
     key: "8",
     label: (
-      <span className="text-md font-bold">
+      <span className="text-lg font-semibold">
         How does short-term disability insurance operate?
       </span>
     ),
