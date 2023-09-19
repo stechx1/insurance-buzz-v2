@@ -65,7 +65,7 @@ const DisabilityPage = () => {
         id='life-insurance'
         style={{ background: '#308b84' }}
       >
-        <h1 className='text-white font-bold text-3xl container mx-auto'>
+        <h1 className='text-white font-bold text-2xl container mx-auto'>
           Disability Insurance FAQs
         </h1>
         <Collapse
