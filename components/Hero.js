@@ -165,7 +165,7 @@ const Hero = () => {
         </div>
         <div className='grid xl:grid-cols-5 sm:grid-cols-3 grid-cols-1 gap-5 sm:px-20 px-10 py-10'>
           <CoverageBox
-            onClick={() => router.push('/life-insurance/term-life-insurance')}
+            onClick={() => router.push('/life-insurance')}
             image={'/images/new/life-new.jpeg'}
             position='80% 10%'
             text={'Life Insurance'}
