@@ -69,7 +69,7 @@ const ResourcesPage = () => {
             ]}
           />
 
-          <div className="col-span-5 pt-[180px] container mr-20">
+          <div className="col-span-5 pt-[20px] container mr-20">
             <div
               className="p-4 "
               id="life-insurance"
