@@ -10,10 +10,20 @@ import { healthInsuranceItems } from "@/data/faqs/health-insurance";
 import { respInsuranceItems } from "@/data/faqs/resp";
 import { tfsaInsuranceItems } from "@/data/faqs/tfsa";
 import { rrspInsuranceItems } from "@/data/faqs/rrsp";
+import { HeroSection } from "@/components/HeroSection/HeroSection";
 
 const ResourcesPage = () => {
   return (
     <>
+      <HeroSection
+        heading={
+          "Frequently Asked Questions"
+        }
+        para={`Welcome to the hub of frequently asked questions on insurance.`}
+        img={"/images/sub/FAQ-hero-image.jpeg"}
+        color={"#5393becc"}
+        position="top"
+      />
       <div className="bg-[#305fa9] relative top-[-165px]">
         <div className="grid grid-cols-6">
           <Anchor
