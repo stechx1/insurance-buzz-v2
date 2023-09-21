@@ -6,8 +6,9 @@ const PrivacyPolicy = () => {
     <>
       <HeroSection
         heading={'Privacy Policy'}
-        img='/images/new/home-insurance.jpg'
+        img='/images/privacy.jpeg '
         color='#b00f17cc'
+        position='10% 30%'
       />
 
       <div className='relative top-[-123px] container mx-auto flex flex-col gap-6'>
