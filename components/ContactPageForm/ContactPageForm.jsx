@@ -40,33 +40,35 @@ export const ContactPageForm = () => {
         </button>
       </div>
 
-      <div className='flex flex-col gap-4  border-gray-200 border p-5 mt-12'>
+      <div className='flex flex-col gap-4 max-w-[400px]  border-gray-200 border p-5 mt-12'>
         <div className='flex flex-col gap-2'>
-          <h1 className="font-bold">Contact Us</h1>
+          <h1 className='font-bold'>Contact Us</h1>
           <p>Need More information?</p>
         </div>
 
         <div className='flex gap-4'>
           <i class='fa fa-home' aria-hidden='true'></i>
-          <p className="text-gray-800 text-sm">
+          <p className='text-gray-800 text-sm'>
             {' '}
-            Insurancebuzz.ca 925 Lawson Road #40, London, ON N6G 4X3
+            Insurancebuzz
+            <br />
+            925 Lawson Road #40, London, ON N6G 4X3
           </p>
         </div>
         <div className='flex gap-4'>
           <i class='fa fa-phone' aria-hidden='true'></i>
 
-          <p className="text-gray-800 text-sm">+1 647 469 8766</p>
+          <p className='text-gray-800 text-sm'>+1 647 469 8766</p>
         </div>
 
         <div className='flex gap-4'>
           <i class='fa fa-envelope' aria-hidden='true'></i>
-          <p className="text-gray-800 text-sm">vidyakittur15@gmail.com</p>
+          <p className='text-gray-800 text-sm'>vidyakittur15@gmail.com</p>
         </div>
         <div className='flex gap-4'>
           <i class='fa fa-globe' aria-hidden='true'></i>
 
-          <p className="text-gray-800 text-sm"> insurancebuzz.ca</p>
+          <p className='text-gray-800 text-sm'> insurancebuzz.ca</p>
         </div>
       </div>
     </div>

@@ -135,6 +135,20 @@ const LifeInsurance = () => {
           // defaultActiveKey={['1']}
         />
       </div>
+      {/* <div
+        className='p-5 relative top-[-90px]'
+        id='life-insurance'
+        style={{ background: '#45A1D3' }}
+      >
+        <h1 className='text-white font-bold text-2xl container mx-auto'>
+          Term Insurance FAQs
+        </h1>
+        <Collapse
+          ghost
+          items={termLifeInsuranceItems}
+          // defaultActiveKey={['1']}
+        />
+      </div> */}
     </>
   );
 };
